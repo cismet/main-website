@@ -1,0 +1,26 @@
+<div id="services"   class="container" style=" min-height:1300px;">
+            <br>
+            <div  class="marketing">
+                <h1><%=I18n.t("services.title")%></h1>
+            </div>
+            <% I18n.t("services.facts").each do |row|%>
+           <div class="row">
+                <% row["columns"].each do |fact|%>
+            
+                <div class="span<%=      row["width"]%>">
+                    <%= image_tag fact["icon"], :class => 'bs-icon' %>
+                    <h2><%= fact["title"] %></h2>
+                    <p><%= fact["paragraph"] %></p>
+                </div>
+                
+                                <% end %>
+
+            </div>
+                            <% end %>
+
+          
+  <div align='center' style="margin:50px;">
+            <a href='#contact' class="animate"><%= image_tag 'down.png' %></a>
+            </div> 
+
+ </div>

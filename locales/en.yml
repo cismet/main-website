@@ -1,0 +1,373 @@
+de : 
+ menu:
+  company: Company
+  projects: Projects
+  services: Services
+  contact: Contact
+  english: English
+  link_to_english: ./index.html
+  german: Deutsch 
+  link_to_german: ../index.html
+
+  close: Schließen
+
+ company:
+  title: Wir entwickeln nachhaltige Softwaresysteme und Strategien zur Integration von Informationen.
+  points:
+  - image: glyphicons/glyphicons_040_stats.png
+    subtitle: Der Start und die Wurzeln
+    description: Die cismet GmbH wurde als Spin-Off der Environmental Informatics Group an der Hochschule für Technik und Wirtschaft des Saarlandes im Jahr 2002 von den Partnern Thorsten Hell, Prof. Ralf Denzer, Prof. Reiner Güttler und Sascha Schlobinski gegründet. Der Firmensitz liegt im wichtigsten IT- und neue Medien-Standort des Saarlandes im IT-Park Saarland. 
+  - image: glyphicons/glyphicons_042_group.png
+    subtitle: Ein kompetentes Team
+    description: Als ausgebildete Informatiker mit langjäriger Berufserfahrung verfügt unser Personal ausnahmelos über das notwendige Know-How zum Entwurf und der Umsetzung von Informationssystemen. Hierzu gehören ein grundlegendes und theoretisch fundiertes Verständnis der Bereiche Datenbankentwurf, Softwareentwurf und Programmierung.
+
+ slideshow:
+  activeslide:
+   image : personal/1.jpg
+   headline : Namen, Aufgaben und Gesichter
+   description : ""
+
+  slides:
+  - image : personal/sascha.jpg
+    headline : Sascha Schlobinski (M.Sc. @ Universität des Saarlandes)
+    description : Geschäftsführender Gesellschafter und Leiter Forschung.
+  - image : personal/thorsten.jpg
+    headline : Thorsten Hell (M.Sc. @ Universität des Saarlandes)
+    description : Geschäftsführender Gesellschafter und Leiter Softwareentwicklung.
+  - image : personal/sabine.jpg
+    headline : Sabine Trier
+    description : Assistenz der Geschäftsführung.
+  - image : personal/reiner.jpg
+    headline : Prof. Dr. Reiner Güttler
+    description : Gesellschafter und Wissenschaftlicher Direktor. 
+  - image : personal/ralf.jpg
+    headline : Prof. Dr. Ralf Denzer
+    description : Gesellschafter und Wissenschaftlicher Direktor. 
+  - image : personal/pascal.jpg
+    headline : Pascal Dihé (Dipl. Inf. (FH) @ HTW des Saarlandes)
+    description : EU Projekte und Softwareentwicklung.
+  - image : personal/jean.jpg
+    headline : Jean-Michel Ruiz (Dipl. Inf. (FH) @ HTW des Saarlandes)
+    description : Softwareentwicklung. 
+  - image : personal/jens.jpg
+    headline : Jens Weintraut (B.Sc. @ HTW des Saarlandes))
+    description : EU Projekte und Softwareentwicklung.
+  - image : personal/martin.jpg
+    headline : Martin Scholl (Dipl. Inf. (FH) @ HTW des Saarlandes)
+    description : EU Projekte und Softwareentwicklung.
+  - image : personal/thorstenherter.jpg
+    headline : Thorsten Herter (M.Sc. @ HTW des Saarlandes)
+    description : Softwareentwicklung. 
+  - image : personal/benni.jpg
+    headline : Benjamin Friedrich (B.Sc. @ HTW des Saarlandes)
+    description : Softwareentwicklung. 
+  - image : personal/daniel.jpg
+    headline : Daniel Meiers (B.Sc. @ HTW des Saarlandes)
+    description : Softwareentwicklung. 
+
+
+ projects:
+  title: Mit unserer Erfahrung in zahlreichen nationalen und internationalen Projekten können wir Sie in Ihrem Vorhaben optimal unterstützen.
+  list:
+   - row: 1
+     columns:
+     - title : Planungssoftware
+       subtitle: Landesweite Gewässerunterhaltungsplanung
+       half_or_empty_when_full: -half
+       id: gupmv
+       modaltitle: Landesweite Gewässerunterhaltungsplanung
+       modalsubtitle: GUP-MV
+       modalparagraph: In der EG-Wasserrahmenrichtlinie (WRRL) werden für die europäischen Oberflächengewässer bestimmte Umweltziele festgelegt. Im Rahmen des Projektes wird eine Software entwicklet mit der eine Gewässerunterhaltung die diesen Zielen entspricht, geplant und überwacht werden kann.
+       modalsecondsubtitle: Nähere Informationen
+       modallinks:
+         - title: LUNG MV
+           link: http://www.lung.mv-regierung.de/
+           icon: 
+         - title: WRRL MV
+           link: http://www.wrrl-mv.de/start.htm
+           icon:
+       modalcustomertitle: Auftraggeber
+       modalcustomerparagraph: "Das Landesamt für Umwelt, Naturschutz und Geologie (LUNG) des Landes Mecklenburg-Vorpommern. (Ansprechpartner: Herr Andreas Küchler)"
+     - title: Datendrehscheibe in der Kommune
+       subtitle: WuNDa
+       half_or_empty_when_full: 
+       id: wunda
+       modaltitle: Wuppertaler Navigations and Daten- Management System
+       modalsubtitle: WuNDa
+       modalparagraph: "WunDa ist eine service-orientierte Infrastruktur für die Bereitstellung und Nutzung der städtischen Geo- und Fachdaten auf der Basis des Opensource Toolkits cids. Als zentrale Datendrehscheibe ermöglicht WuNDa städtische Mitarbeitern den abteilungs- und themenübergreifenden Zugriff auf raumbezogene Informationen."
+       modalsecondsubtitle: Nähere Informationen
+       modallinks:
+         - title: Wuppertal
+           link: http://www.wuppertal.de
+           icon:
+       modalcustomertitle: Auftraggeber
+       modalcustomerparagraph: "Stadtverwaltung Wuppertal. Ressort 102 - Vermessung, Katasteramt und Geodaten. (Ansprechpartner: Herr Stefan Sander)"
+     - title: Auswirkungen des Klimawandels
+       subtitle: SUDPLAN (FP7 Forschungsprojekt)
+       half_or_empty_when_full: 
+       id: sudplan
+       modaltitle: Auswirkung des Klimawandels veranschaulichen
+       modalsubtitle: SUDPLAN
+       modalparagraph: Im Projekt SUDPLAN (Sustainable Urban Development Planner for Climate) wird ein Softwaresystem entwickelt, mit dem die Auswirkung der Klimaveränderung bis 2100 untersucht werden kann. Im Speziellen werden die Bereiche Luftqualität, Niederschlag und Hydrologie betrachtet. Die Software kann europaweit von jeder Stadt für die Einbeziehung der Auswirkungen des Klimawandels in Planungsprozessen eingesetzt werden.
+       modalsecondsubtitle: Nähere Informationen
+       modallinks:
+         - title: Projektwebseite
+           link: http://www.sudplan.eu/
+           icon:
+         - title: Projektbroschüre
+           link: http://www.sudplan.eu/polopoly_fs/1.12560!SUDPLANsep-10.pdf
+           icon:
+         - title: Newsletter
+           link: http://www.sudplan.eu/polopoly_fs/1.20210!SUDPLAN_Newsletter2.pdf
+           icon:
+       modalcustomertitle: Sudplan ist ein EU FP7 Forschungsprojekt
+       modalcustomerparagraph: "Projektnummer: 247708. Das Projekt läuft von 2010-2012. (Koordinator: Dr. Lars Gidhagen / SMHI Schweden)"
+   - row: 2
+     columns:
+     - title : Architekturberatung
+       subtitle: DEWS (Tsunami Frühwarnsystem, FP6 Forschungsprojekt)
+       half_or_empty_when_full: 
+       id: dews
+       modaltitle: "Architekturberatung: Distant Early Warning System."
+       modalsubtitle: DEWS
+       modalparagraph: Das Projekt DEWS zielt auf die Stärkung der Frühwarn-Kapazität durch den Bau einer innovativen Generation von interoperablen Tsunami-Frühwarnsystemen. Die Tsunami-Erkennung basiert auf einer offenen Sensor-Plattform, welche verschiedene Sensorsysteme zur Detektion und Überwachung von Erdbeben, Pegelständen und Landverschiebungen integriert. Die Aufgabe bestand in erster Linie aus Architekturberatung und Wissenstransfer.
+       modalsecondsubtitle: Nähere Informationen
+       modallinks:
+         - title: Projektwebseite
+           link: http://www.dews-online.org/
+           icon:
+         - title: Broschüre
+           link: http://www.dews-online.org/home/-/document_library_display/Pgm2/view/10920/102?_110_INSTANCE_Pgm2_redirect=http%3A%2F%2Fwww.dews-online.org%2Fhome%3Fp_p_id%3D110_INSTANCE_Pgm2%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-2%26p_p_col_pos%3D1%26p_p_col_count%3D2
+           icon:
+       modalcustomertitle: Auftraggeber
+       modalcustomerparagraph: "Atos Research & Innovation Atos Origin Spain. (Ansprechpartner: Herr José Lorenzo Mon)"
+     - title: Krisenmanagement
+       subtitle: CRISMA (FP7 Forschungsprojekt)
+       half_or_empty_when_full: 
+       id: crisma
+       modaltitle: Modelling crisis management for improved action and preparedness
+       modalsubtitle: CRISMA
+       modalparagraph: "Das Europäische Projekt CRISMA unterstützt die Vorbereitung auf die Bewältigung von Katastrophenereignissen durch Entwicklung eines Werkzeugs zur Entscheidungsunterstützung in Krisensituationen. Das Werkzeug wird Behörden, Ersthelfern, Gemeinden und privaten Hilfsdiensten bei der Priorisierung der wichtigsten Maßnahmen zur Lebensrettung und zur Entschärfung möglicher Auswirkung von Katastrophen helfen." 
+       modalsecondsubtitle: Nähere Informationen
+       modallinks:
+         - title: Projektwebseite
+           link: http://www.crismaproject.eu/
+           icon:
+         - title: Kurzbeschreibung
+           link: http://www.crismaproject.eu/project.htm
+           icon:
+         - title: Partner
+           link: http://www.crismaproject.eu/partners.htm
+           icon:
+       modalcustomertitle: CRISMA ist ein EU FP7 Forschungsprojekt (IP)
+       modalcustomerparagraph: "Projektnummer: 284552. Das Projekt läuft von 2012 bis 2015. (Ansprechpartner: Frau Dr. Anna-Mari Heikkilä / VTT Finnland)"
+     - title: Asset-Management
+       subtitle: BelIS
+       half_or_empty_when_full: -half
+       id: belis
+       modaltitle: Beleuchtungskatastermanagement
+       modalsubtitle: BelIS
+       modalparagraph: "Belis ist eine Software für die Bewertung und das Management von Daten, die mit dem Thema Städtische Beleuchtung im Zusammenhang stehen. Potentieller Anwender sind Betreiber der städtischen Beleuchtungsinfrastruktur (Kommunalverwaltungen, Energieversorger)."  
+
+       modalsecondsubtitle: Nähere Informationen
+       modallinks:
+         - title: Wuppertal
+           link: http://www.wuppertal.de
+           icon:
+       modalcustomertitle: Auftraggeber
+       modalcustomerparagraph: "Stadtverwaltung Wuppertal. Ressort 104 - Straßen und Verkehr. (Ansprechpartner: Herr Michael Wendling)"
+   - row: 3
+     columns:
+     - title : Abgabenberechnung
+       subtitle: VerdIS
+       half_or_empty_when_full: -half
+       id: verdis
+       modaltitle: Informationssystem Versiegelte Flächen
+       modalsubtitle: VerdIS
+       modalparagraph: Mit dem Versiegelungsdaten-Informationssystem bietet die cismet GmbH eine Komplettlösung für den typischen Arbeitsablauf im Bereich Erfassung und Fortführung (Geometrien, attributive Sachdaten) der versiegelten Flächen zu einem Gebührenbescheid (Abwasser). Zusätzlich können Informationen zur Straßenreinigung und Winterdienst bearbeitet werden.
+       modalsecondsubtitle: Nähere Informationen
+       modallinks:
+         - title: Wuppertal
+           link: http://www.wuppertal.de
+           icon:
+       modalcustomertitle: Auftraggeber
+       modalcustomerparagraph: "Stadtverwaltung Wuppertal. Ressort 102 - Vermessung, Katasteramt und Geodaten. (Ansprechpartner: Herr Dirk Steinbacher)"
+     - title: Landesweite Informationssysteme
+       subtitle: FIS Wasser Mecklenburg-Vorpommern
+       half_or_empty_when_full: 
+       id: fiswassermv
+       modaltitle: Fachinformationssystem Wasser MV
+       modalsubtitle: FIS-Wasser-MV
+       modalparagraph: Der komplexe Ansatz der EG Wasserrahmenrichtlinie setzt die Vorgaben für die erforderlichen Informationen. Das im Aufbau befindliche FIS Wasser M-V veranschlagt den Anspruch, eine landesweite Datenbasis dafür zu schaffen. Neben gewässerbezogenen Informationen finden sich auch solche aus Statistik, Landwirtschaft, Natur- und Artenschutz u.s.w., die unter anderem zur Beurteilung des Gewässerzustands herangezogen werden können. 
+       modalsecondsubtitle: Nähere Informationen
+       modallinks:
+         - title: FIS-Wasser-Handbuch
+           link: http://www.fis-wasser-mv.de/nutzerhandbuch/index.php/Hauptseite
+           icon: 
+         - title: LUNG MV
+           link: http://www.lung.mv-regierung.de/
+           icon: 
+         - title: WRRL MV
+           link: http://www.wrrl-mv.de/start.htm
+           icon:
+       modalcustomertitle: Auftraggeber
+       modalcustomerparagraph: "Das Landesamt für Umwelt, Naturschutz und Geologie (LUNG) des Landes Mecklenburg-Vorpommern. (Ansprechpartner: Herr Eckard Kohlhas)"
+     - title: Strategieberatung
+       subtitle: Bureau of Meteorology Australien
+       half_or_empty_when_full: 
+       id: bom
+       modaltitle: Strategieberatung im AWRIS Projekt
+       modalsubtitle: AWRIS
+       modalparagraph: Im AWRIS (Australian Water Resources Information System) Projekt soll ein Softwaresystem entwickelt weden, das Gewässerinformation für ganz Australien zur Verfügung stellt. Mit AWRIS sollen Gewässerinformationen verarbeitet, veröffentlicht und in einer zentralen Datenbank verwaltet werden. Projektgegenstand war die Beratung während der Architekturphase und eine abschließende Bewertung der Gesamtarchitektur. 
+       modalsecondsubtitle: Nähere Informationen
+       modallinks:
+         - title: Projektwebsite
+           link: http://www.bom.gov.au/water/about/wip/awris.shtml
+           icon:
+         - title: Broschüre
+           link: http://www.bom.gov.au/water/about/publications/document/InfoSheet_3.pdf
+           icon:
+         - title: B.O.M.
+           link: http://www.bom.gov.au
+           icon:
+       modalcustomertitle: Auftraggeber
+       modalcustomerparagraph: "Australien Bureau of Meteorology (Ansprechpartner: Herr Dr. Robert Argent)"
+   - row: 4
+     columns:
+     - title : Umweltmonitoring
+       subtitle: Fließgewässerstrukturgütekartierung
+       half_or_empty_when_full: 
+       id: fgskmv
+       modaltitle: Hydromorphologische Zustand eines Wasserkörpers
+       modalsubtitle: FGSK Fachschale im FIS Wasser MV
+       modalparagraph: Der hydromorphologische Zustand eines Wasserkörpers ist ein wichtiger Hilfsparameter zur Ausweisung des Zustandes eines Fließgewässerkörpers gem. EG-WRRL. Die Fließgewässerstrukturgütekartierung (FGSK) ist das anerkannte Monitoringverfahren für die Feststellung des Zustandes. Das FGSK Projekt beinhaltet eine Fachschale für das FIS Wasser MV mit der die notwendigen Daten für die Kartierung verwaltet werden können.
+       modalsecondsubtitle: Nähere Informationen
+       modallinks:
+         - title: Handbuch
+           link: http://www.fis-wasser-mv.de/nutzerhandbuch/index.php/FGSK
+           icon:
+         - title: LUNG MV
+           link: http://www.lung.mv-regierung.de/
+           icon: 
+         - title: WRRL MV
+           link: http://www.wrrl-mv.de/start.htm
+           icon:
+       modalcustomertitle: Auftraggeber
+       modalcustomerparagraph: "Das Landesamt für Umwelt, Naturschutz und Geologie (LUNG) des Landes Mecklenburg-Vorpommern. (Ansprechpartner: Herr Eckard Kohlhas)"
+     - title: Liegenschaftsmanagement
+       subtitle: LagIS
+       half_or_empty_when_full: 
+       id: lagis
+       modaltitle: Digitales Lagerbuch
+       modalsubtitle: LagIS
+       modalparagraph: Das digitale Lagerbuch LagIS  (Lagerbuch Informationssystem) ist eine Applikation zur Verwaltung und Pflege von kommunalen Liegenschafts-Informationen. Die Anwendung bietet eine optimale Unterstützung der Sachbearbeiter bei der Erfassung und Pflege der Nutzdaten. LagIS bildet die komplexen Prozesse der Lagerbuchführung optimal ab und gibt dem Benutzer die Möglichkeit, Fachdaten einfach und komfortabel zu erfassen.
+       modalsecondsubtitle: Nähere Informationen
+       modallinks:
+         - title: Wuppertal
+           link: http://www.wuppertal.de
+           icon:
+       modalcustomertitle: Auftraggeber
+       modalcustomerparagraph: "Stadtverwaltung Wuppertal. Ressort 102 - Vermessung, Katasteramt und Geodaten. (Ansprechpartner: Herr Dirk Steinbacher)"
+     - title: Semantic Web
+       subtitle: Tatoo (FP7 Forschungsprojekt)
+       half_or_empty_when_full: -half
+       id: tatoo
+       modaltitle: Tagging Tool based on a Semantic Discovery Framework
+       modalsubtitle: Tatoo
+       modalparagraph: TaToo (Tagging Tool based on a Semantic Discovery Framework) ist ein von der Europäischen Kommission gefördertes Forschungsprojekt welches in seiner Umsetzung die Vision eines europaweiten Informationsraumes für Umweltdaten einen Schritt näher bringen soll.
+       modalsecondsubtitle: Nähere Informationen
+       modallinks:
+         - title: Projektwebsite
+           link: http://www.tatoo-fp7.eu/tatooweb/
+           icon: 
+         - title: Broschüre
+           link: http://www.tatoo-fp7.eu/tatooweb/system/files/common/Fact%20Sheet_washout.pdf
+           icon:
+         - title: Partner
+           link: http://www.tatoo-fp7.eu/tatooweb/partners
+           icon:
+       modalcustomertitle: Tatoo ist ein EU FP7 Forschungsprojekt
+       modalcustomerparagraph: "Projektnummer: 247893. Das Projekt läuft von 2010-2012. (Koordinator: Herr Gerald Schimack / AIT Österreich)"
+ services:
+  title: In allen Phasen der Entwicklung steht der Nutzer im Vordergrund.
+  facts:
+   - row: 1
+     width: 4
+     columns:
+     - title : Entwicklung
+       icon: glyphicons/glyphicons_009_magic.png
+       paragraph: Ein wichtiges Standbein ist die Auftragssoftwareentwicklung im Bereich von maßgeschneiderten, hochintegrierten Lösungen unter Verwendung von Open Source GIS-Software.
+     - title : Forschung
+       icon: glyphicons/glyphicons_079_podium.png
+       paragraph: Schwerpunkt unserer Forschungsaktivitäten in zahlreichen EU-Projekten sind Integrationskonzepte & Architekturen, insbesondere im Bereich Geodatenintegration, die für den Aufbau von Geodateninfrastrukturen unerlässlich sind.
+     - title : Produkte
+       icon: glyphicons/glyphicons_163_iphone.png
+       paragraph: Verwendung und Vermarktung der eigenen Geo- & Daten- Integrationsplattform cids/cismap als Werkzeug zum nachhaltigen Informationsinfrastrukturaufbau in Behörden und Unternehmen garantiert höchstmögliche Nachhaltigkeit.
+   - row: 2
+     width: 4
+     columns:
+     - title : Beratung
+       icon: glyphicons/glyphicons_060_compass.png
+       paragraph: Wir sind seit langer Zeit im Umfeld von Architekturen großer und komplexer Softwaresysteme, Anwendung von Referenzmodellen, Serviceinfrastrukturen, GIS-integration international tätig.
+     - title : Starke Partner
+       icon: glyphicons/glyphicons_023_cogwheels.png
+       paragraph: Durch unsere nationale und internationale, thematisch weit gestreute Projekte verfügen wir über ein weit reichendes Partner-Netzwerk mit renomierten Unternehmen, Behörden, Universitäten und Forschungseinrichtungen.
+     - title : Veröffentlichungen
+       icon: glyphicons/glyphicons_266_book_open.png
+       paragraph: Durch regelmäßige Publikationen in den Bereichen Entscheidungsunterstützende Systeme, Geoinfrastrukturen und Architekturen verteilter komplexer Informationssystem auf Tagungen und in Journals verbinden wir Theorie und Praxis.
+   - row: 3
+     width: 4
+     columns:
+     - title : Open Source
+       icon: glyphicons/glyphicons_381_github.png
+       paragraph: Wir verwenden und entwickeln Open Source Software. Für unsere Kunden fallen dadurch keinerlei lizenzbedingte Kosten an.
+     - title : Individuelle Kundenbetreuung
+       icon: glyphicons/glyphicons_024_parents.png
+       paragraph: Durch unsere Firmengröße bedingt, sind in der Lage eine optimale und persönliche Unterstützung unserer Kunden zu gewährleisten.
+     - title : Wir verstehen Sie
+       icon: glyphicons/glyphicons_029_notes_2.png
+       paragraph: Durch unserer langjährige Erfahrung in kommunalen und Industrie-Projekten sind wir in der Lage die Fachzusammenhänge in Ihrem Umfeld schnell zu erkennen und eine softwaremäßige Unterstützung umzusetzen.
+   - row: 4
+     width: 4
+     columns:
+     - title : Java
+       icon: glyphicons/glyphicons_294_coffe_cup.png
+       paragraph: Die weit verbreitetste Programmiersprache ist unser Mittel der Wahl, wenn es darum geht Infrastrukturprojekte umzusetzen oder auf dem Desktop eine optimierte Workflowunterstützung zu bieten.
+     - title : REST
+       icon: glyphicons/glyphicons_232_cloud.png
+       paragraph: Die Technologie des Webs sorgt bei unseren Systemen für leichte Erweiterbarkeit . Die offenen und Standard-basierten Schnittstellen machen es externen Systemen leicht auf den Mehrwert unserer Prozesse und Applikationen zuzugreifen.
+     - title : Postgres/PostGIS
+       icon: glyphicons/glyphicons_141_database_plus.png
+       paragraph: Das fortschrittlichste freie objektrationale Datenbanksystem mit seiner GIS Erweiterung PostGIS wird in den meisten unserer Lösungen als Datenbackend genutzt.
+ contact:
+  title: Fragen, Wünsche, Geschäft? Wir helfen gerne.
+  or: oder ...
+  mail: eMail-Adressen
+  mailimage: socialmedia/skype-globe.png
+  mailsubtitle: "unsere eMail Adressen:"
+  mailparagraph: Sie erreichen alle unsere Mitarbeiter unter der Mailadresse Vorname.Nachname@cismet.de, wobei die Groß- und Kleinschreibung keine Rolle spielt und Umlaute durch ihre üblichen Ersatzkombinationen dargestellt werden. 
+  mailsubtitle2: "zusätzliche Mailadressen:"
+  mailadresses: 
+   - adress: "mailto:info@cismet.de"
+     name: Allgemeine Fragen
+   - adress: "mailto:gf@cismet.de"
+     name: Geschäftsführung
+   - adress: "mailto:sekretariat@cismet.de"
+     name: Sekretariat
+  skype: Skype-Accounts
+  skypesubtitle: Skype
+  skypeparagraph: Wir benutzen Skype in vielen Projekten um bequem und kostenlos Telefonate und Telefonkonferenzen durchzuführen. Über die untenstehenden Usernamen, können Sie den jeweiligen Mitarbeiter zu Ihren Skype-Kontakten hinzufügen.
+  skypesubtitle2: "unsere Skypeaccounts:"
+  skypeaccounts:
+   - adress: hellAtCismet
+     name: Thorsten Hell
+   - adress: schlobster
+     name: Sascha Schlobinski
+   - adress: jeanAtCismet
+     name: Jean Ruiz
+   - adress: pascalAtCismet
+     name: Pascal Dihé
+   - adress: martinAtCismet
+     name: Martin Scholl
+   - adress: jeweAtCismet
+     name: Jens Weintraut

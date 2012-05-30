@@ -1,0 +1,28 @@
+ <div class="span8 offset2">
+                <br><br>
+                <div id="myCarousel" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <%= image_tag I18n.t("slideshow.activeslide.image") %>                            
+                            <div class="carousel-caption">
+                                <h4><%= I18n.t("slideshow.activeslide.headline") %></h4>
+                                <p><%= I18n.t("slideshow.activeslide.description") %></p>
+                            </div>
+                        </div>
+                        <% I18n.t("slideshow.slides").each do |f| %>
+
+                        <div class="item">
+                            <%= image_tag f["image"] %>
+                            
+                            <div class="carousel-caption">
+                                <h4><%= f["headline"] %></h4>
+                                <p><%= f["description"] %></p>
+                            </div>
+                        </div>
+                        <% end %>
+                    </div>
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                    <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+                </div>
+            
+        </div>

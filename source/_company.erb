@@ -1,0 +1,25 @@
+ <div id="company"   class="container" style=" min-height:1300px;">
+        <div>
+            <br>
+            <div  class="marketing">
+                <h1><%=I18n.t("company.title")%></h1>
+            </div>
+            <div  class="row">
+                <% I18n.t("company.points").each do |f|%>
+                <div class="span5 offset1" >
+                    <%= image_tag f["image"], :class => 'bs-icon' %>
+                    <h2><%= f["subtitle"] %></h2>
+                    <p><%= f["description"] %></p>
+
+                </div>
+                <% end %>
+            </div>
+            <div>
+            <%= partial "slideshow" %>
+            </div>
+        </div>
+  <div align='center' style="margin:150px;">
+            <a href='#refs' class="animate"><%= image_tag 'down.png' %></a>
+            </div>
+        </div>
+      
