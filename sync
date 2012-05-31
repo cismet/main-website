@@ -1,3 +1,0 @@
-#!/bin/bash
-rsync -av -e ssh --delete --delete-excluded --exclude-from './exclude.txt' --numeric-ids ./build/ new_cismet@new.cismet.de:~/httpdocs
-
