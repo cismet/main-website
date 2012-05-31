@@ -1,5 +1,5 @@
 /*
-	Mosaic - Sliding Boxes and Captions jQuery Plugin
+	Mosaic - Sliding Boxes and Captions jQuery Plugin 
 	Version 1.0.1
 	www.buildinternet.com/project/mosaic
 	
