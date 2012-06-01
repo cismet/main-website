@@ -1,4 +1,3 @@
-Encoding.default_encoding = 'utf-8'
 Encoding.default_external = 'utf-8'
 
 activate :i18n
