@@ -1,372 +1,371 @@
 en : 
  menu:
-  company: Company
-  projects: Projects
-  services: Services
-  contact: Contact
-  english: English
-  link_to_english: ./index.html
-  german: Deutsch 
-  link_to_german: ../index.html
+  company: Company
+  projects: Projects
+  services: Services
+  contact: Contact
+  english: English
+  link_to_english: ./index.html
+  german: Deutsch 
+  link_to_german: ../index.html
 
-  close: Close
+  close: Close
 
  company:
-  title: We develop sustainable software systems and information integration strategies.
-  points:
-  - image: glyphicons/glyphicons_040_stats.png
-    subtitle: The roots
-    description: "The company was founded as a University Spin-Off from the Environmental Informatics Group at the Saarland State University of applied sciences in 2002. Founders and owners are: Thorsten Hell, Prof. Ralf Denzer, Prof. Reiner Güttler and Sascha Schlobinski. The company is located at IT-Park Saarland which is the focal point of Saarland's IT- and new media industry. "
-  - image: glyphicons/glyphicons_042_group.png
-    subtitle: A competent team
-    description: As accomplished computer scientists with substantial IT- and research project experience our staff has the necessary know-how and capacity for the design and implementation of complex information systems. This includes, in addtion to the essential social skills a solid, sound and theoretically grounded comprehension of data base- and software design as well as long term experience in sutainable software development and programming methods.
-
+  title: We develop sustainable software systems and information integration strategies.
+  points:
+  - image: glyphicons/glyphicons_040_stats.png
+    subtitle: The roots
+    description: "The company was founded as a University Spin-Off from the Environmental Informatics Group at the Saarland State University of applied sciences in 2002. Founders and owners are: Thorsten Hell, Prof. Ralf Denzer, Prof. Reiner Güttler and Sascha Schlobinski. The company is located at IT-Park Saarland which is the focal point of Saarland's IT- and new media industry. "
+  - image: glyphicons/glyphicons_042_group.png
+    subtitle: A competent team
+    description: As accomplished computer scientists with substantial IT- and research project experience our staff has the necessary know-how and capacity for the design and implementation of complex information systems. This includes, in addtion to the essential social skills a solid, sound and theoretically grounded comprehension of data base- and software design as well as long term experience in sutainable software development and programming methods.
  slideshow:
-  activeslide:
-   image : personal/1.jpg
-   headline : Names, roles and faces
-   description : ""
+  activeslide:
+   image : personal/1.jpg
+   headline : Names, roles and faces
+   description : ""
 
-  slides:
-  - image : personal/sascha.jpg
-    headline : Sascha Schlobinski (M.Sc. @ Universität des Saarlandes)
-    description : Owner and CEO, Head of research projects.
-  - image : personal/thorsten.jpg
-    headline : Thorsten Hell (M.Sc. @ Universität des Saarlandes)
-    description : Owner and CEO, Head of software development.
-  - image : personal/sabine.jpg
-    headline : Sabine Trier
-    description : Personal secretary, administration.
-  - image : personal/reiner.jpg
-    headline : Prof. Dr. Reiner Güttler
-    description : Owner and Scientific Director. 
-  - image : personal/ralf.jpg
-    headline : Prof. Dr. Ralf Denzer
-    description : Owner and Scientific Director. 
-  - image : personal/pascal.jpg
-    headline : Pascal Dihé (Dipl. Inf. (FH) @ HTW des Saarlandes)
-    description : Research projects and software development.
-  - image : personal/jean.jpg
-    headline : Jean-Michel Ruiz (Dipl. Inf. (FH) @ HTW des Saarlandes)
-    description : Software development. 
-  - image : personal/jens.jpg
-    headline : Jens Weintraut (B.Sc. @ HTW des Saarlandes))
-    description : Research projects and software development.
-  - image : personal/martin.jpg
-    headline : Martin Scholl (Dipl. Inf. (FH) @ HTW des Saarlandes)
-    description : Research projects and software development.
-  - image : personal/thorstenherter.jpg
-    headline : Thorsten Herter (M.Sc. @ HTW des Saarlandes)
-    description : Software development. 
-  - image : personal/benni.jpg
-    headline : Benjamin Friedrich (B.Sc. @ HTW des Saarlandes)
-    description : Software development. 
-  - image : personal/daniel.jpg
-    headline : Daniel Meiers (B.Sc. @ HTW des Saarlandes)
-    description : Software development. 
+  slides:
+  - image : personal/sascha.jpg
+    headline : Sascha Schlobinski (M.Sc. @ Universität des Saarlandes)
+    description : Owner and CEO, Head of research projects.
+  - image : personal/thorsten.jpg
+    headline : Thorsten Hell (M.Sc. @ Universität des Saarlandes)
+    description : Owner and CEO, Head of software development.
+  - image : personal/sabine.jpg
+    headline : Sabine Trier
+    description : Personal secretary, administration.
+  - image : personal/reiner.jpg
+    headline : Prof. Dr. Reiner Güttler
+    description : Owner and Scientific Director. 
+  - image : personal/ralf.jpg
+    headline : Prof. Dr. Ralf Denzer
+    description : Owner and Scientific Director. 
+  - image : personal/pascal.jpg
+    headline : Pascal Dihé (Dipl. Inf. (FH) @ HTW des Saarlandes)
+    description : Research projects and software development.
+  - image : personal/jean.jpg
+    headline : Jean-Michel Ruiz (Dipl. Inf. (FH) @ HTW des Saarlandes)
+    description : Software development. 
+  - image : personal/jens.jpg
+    headline : Jens Weintraut (B.Sc. @ HTW des Saarlandes))
+    description : Research projects and software development.
+  - image : personal/martin.jpg
+    headline : Martin Scholl (Dipl. Inf. (FH) @ HTW des Saarlandes)
+    description : Research projects and software development.
+  - image : personal/thorstenherter.jpg
+    headline : Thorsten Herter (M.Sc. @ HTW des Saarlandes)
+    description : Software development. 
+  - image : personal/benni.jpg
+    headline : Benjamin Friedrich (B.Sc. @ HTW des Saarlandes)
+    description : Software development. 
+  - image : personal/daniel.jpg
+    headline : Daniel Meiers (B.Sc. @ HTW des Saarlandes)
+    description : Software development. 
 
 
  projects:
-  title: Based on our experience in numberous national and international projects we can support in your individual endavour.
-  list:
-   - row: 1
-     columns:
-     - title : Environmental Planning 
-       subtitle: Water body management
-       half_or_empty_when_full: -half
-       id: gupmv
-       modaltitle: Water body management
-       modalsubtitle: GUP-MV
-       modalparagraph: The European Water Framework Directive (WFD) commits the member states to achieve a better qualitative status of Europes water bodies. In the context of the project we have developed a software to plan and monitor WFD compliant Water body management measures.
-       modalsecondsubtitle: More information
-       modallinks:
-         - title: LUNG MV
-           link: http://www.lung.mv-regierung.de/
-           icon: 
-         - title: WRRL MV
-           link: http://www.wrrl-mv.de/start.htm
-           icon:
-       modalcustomertitle: Client
-       modalcustomerparagraph: "German Federal State Agency for the Envrionment, Nature Protection and Geology Mecklenburg-Vorpommern. (Contact: Mr.  Andreas Küchler)"
-     - title: Information hub in the municipality
-       subtitle: WuNDa
-       half_or_empty_when_full: 
-       id: wunda
-       modaltitle: Wuppertaler Navigations and Daten- Management System
-       modalsubtitle: WuNDa
-       modalparagraph: "THe WunDa software consists of a service-orientiented infrastructure for the  auf der Basis des Opensource Toolkits cids. Als zentrale Datendrehscheibe ermöglicht WuNDa städtische Mitarbeitern den abteilungs- und themenübergreifenden Zugriff auf raumbezogene Informationen."
-       modalsecondsubtitle: More information
-       modallinks:
-         - title: Wuppertal
-           link: http://www.wuppertal.de
-           icon:
-       modalcustomertitle: Client
-       modalcustomerparagraph: "Stadtverwaltung Wuppertal. Ressort 102 - Vermessung, Katasteramt und Geodaten. (Contact: Mr.  Stefan Sander)"
-     - title: Dealing with the effects of climate change
-       subtitle: SUDPLAN (FP7 Research project)
-       half_or_empty_when_full: 
-       id: sudplan
-       modaltitle: Illustrate the effects of climate change
-       modalsubtitle: SUDPLAN
-       modalparagraph: In the SUDPLAN project (Sustainable Urban Development Planner for Climate) we have collaboratively developed a software system, to illustrate, investigate the effects of climate change until 2100. In particular the SUDPLAN provides climate change projections on Air Quality, Preciptiation and Hydrology variables. The system is designed to be used lto infuse the effects of climate change in urban planning processes and can be used by any city in Europe.
-       modalsecondsubtitle: More information
-       modallinks:
-         - title: Website
-           link: http://www.sudplan.eu/
-           icon:
-         - title: Project leaflet
-           link: http://www.sudplan.eu/polopoly_fs/1.12560!SUDPLANsep-10.pdf
-           icon:
-         - title: Newsletter
-           link: http://www.sudplan.eu/polopoly_fs/1.20210!SUDPLAN_Newsletter2.pdf
-           icon:
-       modalcustomertitle: Sudplan is EU FP7 Research project
-       modalcustomerparagraph: "Project reference: 247708. Project runtime: 2010-2012. (Coordinator: Dr. Lars Gidhagen / SMHI Sweden)"
-   - row: 2
-     columns:
-     - title : Consultancy Services
-       subtitle: DEWS (Tsunami Early Warning System, FP6 Research project)
-       half_or_empty_when_full: 
-       id: dews
-       modaltitle: "Consultancy: Distant Early Warning System."
-       modalsubtitle: DEWS
-       modalparagraph: The DEWS project – DEWS stands for Distant Early Warning System - aims at strengthening the early warning capacities by building an innovative generation of interoperable tsunami early warning systems. In DEWS tsunami detection is based on an open sensor platform, integrating sensor systems for earthquake and sea level and ground displacement monitoring.  We were sub-coontracted for architectual review and knowledge transfer.
-       modalsecondsubtitle: More information
-       modallinks:
-         - title: Website
-           link: http://www.dews-online.org/
-           icon:
-         - title: Leaflet
-           link: http://www.dews-online.org/home/-/document_library_display/Pgm2/view/10920/102?_110_INSTANCE_Pgm2_redirect=http%3A%2F%2Fwww.dews-online.org%2Fhome%3Fp_p_id%3D110_INSTANCE_Pgm2%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-2%26p_p_col_pos%3D1%26p_p_col_count%3D2
-           icon:
-       modalcustomertitle: Client
-       modalcustomerparagraph: "Atos Research & Innovation Atos Origin Spain. (Contact: Mr.  José Lorenzo Mon)"
-     - title: Crisis Management
-       subtitle: CRISMA (FP7 Research project)
-       half_or_empty_when_full: 
-       id: crisma
-       modaltitle: Modelling crisis management for improved action and preparedness
-       modalsubtitle: CRISMA
-       modalparagraph: "The FP7 research project CRISMA shall develop a simulation-based decision support system (Integrated Crisis Management System – ICMS), for modelling crisis management, improved action and preparedness. The ICMS shall facilitate simulation and modelling of realistic crisis scenarios, possible response actions, and the impacts of crisis depending on both the external factors driving the crisis development and the various actions of the crisis management team." 
-       modalsecondsubtitle: More information
-       modallinks:
-         - title: Website
-           link: http://www.crismaproject.eu/
-           icon:
-         - title: Project summary
-           link: http://www.crismaproject.eu/project.htm
-           icon:
-         - title: Partners
-           link: http://www.crismaproject.eu/partners.htm
-           icon:
-       modalcustomertitle: CRISMA is a EU FP7 Research project (IP)
-       modalcustomerparagraph: "Project reference: 284552. Project runtime 2012 bis 2015. (Contact: Dr. Anna-Mari Heikkilä / VTT Finland)"
-     - title: "Asset-Management"
-       subtitle: BelIS
-       half_or_empty_when_full: -half
-       id: belis
-       modaltitle: City light management
-       modalsubtitle: BelIS
-       modalparagraph: "Belis is a software for the assessment and the management of city light related information. The software has been designed for operators of city light infrastructures (city adminstrations, utility service providers)."
-       modalsecondsubtitle: More information
-       modallinks:
-         - title: Wuppertal
-           link: http://www.wuppertal.de/
-           icon:
-       modalcustomertitle: Client
-       modalcustomerparagraph: "Stadtverwaltung Wuppertal. Ressort 104 - Straßen und Verkehr. (Contact: Mr.  Michael Wendling)"
-   - row: 3
-     columns:
-     - title : Duty and taxation
-       subtitle: VerdIS
-       half_or_empty_when_full: -half
-       id: verdis
-       modaltitle: Informationsystem for sealed surfaces
-       modalsubtitle: VerdIS
-       modalparagraph: VerdIS is an integrated solutionbietet dbuilt to support aquisition and maintenance of data (Feature / Map) to determin wastewater duties based on the type of ground cover materials (sealed surfaces). In addtion related topics like duties for snow removal or street cleaning.
-       modalsecondsubtitle: More information
-       modallinks:
-         - title: Wuppertal
-           link: http://www.wuppertal.de
-           icon:
-       modalcustomertitle: Client
-       modalcustomerparagraph: "Stadtverwaltung Wuppertal. Ressort 102 - Vermessung, Katasteramt und Geodaten. (Contact: Mr. Dirk Steinbacher)"
-     - title: State wide information systems
-       subtitle: FIS Wasser Mecklenburg-Vorpommern
-       half_or_empty_when_full: 
-       id: fiswassermv
-       modaltitle: Water body information system
-       modalsubtitle: FIS-Wasser-MV
-       modalparagraph: The information system provides the complete WFD (Water Framework Directive) set of information for the German federal State of Mecklenburg-Vorpommern. In addtion to the actual water body information this includes statistics, information on farming and environmental protection etc to be used to evaluate the quality status of water bodies. 
-       modalsecondsubtitle: More information
-       modallinks:
-         - title: FIS-Wasser-Handbuch
-           link: http://www.fis-wasser-mv.de/nutzerhandbuch/index.php/Hauptseite
-           icon: 
-         - title: LUNG MV
-           link: http://www.lung.mv-regierung.de/
-           icon: 
-         - title: WRRL MV
-           link: http://www.wrrl-mv.de/start.htm
-           icon:
-       modalcustomertitle: Client
-       modalcustomerparagraph: "German Federal State Agency for the Envrionment, Nature Protection and Geology Mecklenburg-Vorpommern. (Contact: Mr.  Eckard Kohlhas)"
-     - title: Strategieberatung
-       subtitle: Bureau of Meteorology Australia
-       half_or_empty_when_full: 
-       id: bom
-       modaltitle: Strategieberatung im AWRIS Projekt
-       modalsubtitle: AWRIS
-       modalparagraph: AWRIS (Australian Water Resources Information System) is a powerful information system capable of receiving, standardising, organising and interpreting water data from across the Australia. We have been contracted as consultants to evaluate the system architecture and identify possible deficiencies. 
-       modalsecondsubtitle: More information
-       modallinks:
-         - title: Projektwebsite
-           link: http://www.bom.gov.au/water/about/wip/awris.shtml
-           icon:
-         - title: Broschüre
-           link: http://www.bom.gov.au/water/about/publications/document/InfoSheet_3.pdf
-           icon:
-         - title: B.O.M.
-           link: http://www.bom.gov.au
-           icon:
-       modalcustomertitle: Client
-       modalcustomerparagraph: "Australia Bureau of Meteorology (Contact: Dr. Robert Argent)"
-   - row: 4
-     columns:
-     - title : Environmental monitoring
-       subtitle: Water stream quality assessment and mapping
-       half_or_empty_when_full: 
-       id: fgskmv
-       modaltitle: Hydromorphologice status of a water stream
-       modalsubtitle: FGSK Topic application as part of FIS-Wasser
-       modalparagraph: The hydromorphologic status is an important auxillary parameter to support the WFD induced reporting obligations. The approach is a well known and approved method to determin the water body quality status. The FGSK software supports the creation and maintainance of hydromorphological maps.
-       modalsecondsubtitle: More information
-       modallinks:
-         - title: Handbook
-           link: http://www.fis-wasser-mv.de/nutzerhandbuch/index.php/FGSK
-           icon:
-         - title: LUNG MV
-           link: http://www.lung.mv-regierung.de/
-           icon: 
-         - title: WRRL MV (WFD)
-           link: http://www.wrrl-mv.de/start.htm
-           icon:
-       modalcustomertitle: Client
-       modalcustomerparagraph: "German Federal State Agency for the Envrionment, Nature Protection and Geology Mecklenburg-Vorpommern. (Contact: Mr.  Eckard Kohlhas)"
-     - title: Land property management
-       subtitle: LagIS
-       half_or_empty_when_full: 
-       id: lagis
-       modaltitle: Digital stock ledger
-       modalsubtitle: LagIS
-       modalparagraph:  LagIS  (Lagerbuch Informationssystem) is a software to managage and maintain von city owned land property. The application supports city managers to deal with the complex processes of digital stock ledger management.
-       modalsecondsubtitle: More information
-       modallinks:
-         - title: Wuppertal
-           link: http://www.wuppertal.de
-           icon:
-       modalcustomertitle: Client
-       modalcustomerparagraph: "Stadtverwaltung Wuppertal. Ressort 102 - Vermessung, Katasteramt und Geodaten. (Contact: Mr. Dirk Steinbacher)"
-     - title: Semantic Web
-       subtitle: Tatoo (FP7 Research project)
-       half_or_empty_when_full: -half
-       id: tatoo
-       modaltitle: Tagging Tool based on a Semantic Discovery Framework
-       modalsubtitle: Tatoo
-       modalparagraph: TaToo (Tagging Tool based on a Semantic Discovery Framework). The FP7 research project aims to enable experts as well as general users to share trusted and reliable environmental information, but also to allow easy discovery of environmental information which is already available.
-       modalsecondsubtitle: More information
-       modallinks:
-         - title: Projektwebsite
-           link: http://www.tatoo-fp7.eu/tatooweb/
-           icon: 
-         - title: Broschüre
-           link: http://www.tatoo-fp7.eu/tatooweb/system/files/common/Fact%20Sheet_washout.pdf
-           icon:
-         - title: Partner
-           link: http://www.tatoo-fp7.eu/tatooweb/partners
-           icon:
-       modalcustomertitle: Tatoo is a FP7 Research project
-       modalcustomerparagraph: "Project reference: 247893. Project runtime 2010-2012. (Coordinator: Mr. Gerald Schimack / AIT Austria)"
+  title: Based on our experience in numerous national and international projects we can support in your individual endavour.
+  list:
+   - row: 1
+     columns:
+     - title : Environmental Planning 
+       subtitle: Water body management
+       half_or_empty_when_full: -half
+       id: gupmv
+       modaltitle: Water body management
+       modalsubtitle: GUP-MV
+       modalparagraph: The European Water Framework Directive (WFD) commits the member states to achieve a better qualitative status of Europes water bodies. In the context of the project we have developed a software to plan and monitor WFD compliant Water body management measures.
+       modalsecondsubtitle: More information
+       modallinks:
+         - title: LUNG MV
+           link: http://www.lung.mv-regierung.de/
+           icon: 
+         - title: WRRL MV
+           link: http://www.wrrl-mv.de/start.htm
+           icon:
+       modalcustomertitle: Client
+       modalcustomerparagraph: "German Federal State Agency for the Envrionment, Nature Protection and Geology Mecklenburg-Vorpommern. (Contact: Mr.  Andreas Küchler)"
+     - title: Information hub in the municipality
+       subtitle: WuNDa
+       half_or_empty_when_full: 
+       id: wunda
+       modaltitle: Wuppertaler Navigations and Daten- Management System
+       modalsubtitle: WuNDa
+       modalparagraph: "THe WunDa software consists of a service-orientiented infrastructure for the  auf der Basis des Opensource Toolkits cids. Als zentrale Datendrehscheibe ermöglicht WuNDa städtische Mitarbeitern den abteilungs- und themenübergreifenden Zugriff auf raumbezogene Informationen."
+       modalsecondsubtitle: More information
+       modallinks:
+         - title: Wuppertal
+           link: http://www.wuppertal.de
+           icon:
+       modalcustomertitle: Client
+       modalcustomerparagraph: "Stadtverwaltung Wuppertal. Ressort 102 - Vermessung, Katasteramt und Geodaten. (Contact: Mr.  Stefan Sander)"
+     - title: Dealing with the effects of climate change
+       subtitle: SUDPLAN (FP7 Research project)
+       half_or_empty_when_full: 
+       id: sudplan
+       modaltitle: Illustrate the effects of climate change
+       modalsubtitle: SUDPLAN
+       modalparagraph: In the SUDPLAN project (Sustainable Urban Development Planner for Climate) we have collaboratively developed a software system, to illustrate, investigate the effects of climate change until 2100. In particular the SUDPLAN provides climate change projections on Air Quality, Preciptiation and Hydrology variables. The system is designed to be used lto infuse the effects of climate change in urban planning processes and can be used by any city in Europe.
+       modalsecondsubtitle: More information
+       modallinks:
+         - title: Website
+           link: http://www.sudplan.eu/
+           icon:
+         - title: Project leaflet
+           link: http://www.sudplan.eu/polopoly_fs/1.12560!SUDPLANsep-10.pdf
+           icon:
+         - title: Newsletter
+           link: http://www.sudplan.eu/polopoly_fs/1.20210!SUDPLAN_Newsletter2.pdf
+           icon:
+       modalcustomertitle: Sudplan is EU FP7 Research project
+       modalcustomerparagraph: "Project reference: 247708. Project runtime: 2010-2012. (Coordinator: Dr. Lars Gidhagen / SMHI Sweden)"
+   - row: 2
+     columns:
+     - title : Consultancy Services
+       subtitle: DEWS (Tsunami Early Warning System, FP6 Research project)
+       half_or_empty_when_full: 
+       id: dews
+       modaltitle: "Consultancy: Distant Early Warning System."
+       modalsubtitle: DEWS
+       modalparagraph: The DEWS project – DEWS stands for Distant Early Warning System - aims at strengthening the early warning capacities by building an innovative generation of interoperable tsunami early warning systems. In DEWS tsunami detection is based on an open sensor platform, integrating sensor systems for earthquake and sea level and ground displacement monitoring.  We were sub-coontracted for architectual review and knowledge transfer.
+       modalsecondsubtitle: More information
+       modallinks:
+         - title: Website
+           link: http://www.dews-online.org/
+           icon:
+         - title: Leaflet
+           link: http://www.dews-online.org/home/-/document_library_display/Pgm2/view/10920/102?_110_INSTANCE_Pgm2_redirect=http%3A%2F%2Fwww.dews-online.org%2Fhome%3Fp_p_id%3D110_INSTANCE_Pgm2%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-2%26p_p_col_pos%3D1%26p_p_col_count%3D2
+           icon:
+       modalcustomertitle: Client
+       modalcustomerparagraph: "Atos Research & Innovation Atos Origin Spain. (Contact: Mr.  José Lorenzo Mon)"
+     - title: Crisis Management
+       subtitle: CRISMA (FP7 Research project)
+       half_or_empty_when_full: 
+       id: crisma
+       modaltitle: Modelling crisis management for improved action and preparedness
+       modalsubtitle: CRISMA
+       modalparagraph: "The FP7 research project CRISMA shall develop a simulation-based decision support system (Integrated Crisis Management System – ICMS), for modelling crisis management, improved action and preparedness. The ICMS shall facilitate simulation and modelling of realistic crisis scenarios, possible response actions, and the impacts of crisis depending on both the external factors driving the crisis development and the various actions of the crisis management team." 
+       modalsecondsubtitle: More information
+       modallinks:
+         - title: Website
+           link: http://www.crismaproject.eu/
+           icon:
+         - title: Project summary
+           link: http://www.crismaproject.eu/project.htm
+           icon:
+         - title: Partners
+           link: http://www.crismaproject.eu/partners.htm
+           icon:
+       modalcustomertitle: CRISMA is a EU FP7 Research project (IP)
+       modalcustomerparagraph: "Project reference: 284552. Project runtime 2012 bis 2015. (Contact: Dr. Anna-Mari Heikkilä / VTT Finland)"
+     - title: "Asset-Management"
+       subtitle: BelIS
+       half_or_empty_when_full: -half
+       id: belis
+       modaltitle: City light management
+       modalsubtitle: BelIS
+       modalparagraph: "Belis is a software for the assessment and the management of city light related information. The software has been designed for operators of city light infrastructures (city adminstrations, utility service providers)."
+       modalsecondsubtitle: More information
+       modallinks:
+         - title: Wuppertal
+           link: http://www.wuppertal.de/
+           icon:
+       modalcustomertitle: Client
+       modalcustomerparagraph: "Stadtverwaltung Wuppertal. Ressort 104 - Straßen und Verkehr. (Contact: Mr.  Michael Wendling)"
+   - row: 3
+     columns:
+     - title : Duty and taxation
+       subtitle: VerdIS
+       half_or_empty_when_full: -half
+       id: verdis
+       modaltitle: Informationsystem for sealed surfaces
+       modalsubtitle: VerdIS
+       modalparagraph: VerdIS is an integrated solutionbietet dbuilt to support aquisition and maintenance of data (Feature / Map) to determin wastewater duties based on the type of ground cover materials (sealed surfaces). In addtion related topics like duties for snow removal or street cleaning.
+       modalsecondsubtitle: More information
+       modallinks:
+         - title: Wuppertal
+           link: http://www.wuppertal.de
+           icon:
+       modalcustomertitle: Client
+       modalcustomerparagraph: "Stadtverwaltung Wuppertal. Ressort 102 - Vermessung, Katasteramt und Geodaten. (Contact: Mr. Dirk Steinbacher)"
+     - title: State wide information systems
+       subtitle: FIS Wasser Mecklenburg-Vorpommern
+       half_or_empty_when_full: 
+       id: fiswassermv
+       modaltitle: Water body information system
+       modalsubtitle: FIS-Wasser-MV
+       modalparagraph: The information system provides the complete WFD (Water Framework Directive) set of information for the German federal State of Mecklenburg-Vorpommern. In addtion to the actual water body information this includes statistics, information on farming and environmental protection etc to be used to evaluate the quality status of water bodies. 
+       modalsecondsubtitle: More information
+       modallinks:
+         - title: FIS-Wasser-Handbuch
+           link: http://www.fis-wasser-mv.de/nutzerhandbuch/index.php/Hauptseite
+           icon: 
+         - title: LUNG MV
+           link: http://www.lung.mv-regierung.de/
+           icon: 
+         - title: WRRL MV
+           link: http://www.wrrl-mv.de/start.htm
+           icon:
+       modalcustomertitle: Client
+       modalcustomerparagraph: "German Federal State Agency for the Envrionment, Nature Protection and Geology Mecklenburg-Vorpommern. (Contact: Mr.  Eckard Kohlhas)"
+     - title: Strategieberatung
+       subtitle: Bureau of Meteorology Australia
+       half_or_empty_when_full: 
+       id: bom
+       modaltitle: Strategieberatung im AWRIS Projekt
+       modalsubtitle: AWRIS
+       modalparagraph: AWRIS (Australian Water Resources Information System) is a powerful information system capable of receiving, standardising, organising and interpreting water data from across the Australia. We have been contracted as consultants to evaluate the system architecture and identify possible deficiencies. 
+       modalsecondsubtitle: More information
+       modallinks:
+         - title: Projektwebsite
+           link: http://www.bom.gov.au/water/about/wip/awris.shtml
+           icon:
+         - title: Broschüre
+           link: http://www.bom.gov.au/water/about/publications/document/InfoSheet_3.pdf
+           icon:
+         - title: B.O.M.
+           link: http://www.bom.gov.au
+           icon:
+       modalcustomertitle: Client
+       modalcustomerparagraph: "Australia Bureau of Meteorology (Contact: Dr. Robert Argent)"
+   - row: 4
+     columns:
+     - title : Environmental monitoring
+       subtitle: Water stream quality assessment and mapping
+       half_or_empty_when_full: 
+       id: fgskmv
+       modaltitle: Hydromorphologice status of a water stream
+       modalsubtitle: FGSK Topic application as part of FIS-Wasser
+       modalparagraph: The hydromorphologic status is an important auxillary parameter to support the WFD induced reporting obligations. The approach is a well known and approved method to determin the water body quality status. The FGSK software supports the creation and maintainance of hydromorphological maps.
+       modalsecondsubtitle: More information
+       modallinks:
+         - title: Handbook
+           link: http://www.fis-wasser-mv.de/nutzerhandbuch/index.php/FGSK
+           icon:
+         - title: LUNG MV
+           link: http://www.lung.mv-regierung.de/
+           icon: 
+         - title: WRRL MV (WFD)
+           link: http://www.wrrl-mv.de/start.htm
+           icon:
+       modalcustomertitle: Client
+       modalcustomerparagraph: "German Federal State Agency for the Envrionment, Nature Protection and Geology Mecklenburg-Vorpommern. (Contact: Mr.  Eckard Kohlhas)"
+     - title: Land property management
+       subtitle: LagIS
+       half_or_empty_when_full: 
+       id: lagis
+       modaltitle: Digital stock ledger
+       modalsubtitle: LagIS
+       modalparagraph:  LagIS  (Lagerbuch Informationssystem) is a software to managage and maintain von city owned land property. The application supports city managers to deal with the complex processes of digital stock ledger management.
+       modalsecondsubtitle: More information
+       modallinks:
+         - title: Wuppertal
+           link: http://www.wuppertal.de
+           icon:
+       modalcustomertitle: Client
+       modalcustomerparagraph: "Stadtverwaltung Wuppertal. Ressort 102 - Vermessung, Katasteramt und Geodaten. (Contact: Mr. Dirk Steinbacher)"
+     - title: Semantic Web
+       subtitle: Tatoo (FP7 Research project)
+       half_or_empty_when_full: -half
+       id: tatoo
+       modaltitle: Tagging Tool based on a Semantic Discovery Framework
+       modalsubtitle: Tatoo
+       modalparagraph: TaToo (Tagging Tool based on a Semantic Discovery Framework). The FP7 research project aims to enable experts as well as general users to share trusted and reliable environmental information, but also to allow easy discovery of environmental information which is already available.
+       modalsecondsubtitle: More information
+       modallinks:
+         - title: Projektwebsite
+           link: http://www.tatoo-fp7.eu/tatooweb/
+           icon: 
+         - title: Broschüre
+           link: http://www.tatoo-fp7.eu/tatooweb/system/files/common/Fact%20Sheet_washout.pdf
+           icon:
+         - title: Partner
+           link: http://www.tatoo-fp7.eu/tatooweb/partners
+           icon:
+       modalcustomertitle: Tatoo is a FP7 Research project
+       modalcustomerparagraph: "Project reference: 247893. Project runtime 2010-2012. (Coordinator: Mr. Gerald Schimack / AIT Austria)"
  services:
-  title: The user is the central point during all phases of software development.
-  facts:
-   - row: 1
-     width: 4
-     columns:
-     - title : Development
-       icon: glyphicons/glyphicons_009_magic.png
-       paragraph: One of our major business areas is the development of custom made and highly integrated software systems using Open Source GIS-software.
-     - title : Research
-       icon: glyphicons/glyphicons_079_podium.png
-       paragraph: Our field of research in EU funded projects includes concepts for information integration and large scale architectures very often involving aspects of geospatial data infrastructures.
-     - title : Products
-       icon: glyphicons/glyphicons_163_iphone.png
-       paragraph: Use and marketing cids/cismap our geospatial integration platform as a powerful tool to build sustainable information systems for industry and public bodies.
-   - row: 2
-     width: 4
-     columns:
-     - title : Consulting
-       icon: glyphicons/glyphicons_060_compass.png
-       paragraph: We are proven experts in the field architectures of  complex, large scale software systems, the concrete use of reference models, service infrastructures and the integration of gesospatial apsects.
-     - title : Strong Partners
-       icon: glyphicons/glyphicons_023_cogwheels.png
-       paragraph: Through our activities we are well connected to international partners including renowned industry, public bodies, universities and research organisations.
-     - title : Publications
-       icon: glyphicons/glyphicons_266_book_open.png
-       paragraph: In frequent publications in the fields of Decision Support Systems, Spatial Data- Infrastructures und Architectures we can demonstrate that we successfully combine theory and practice.
-   - row: 3
-     width: 4
-     columns:
-     - title : Open Source
-       icon: glyphicons/glyphicons_381_github.png
-       paragraph: We use and create open source software for our customers financial benefit.
-     - title : Individual customer support
-       icon: glyphicons/glyphicons_024_parents.png
-       paragraph: As a small company we can provide you with fast, indvidual and personal customer support.
-     - title : We understand
-       icon: glyphicons/glyphicons_029_notes_2.png
-       paragraph: Our long experience in public body and industry projects helps us to rapidly your individual problem and its context and create custom software perfectly suited to your needs.
-   - row: 4
-     width: 4
-     columns:
-     - title : Java
-       icon: glyphicons/glyphicons_294_coffe_cup.png
-       paragraph: The programming language number one is the weapon of our choice for infrastructure projects and desktop applications that provide an optimal workflow support.
-     - title : REST
-       icon: glyphicons/glyphicons_232_cloud.png
-       paragraph: WEb technologies help to produce scalable applications. Open and standard based interfaces for enhanced accessability and minimal integration effort.
-     - title : Postgres/PostGIS
-       icon: glyphicons/glyphicons_141_database_plus.png
-       paragraph: Das fortschrittlichste freie objektrationale Datenbanksystem mit seiner GIS Erweiterung PostGIS wird in den meisten unserer Lösungen als Datenbackend genutzt.
+  title: The user is the central point during all phases of software development.
+  facts:
+   - row: 1
+     width: 4
+     columns:
+     - title : Development
+       icon: glyphicons/glyphicons_009_magic.png
+       paragraph: One of our major business areas is the development of custom made and highly integrated software systems using Open Source GIS-software.
+     - title : Research
+       icon: glyphicons/glyphicons_079_podium.png
+       paragraph: Our field of research in EU funded projects includes concepts for information integration and large scale architectures very often involving aspects of geospatial data infrastructures.
+     - title : Products
+       icon: glyphicons/glyphicons_163_iphone.png
+       paragraph: Use and marketing cids/cismap our geospatial integration platform as a powerful tool to build sustainable information systems for industry and public bodies.
+   - row: 2
+     width: 4
+     columns:
+     - title : Consulting
+       icon: glyphicons/glyphicons_060_compass.png
+       paragraph: We are proven experts in the field architectures of  complex, large scale software systems, the concrete use of reference models, service infrastructures and the integration of gesospatial apsects.
+     - title : Strong Partners
+       icon: glyphicons/glyphicons_023_cogwheels.png
+       paragraph: Through our activities we are well connected to international partners including renowned industry, public bodies, universities and research organisations.
+     - title : Publications
+       icon: glyphicons/glyphicons_266_book_open.png
+       paragraph: In frequent publications in the fields of Decision Support Systems, Spatial Data- Infrastructures und Architectures we can demonstrate that we successfully combine theory and practice.
+   - row: 3
+     width: 4
+     columns:
+     - title : Open Source
+       icon: glyphicons/glyphicons_381_github.png
+       paragraph: We use and create open source software for our customers financial benefit.
+     - title : Individual customer support
+       icon: glyphicons/glyphicons_024_parents.png
+       paragraph: As a small company we can provide you with fast, indvidual and personal customer support.
+     - title : We understand
+       icon: glyphicons/glyphicons_029_notes_2.png
+       paragraph: Our long experience in public body and industry projects helps us to rapidly your individual problem and its context and create custom software perfectly suited to your needs.
+   - row: 4
+     width: 4
+     columns:
+     - title : Java
+       icon: glyphicons/glyphicons_294_coffe_cup.png
+       paragraph: The programming language number one is the weapon of our choice for infrastructure projects and desktop applications that provide an optimal workflow support.
+     - title : REST
+       icon: glyphicons/glyphicons_232_cloud.png
+       paragraph: WEb technologies help to produce scalable applications. Open and standard based interfaces for enhanced accessability and minimal integration effort.
+     - title : Postgres/PostGIS
+       icon: glyphicons/glyphicons_141_database_plus.png
+       paragraph: Das fortschrittlichste freie objektrationale Datenbanksystem mit seiner GIS Erweiterung PostGIS wird in den meisten unserer Lösungen als Datenbackend genutzt.
  contact:
-  title: Questions, Requests, Business? Please, contact us!
-  or: oder ...
-  mail: eMail-adresses
-  mailimage: socialmedia/skype-globe.png
-  mailsubtitle: "our eMail-adresses:"
-  mailparagraph: You can reach our team by firstname.lastname@cismet.de. 
-  mailsubtitle2: "addtional eMail-adresses"
-  mailadresses: 
-   - adress: "mailto:info@cismet.de"
-     name: General things
-   - adress: "mailto:gf@cismet.de"
-     name: Management
-   - adress: "mailto:sekretariat@cismet.de"
-     name: Administrative issues
-  skype: Skype-Accounts
-  skypesubtitle: Skype
-  skypeparagraph: We use Skype in many project for easy and free teleconferences and international calls. Please find our skype contacts below.
-  skypesubtitle2: "our Skypeaccounts:"
-  skypeaccounts:
-   - adress: hellAtCismet
-     name: Thorsten Hell
-   - adress: schlobster
-     name: Sascha Schlobinski
-   - adress: jeanAtCismet
-     name: Jean Ruiz
-   - adress: pascalAtCismet
-     name: Pascal Dihé
-   - adress: martinAtCismet
-     name: Martin Scholl
-   - adress: jeweAtCismet
-     name: Jens Weintraut
+  title: Questions, Requests, Business? Please, contact us!
+  or: oder ...
+  mail: eMail-adresses
+  mailimage: socialmedia/skype-globe.png
+  mailsubtitle: "our eMail-adresses:"
+  mailparagraph: You can reach our team by firstname.lastname@cismet.de. 
+  mailsubtitle2: "addtional eMail-adresses"
+  mailadresses: 
+   - adress: "mailto:info@cismet.de"
+     name: General things
+   - adress: "mailto:gf@cismet.de"
+     name: Management
+   - adress: "mailto:sekretariat@cismet.de"
+     name: Administrative issues
+  skype: Skype-Accounts
+  skypesubtitle: Skype
+  skypeparagraph: We use Skype in many project for easy and free teleconferences and international calls. Please find our skype contacts below.
+  skypesubtitle2: "our Skypeaccounts:"
+  skypeaccounts:
+   - adress: hellAtCismet
+     name: Thorsten Hell
+   - adress: schlobster
+     name: Sascha Schlobinski
+   - adress: jeanAtCismet
+     name: Jean Ruiz
+   - adress: pascalAtCismet
+     name: Pascal Dihé
+   - adress: martinAtCismet
+     name: Martin Scholl
+   - adress: jeweAtCismet
+     name: Jens Weintraut
