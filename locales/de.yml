@@ -341,7 +341,7 @@ de :
        paragraph: Die Technologie des Webs sorgt bei unseren Systemen für leichte Erweiterbarkeit . Die offenen und Standard-basierten Schnittstellen machen es externen Systemen leicht auf den Mehrwert unserer Prozesse und Applikationen zuzugreifen.
      - title : Postgres/PostGIS
        icon: glyphicons/glyphicons_141_database_plus.png
-       paragraph: Das fortschrittlichste freie objektrationale Datenbanksystem mit seiner GIS Erweiterung PostGIS wird in den meisten unserer Lösungen als Datenbackend genutzt.
+       paragraph: Das fortschrittlichste freie objektrelationale Datenbanksystem mit seiner GIS Erweiterung PostGIS wird in den meisten unserer Lösungen als Datenbackend genutzt.
  contact:
   title: Fragen, Wünsche, Geschäft? Wir helfen gerne.
   or: oder ...
