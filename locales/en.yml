@@ -87,7 +87,7 @@ en :
            icon:
        modalcustomertitle: Client
        modalcustomerparagraph: "German Federal State Agency for the Envrionment, Nature Protection and Geology Mecklenburg-Vorpommern. (Contact: Mr.  Andreas Küchler)"
-     - title: Information hub in the municipality
+     - title: Information Hub in the Municipality
        subtitle: WuNDa
        half_or_empty_when_full: 
        id: wunda
@@ -101,7 +101,7 @@ en :
            icon:
        modalcustomertitle: Client
        modalcustomerparagraph: "Stadtverwaltung Wuppertal. Ressort 102 - Vermessung, Katasteramt und Geodaten. (Contact: Mr.  Stefan Sander)"
-     - title: Dealing with the effects of climate change
+     - title: Dealing with the Effects of Climate Change
        subtitle: SUDPLAN (FP7 Research project)
        half_or_empty_when_full: 
        id: sudplan
@@ -159,7 +159,7 @@ en :
            link: http://www.crismaproject.eu/partners.htm
            icon:
        modalcustomertitle: CRISMA is a EU FP7 Research project (IP)
-       modalcustomerparagraph: "Project reference: 284552. Project runtime 2012 bis 2015. (Contact: Dr. Anna-Mari Heikkilä / VTT Finland)"
+       modalcustomerparagraph: "Project reference: 284552. Project runtime 2012 - 2015. (Contact: Dr. Anna-Mari Heikkilä / VTT Finland)"
      - title: "Asset-Management"
        subtitle: BelIS
        half_or_empty_when_full: -half
@@ -176,11 +176,11 @@ en :
        modalcustomerparagraph: "Stadtverwaltung Wuppertal. Ressort 104 - Straßen und Verkehr. (Contact: Mr.  Michael Wendling)"
    - row: 3
      columns:
-     - title : Duties and taxation
+     - title : Duties and Taxation
        subtitle: VerdIS
        half_or_empty_when_full: -half
        id: verdis
-       modaltitle: Informationsystem for sealed surfaces
+       modaltitle: Information system for sealed surfaces
        modalsubtitle: VerdIS
        modalparagraph: VerdIS is an integrated solutionbietet dbuilt to support aquisition and maintenance of data (Feature / Map) to determin wastewater duties based on the type of ground cover materials (sealed surfaces). In addtion related topics like duties for snow removal or street cleaning.
        modalsecondsubtitle: More information
@@ -190,7 +190,7 @@ en :
            icon:
        modalcustomertitle: Client
        modalcustomerparagraph: "Stadtverwaltung Wuppertal. Ressort 102 - Vermessung, Katasteramt und Geodaten. (Contact: Mr. Dirk Steinbacher)"
-     - title: State wide information systems
+     - title: Cross Agency Information Systems
        subtitle: FIS Wasser Mecklenburg-Vorpommern
        half_or_empty_when_full: 
        id: fiswassermv
@@ -214,7 +214,7 @@ en :
        subtitle: Bureau of Meteorology Australia
        half_or_empty_when_full: 
        id: bom
-       modaltitle: Strategieberatung im AWRIS Projekt
+       modaltitle: Strategies for information systems
        modalsubtitle: AWRIS
        modalparagraph: AWRIS (Australian Water Resources Information System) is a powerful information system capable of receiving, standardising, organising and interpreting water data from across the Australia. We have been contracted as consultants to evaluate the system architecture and identify possible deficiencies. 
        modalsecondsubtitle: More information
@@ -336,7 +336,7 @@ en :
        paragraph: WEb technologies help to produce scalable applications. Open and standard based interfaces for enhanced accessability and minimal integration effort.
      - title : Postgres/PostGIS
        icon: glyphicons/glyphicons_141_database_plus.png
-       paragraph: Das fortschrittlichste freie objektrationale Datenbanksystem mit seiner GIS Erweiterung PostGIS wird in den meisten unserer Lösungen als Datenbackend genutzt.
+       paragraph: The most advanced object relational database management system with the powerful GIS extension postGIS is used as the backend of many of our solutions.
  contact:
   title: Questions, Requests, Business? Please, contact us!
   or: oder ...
