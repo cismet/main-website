@@ -63,14 +63,16 @@ en :
   - image : personal/daniel.jpg
     headline : Daniel Meiers (B.Sc. @ HTW des Saarlandes)
     description : Software development. 
-
+  - image : personal/jimmy.jpg
+    headline : Jimmy Lauter (B.Sc. Student @ HTW des Saarlandes)
+    description : Software development. 
 
  projects:
   title: Based on our experience in numerous national and international projects we can support in your individual endavour.
   list:
    - row: 1
      columns:
-     - title : Environmental Planning 
+     - title : EnviroPlanning 
        subtitle: Water body management
        half_or_empty_when_full: -half
        id: gupmv
@@ -100,8 +102,8 @@ en :
            link: http://www.wuppertal.de
            icon:
        modalcustomertitle: Client
-       modalcustomerparagraph: "Stadtverwaltung Wuppertal. Ressort 102 - Vermessung, Katasteramt und Geodaten. (Contact: Mr.  Stefan Sander)"
-     - title: Dealing with the Effects of Climate Change
+       modalcustomerparagraph: "The city of Wuppertal. Ressort 102 - Geodesy, Cadastres and Geodata. (Contact: Mr.  Stefan Sander)"
+     - title: Mitigate the Effects of Climate Change
        subtitle: SUDPLAN (FP7 Research project)
        half_or_empty_when_full: 
        id: sudplan
@@ -252,7 +254,7 @@ en :
            icon:
        modalcustomertitle: Client
        modalcustomerparagraph: "German Federal State Agency for the Envrionment, Nature Protection and Geology Mecklenburg-Vorpommern. (Contact: Mr.  Eckard Kohlhas)"
-     - title: Land property management
+     - title: Land Property Management
        subtitle: LagIS
        half_or_empty_when_full: 
        id: lagis
@@ -339,7 +341,7 @@ en :
        paragraph: The most advanced object relational database management system with the powerful GIS extension postGIS is used as the backend of many of our solutions.
  contact:
   title: Questions, Requests, Business? Please, contact us!
-  or: oder ...
+  or: or ...
   mail: eMail-adresses
   mailimage: socialmedia/skype-globe.png
   mailsubtitle: "our eMail-adresses:"
