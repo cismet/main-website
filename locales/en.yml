@@ -15,21 +15,21 @@ en :
   title: We develop sustainable software systems and information integration strategies.
   points:
   - image: glyphicons/glyphicons_040_stats.png
-    subtitle: The roots
+    subtitle: The Roots
     description: "The company was founded as a University Spin-Off from the Environmental Informatics Group at the Saarland State University of applied sciences in 2002. Founders and owners are: Thorsten Hell, Prof. Ralf Denzer, Prof. Reiner Güttler and Sascha Schlobinski. The company is located at IT-Park Saarland which is the focal point of Saarland's IT- and new media industry. "
   - image: glyphicons/glyphicons_042_group.png
-    subtitle: A competent team
+    subtitle: A Competent Team
     description: As accomplished computer scientists with substantial IT- and research project experience our staff has the necessary know-how and capacity for the design and implementation of complex information systems. This includes, in addtion to the essential social skills a solid, sound and theoretically grounded comprehension of data base- and software design as well as long term experience in sutainable software development and programming methods.
  slideshow:
   activeslide:
    image : personal/1.jpg
-   headline : Names, roles and faces
+   headline : Names, Roles and Faces
    description : ""
 
   slides:
   - image : personal/sascha.jpg
     headline : Sascha Schlobinski (M.Sc. @ Universität des Saarlandes)
-    description : Owner and CEO, Head of research projects.
+    description : Owner and CEO, Head of research.
   - image : personal/thorsten.jpg
     headline : Thorsten Hell (M.Sc. @ Universität des Saarlandes)
     description : Owner and CEO, Head of software development.
@@ -93,7 +93,7 @@ en :
        id: wunda
        modaltitle: Wuppertaler Navigations and Daten- Management System
        modalsubtitle: WuNDa
-       modalparagraph: "THe WunDa software consists of a service-orientiented infrastructure for the  auf der Basis des Opensource Toolkits cids. Als zentrale Datendrehscheibe ermöglicht WuNDa städtische Mitarbeitern den abteilungs- und themenübergreifenden Zugriff auf raumbezogene Informationen."
+       modalparagraph: "THe WunDa software consists of a service-orientiented infrastructure on basis ofthe open source toolkits cids. WuNDa serves as an information hub that provides access to geospatial information to city managers across topics and organisational units"
        modalsecondsubtitle: More information
        modallinks:
          - title: Wuppertal
@@ -173,7 +173,7 @@ en :
            link: http://www.wuppertal.de/
            icon:
        modalcustomertitle: Client
-       modalcustomerparagraph: "Stadtverwaltung Wuppertal. Ressort 104 - Straßen und Verkehr. (Contact: Mr.  Michael Wendling)"
+       modalcustomerparagraph: ""The city of Wuppertal. Ressort 104 - Streets and Traffic. (Contact: Mr.  Michael Wendling)"
    - row: 3
      columns:
      - title : Duties and Taxation
@@ -182,14 +182,14 @@ en :
        id: verdis
        modaltitle: Information system for sealed surfaces
        modalsubtitle: VerdIS
-       modalparagraph: VerdIS is an integrated solutionbietet dbuilt to support aquisition and maintenance of data (Feature / Map) to determin wastewater duties based on the type of ground cover materials (sealed surfaces). In addtion related topics like duties for snow removal or street cleaning.
+       modalparagraph: VerdIS is an integrated solution built to support aquisition and maintenance of data (Feature / Map) to determin wastewater duties based on the type of ground cover materials (sealed surfaces). In addtion related topics like duties for snow removal or street cleaning.
        modalsecondsubtitle: More information
        modallinks:
          - title: Wuppertal
            link: http://www.wuppertal.de
            icon:
        modalcustomertitle: Client
-       modalcustomerparagraph: "Stadtverwaltung Wuppertal. Ressort 102 - Vermessung, Katasteramt und Geodaten. (Contact: Mr. Dirk Steinbacher)"
+       modalcustomerparagraph: "The city of Wuppertal. Ressort 102 - Geodesy, Cadastres and Geodata. (Contact: Mr. Dirk Steinbacher)"
      - title: Cross Agency Information Systems
        subtitle: FIS Wasser Mecklenburg-Vorpommern
        half_or_empty_when_full: 
