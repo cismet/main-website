@@ -16,7 +16,7 @@ en :
   points:
   - image: glyphicons/glyphicons_040_stats.png
     subtitle: The roots
-    description: The company was founded as a University Spin-Off from the Environmental Informatics Group at the Saarland State University of applied sciences in 2002. Founders and owners are: Thorsten Hell, Prof. Ralf Denzer, Prof. Reiner Güttler and Sascha Schlobinski. The company is located at IT-Park Saarland which is the focal point of Saarland's IT- and new media industry. 
+    description: "The company was founded as a University Spin-Off from the Environmental Informatics Group at the Saarland State University of applied sciences in 2002. Founders and owners are: Thorsten Hell, Prof. Ralf Denzer, Prof. Reiner Güttler and Sascha Schlobinski. The company is located at IT-Park Saarland which is the focal point of Saarland's IT- and new media industry. "
   - image: glyphicons/glyphicons_042_group.png
     subtitle: A competent team
     description: As accomplished computer scientists with substantial IT- and research project experience our staff has the necessary know-how and capacity for the design and implementation of complex information systems. This includes, in addtion to the essential social skills a solid, sound and theoretically grounded comprehension of data base- and software design as well as long term experience in sutainable software development and programming methods.
@@ -161,18 +161,17 @@ en :
            icon:
        modalcustomertitle: CRISMA is a EU FP7 Research project (IP)
        modalcustomerparagraph: "Project reference: 284552. Project runtime 2012 bis 2015. (Contact: Dr. Anna-Mari Heikkilä / VTT Finland)"
-     - title: Asset-Management
+     - title: "Asset-Management"
        subtitle: BelIS
        half_or_empty_when_full: -half
        id: belis
        modaltitle: City light management
        modalsubtitle: BelIS
-       modalparagraph: "Belis is a software for the assessment and the management of city light related information. The software has been designed for operators of city light infrastructures (city adminstrations, utility service providers)."  
-
+       modalparagraph: "Belis is a software for the assessment and the management of city light related information. The software has been designed for operators of city light infrastructures (city adminstrations, utility service providers)."
        modalsecondsubtitle: More information
        modallinks:
          - title: Wuppertal
-           link: http://www.wuppertal.de
+           link: http://www.wuppertal.de/
            icon:
        modalcustomertitle: Client
        modalcustomerparagraph: "Stadtverwaltung Wuppertal. Ressort 104 - Straßen und Verkehr. (Contact: Mr.  Michael Wendling)"
