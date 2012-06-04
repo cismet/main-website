@@ -222,17 +222,17 @@ en :
          - title: Projektwebsite
            link: http://www.bom.gov.au/water/about/wip/awris.shtml
            icon:
-         - title: Broschüre
+         - title: Brochure
            link: http://www.bom.gov.au/water/about/publications/document/InfoSheet_3.pdf
            icon:
          - title: B.O.M.
            link: http://www.bom.gov.au
            icon:
        modalcustomertitle: Client
-       modalcustomerparagraph: "Australia Bureau of Meteorology (Contact: Dr. Robert Argent)"
+       modalcustomerparagraph: "Australian Bureau of Meteorology (Contact: Dr. Robert Argent)"
    - row: 4
      columns:
-     - title : Environmental monitoring
+     - title : Environmental Monitoring
        subtitle: Water stream quality assessment and mapping
        half_or_empty_when_full: 
        id: fgskmv
@@ -265,7 +265,7 @@ en :
            link: http://www.wuppertal.de
            icon:
        modalcustomertitle: Client
-       modalcustomerparagraph: "Stadtverwaltung Wuppertal. Ressort 102 - Vermessung, Katasteramt und Geodaten. (Contact: Mr. Dirk Steinbacher)"
+       modalcustomerparagraph: "The city of Wuppertal. Ressort 102 - Geodesy, Cadastres and Geodata. (Contact: Mr. Dirk Steinbacher)"
      - title: Semantic Web
        subtitle: Tatoo (FP7 Research project)
        half_or_empty_when_full: -half
@@ -285,9 +285,9 @@ en :
            link: http://www.tatoo-fp7.eu/tatooweb/partners
            icon:
        modalcustomertitle: Tatoo is a FP7 Research project
-       modalcustomerparagraph: "Project reference: 247893. Project runtime 2010-2012. (Coordinator: Mr. Gerald Schimack / AIT Austria)"
+       modalcustomerparagraph: "Project reference: 247893. Project runtime 2010 - 2012. (Coordinator: Mr. Gerald Schimack / AIT Austria)"
  services:
-  title: The user is the central point during all phases of software development.
+  title: The user is the center of all phases of software development.
   facts:
    - row: 1
      width: 4
