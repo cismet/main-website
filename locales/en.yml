@@ -120,7 +120,7 @@ en :
            link: http://www.sudplan.eu/polopoly_fs/1.20210!SUDPLAN_Newsletter2.pdf
            icon:
        modalcustomertitle: Sudplan is EU FP7 Research project
-       modalcustomerparagraph: "Project reference: 247708. Project runtime: 2010-2012. (Coordinator: Dr. Lars Gidhagen / SMHI Sweden)"
+       modalcustomerparagraph: "Project reference: 247708. Project runtime: 2010-2012. (Coordinator: Dr. Lars Gidhagen / Swedish Meteorological and Hydrological Institue)"
    - row: 2
      columns:
      - title : Consultancy Services
@@ -159,7 +159,7 @@ en :
            link: http://www.crismaproject.eu/partners.htm
            icon:
        modalcustomertitle: CRISMA is a EU FP7 Research project (IP)
-       modalcustomerparagraph: "Project reference: 284552. Project runtime 2012 - 2015. (Contact: Dr. Anna-Mari Heikkilä / VTT Finland)"
+       modalcustomerparagraph: "Project reference: 284552. Project runtime 2012 - 2015. (Contact: Dr. Anna-Mari Heikkilä / VTT Technical Research Centre of Finland)"
      - title: "Asset-Management"
        subtitle: BelIS
        half_or_empty_when_full: -half
@@ -275,17 +275,17 @@ en :
        modalparagraph: TaToo (Tagging Tool based on a Semantic Discovery Framework). The FP7 research project aims to enable experts as well as general users to share trusted and reliable environmental information, but also to allow easy discovery of environmental information which is already available.
        modalsecondsubtitle: More information
        modallinks:
-         - title: Projektwebsite
+         - title: Website
            link: http://www.tatoo-fp7.eu/tatooweb/
            icon: 
-         - title: Broschüre
+         - title: Brochure
            link: http://www.tatoo-fp7.eu/tatooweb/system/files/common/Fact%20Sheet_washout.pdf
            icon:
-         - title: Partner
+         - title: Partners
            link: http://www.tatoo-fp7.eu/tatooweb/partners
            icon:
        modalcustomertitle: Tatoo is a FP7 Research project
-       modalcustomerparagraph: "Project reference: 247893. Project runtime 2010 - 2012. (Coordinator: Mr. Gerald Schimack / AIT Austria)"
+       modalcustomerparagraph: "Project reference: 247893. Project runtime 2010 - 2012. (Coordinator: Mr. Gerald Schimack / Austrian Institute of Technology GmbH)"
  services:
   title: The user is the center of all phases of software development.
   facts:
@@ -300,7 +300,7 @@ en :
        paragraph: Our field of research in EU funded projects includes concepts for information integration and large scale architectures very often involving aspects of geospatial data infrastructures.
      - title : Products
        icon: glyphicons/glyphicons_163_iphone.png
-       paragraph: Use and marketing cids/cismap our geospatial integration platform as a powerful tool to build sustainable information systems for industry and public bodies.
+       paragraph: We use and market cids/cismap our geospatial integration platform as a powerful tool to build sustainable information systems for industry and public bodies.
    - row: 2
      width: 4
      columns:
@@ -318,13 +318,13 @@ en :
      columns:
      - title : Open Source
        icon: glyphicons/glyphicons_381_github.png
-       paragraph: We use and create open source software for our customers financial benefit.
+       paragraph: We use and create open source software for our customer's financial benefit.
      - title : Individual customer support
        icon: glyphicons/glyphicons_024_parents.png
        paragraph: As a small company we can provide you with fast, indvidual and personal customer support.
      - title : We understand
        icon: glyphicons/glyphicons_029_notes_2.png
-       paragraph: Our long experience in public body and industry projects helps us to rapidly your individual problem and its context and create custom software perfectly suited to your needs.
+       paragraph: Our long experience in public body and industry projects helps us to rapidly grasp your individual problem and its context and create custom software perfectly suited to your needs.
    - row: 4
      width: 4
      columns:
@@ -333,7 +333,7 @@ en :
        paragraph: The programming language number one is the weapon of our choice for infrastructure projects and desktop applications that provide an optimal workflow support.
      - title : REST
        icon: glyphicons/glyphicons_232_cloud.png
-       paragraph: WEb technologies help to produce scalable applications. Open and standard based interfaces for enhanced accessability and minimal integration effort.
+       paragraph: WEB technologies help to produce scalable applications. Open and standard based interfaces for enhanced accessability and minimal integration effort.
      - title : Postgres/PostGIS
        icon: glyphicons/glyphicons_141_database_plus.png
        paragraph: The most advanced object relational database management system with the powerful GIS extension postGIS is used as the backend of many of our solutions.
