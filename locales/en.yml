@@ -173,7 +173,7 @@ en :
            link: http://www.wuppertal.de/
            icon:
        modalcustomertitle: Client
-       modalcustomerparagraph: ""The city of Wuppertal. Ressort 104 - Streets and Traffic. (Contact: Mr.  Michael Wendling)"
+       modalcustomerparagraph: "The city of Wuppertal. Ressort 104 - Streets and Traffic. (Contact: Mr.  Michael Wendling)"
    - row: 3
      columns:
      - title : Duties and Taxation
@@ -199,7 +199,7 @@ en :
        modalparagraph: The information system provides the complete WFD (Water Framework Directive) set of information for the German federal State of Mecklenburg-Vorpommern. In addtion to the actual water body information this includes statistics, information on farming and environmental protection etc to be used to evaluate the quality status of water bodies. 
        modalsecondsubtitle: More information
        modallinks:
-         - title: FIS-Wasser-Handbuch
+         - title: FIS-Wasser-Manual
            link: http://www.fis-wasser-mv.de/nutzerhandbuch/index.php/Hauptseite
            icon: 
          - title: LUNG MV
