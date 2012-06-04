@@ -176,7 +176,7 @@ en :
        modalcustomerparagraph: "Stadtverwaltung Wuppertal. Ressort 104 - Straßen und Verkehr. (Contact: Mr.  Michael Wendling)"
    - row: 3
      columns:
-     - title : Duty and taxation
+     - title : Duties and taxation
        subtitle: VerdIS
        half_or_empty_when_full: -half
        id: verdis
@@ -210,7 +210,7 @@ en :
            icon:
        modalcustomertitle: Client
        modalcustomerparagraph: "German Federal State Agency for the Envrionment, Nature Protection and Geology Mecklenburg-Vorpommern. (Contact: Mr.  Eckard Kohlhas)"
-     - title: Strategieberatung
+     - title: Strategies
        subtitle: Bureau of Meteorology Australia
        half_or_empty_when_full: 
        id: bom
