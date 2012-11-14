@@ -2,7 +2,10 @@ Encoding.default_external = 'utf-8'
 
 activate :i18n
   localize :path => "/:locale/", :mount_at_root => :de, :langs => [:de, :en]
-
+set :markdown_engine, :redcarpet
+set :markdown, :fenced_code_blocks => true,
+	               :autolink => true, 
+		                      :smartypants => true
 
 ### 
 # Compass
@@ -97,4 +100,5 @@ configure :build do
   
   # Or use a different image path
   # set :http_path, "/Content/images/"
+  #
 end
