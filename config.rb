@@ -1,11 +1,12 @@
 Encoding.default_external = 'utf-8'
 
 activate :i18n
-  localize :path => "/:locale/", :mount_at_root => :de, :langs => [:de, :en]
+#  localize :path => "/:locale/", :mount_at_root => :de, :langs => [:de, :en]
 set :markdown_engine, :redcarpet
 set :markdown, :fenced_code_blocks => true,
-	               :autolink => true, 
-		                      :smartypants => true
+              :autolink => true, 
+               :smartypants => true,
+	       :tables => true
 
 ### 
 # Compass
@@ -95,10 +96,9 @@ configure :build do
   # require "middleman-smusher"
   # activate :smusher
 
-  activate :i18n
-  localize
+  #activate :i18n
+  #localize
   
   # Or use a different image path
   # set :http_path, "/Content/images/"
-  #
 end
