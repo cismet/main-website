@@ -2,14 +2,17 @@
 
 #Entwickeln mit cids - Häufig gestellte Fragen
 
-
-
 ##Was ist cids?
 cids ist ein Baukastensystem, mit dem maßgeschneiderte Softwaresysteme mit starkem Geobezug gebaut werden können. Cids basiert auf einer (oder mehreren) relationalen Datenbank(en) und einer darauf abgestimmten Serviceinfrastruktur. Das System stellt eine Standardbenutzeroberfläche (cids Navigator) zur Verfügung, die an vielen Stellen an die individuellen Anforderungen des zu erstellenden Softwaresystems angepasst werden kann. Die zentralen Komponenten von cids werden in folgendem Schaubild aufgeführt.
 
 ![image](http://www.cismet.de/images/faq-images/cids_components.png)
 
 Durch die ausgeprägte Flexibilität und Erweiterbarkeit von cids kann mit geringem Entwicklungsaufwand auf die Bedürfnisse der Nutzer eingangen werden. Dadurch wird, ähnlich wie bei einer individuellen "from scratch" entwickelten Anwendung, eine optimale Unterstützung der jeweiligen Arbeitsprozesse erreicht. Der Aufwand und die damit verbundenen Kosten sind jedoch wesentlich geringer, da der Baukasten schon viele Standardaufgaben (Authentifizierung, Rechte, Kartendarstellung, …) löst und sich der Entwickler auf die Unterstützung der eigentlichen Arbeitsprozesse konzentrieren kann.
+
+Weitereführende Informationen zu cids finden Sie in dieser [Präsentation](https://speakerdeck.com/helllth/was-ist-cids) oder in diesem Whitepaper.
+
+
+
 ##Was ist cismap?
 Ein großer Baustein in unserem Baukastensystem ist das cismap-Framework. Es ist die Basis der WebGIS Komponente des cids Baukastensystems, die den räumlichen Kontext beliebiger Objekte visualisiert,  aber auch als Ausgangspunkt für eigene GIS-Apps dienen kann, mit denen sehr benutzerspezifische Workflows abgebildet werden. Schwerpunkt von cismap ist die Integration OGC konformer Dienste (WMS,WFS,...).
 
