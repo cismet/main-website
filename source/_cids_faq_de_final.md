@@ -1,4 +1,4 @@
-<a href="http://cismet.github.com/"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+<a href="http://cismet.github.com/"><img style="position: absolute; top: 0; right: 0; border: 0;z-index:9999;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
 
 #Entwickeln mit cids - Häufig gestellte Fragen
 
@@ -9,7 +9,7 @@ cids ist ein Baukastensystem, mit dem maßgeschneiderte Softwaresysteme mit star
 
 Durch die ausgeprägte Flexibilität und Erweiterbarkeit von cids kann mit geringem Entwicklungsaufwand auf die Bedürfnisse der Nutzer eingangen werden. Dadurch wird, ähnlich wie bei einer individuellen "from scratch" entwickelten Anwendung, eine optimale Unterstützung der jeweiligen Arbeitsprozesse erreicht. Der Aufwand und die damit verbundenen Kosten sind jedoch wesentlich geringer, da der Baukasten schon viele Standardaufgaben (Authentifizierung, Rechte, Kartendarstellung, …) löst und sich der Entwickler auf die Unterstützung der eigentlichen Arbeitsprozesse konzentrieren kann.
 
-Weitereführende Informationen zu cids finden Sie in dieser [Präsentation](https://speakerdeck.com/helllth/was-ist-cids), in diesem [Whitepaper](http://www.cismet.de/cidsWhitepaper.html) oder in den [README](http://www.cismet.de/cidsReadme.html) Dateien der zentralen cids Projekte.
+Weitereführende Informationen zu cids finden Sie in dieser [Präsentation](https://speakerdeck.com/helllth/was-ist-cids), in diesem [Whitepaper](/cidsWhitepaper.html) oder in den [README](cidsReadme.html) Dateien der zentralen cids Projekte.
 
 
 ##Was ist cismap?

@@ -10,6 +10,9 @@ de :
   link_to_german: ./index.html
 
   close: Schließen
+  
+  backtocismet: Zurück zur Hauptseite
+  backtocismetlink: ./index.html
 
  company:
   title: Wir entwickeln nachhaltige Softwaresysteme und Strategien zur Integration von Informationen.

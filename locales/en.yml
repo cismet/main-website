@@ -11,6 +11,9 @@ en :
 
   close: Close
 
+  backtocismet: Back to the main site
+  backtocismetlink: ./en/index.html
+
  company:
   title: We develop sustainable software systems and information integration strategies.
   points:

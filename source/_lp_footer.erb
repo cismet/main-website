@@ -1,0 +1,75 @@
+
+</div>
+
+
+<div id="contact"   class="container" >
+            <br>
+  <br>
+                       
+        </div>
+        <div id="lp_footer" style="float:left; position:relative; width:100%; height:250px; padding:0; margin:0;">
+            <div id="map_canvas" style="float:left; width:100%; height:100%;"> </div>
+            <div class="outer_footer" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; z-index:100;">
+                <div class="inner_footer">
+                    <br><br><br>
+                    <div align='center'>
+                          <a href="http://cismet.github.com" target="new"><%= image_tag 'socialmedia/github.png' %></a>
+                         <a data-toggle="modal" href="#mailModal" target="_blank" ><%= image_tag 'socialmedia/mail.png' %></a>
+                          <a data-toggle="modal" href="#skypeModal" target="_blank" ><%= image_tag 'socialmedia/skype.png' %></a>
+                         
+                         <!--<a href="http://www.youtube.com" target="new"><%= image_tag 'socialmedia/youtube.png' %>-->
+                         <a href="http://www.linkedin.com/company/cismet-gmbh" target="new"><%= image_tag 'socialmedia/linkedin-logo.png' %></a>
+                        <a href="http://www.twitter.com/cismetGmbH" target="new"><%= image_tag 'socialmedia/twitter.png' %></a>
+                        <br>
+                        <br>
+                                               </div>
+
+
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        <div id="mailModal" class="modal hide fade" >
+            <div class="modal-header">
+                <button class="close" data-dismiss="modal">&times;</button>
+                <h3><%=I18n.t("contact.mail")%></h3>
+            </div>
+            <div class="modal-body" style="background-image: url(<%=image_path("projects/blurred/wunda.png")%>)" > 
+                <%= image_tag  "socialmedia/mail-icon.png" , :align => 'right', :style => 'padding: 15px;'%>
+                <h4><%= I18n.t("contact.mailsubtitle")%></h4>
+                <p ><%= I18n.t("contact.mailparagraph")%></p>
+                <br><br><br><br>
+                <h4><%= I18n.t("contact.mailsubtitle2")%></h4>
+                    <br>
+                  <% I18n.t("contact.mailadresses").each do |link| %>
+                        <a href="<%= link["adress"] %>" target="new" class="btn"  ><i class="icon-envelope"></i> <%= link["name"] %></a>
+                    <% end %>
+                
+
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn" data-dismiss="modal" ><%=I18n.t("menu.close")%></a>
+            </div>
+        </div>
+          <div id="skypeModal" class="modal hide fade" >
+            <div class="modal-header">
+                <button class="close" data-dismiss="modal">&times;</button>
+                <h3><%=I18n.t("contact.skype")%></h3>
+            </div>
+            <div class="modal-body" style="background-image: url(<%=image_path("projects/blurred/wunda.png")%>)" > 
+                <%= image_tag  "socialmedia/skype-icon.png" , :align => 'right', :style => 'padding: 15px;'%>
+                <h4><%= I18n.t("contact.skypesubtitle")%></h4>
+                <p ><%= I18n.t("contact.skypeparagraph")%></p>
+                <h4><%= I18n.t("contact.skypesubtitle2")%></h4>
+                <br>
+                <% I18n.t("contact.skypeaccounts").each do |link| %>
+                        <p><%= link["name"] %>: <b><%= link["adress"] %></b>
+                        </p>
+                    <% end %>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn" data-dismiss="modal" ><%=I18n.t("menu.close")%></a>
+            </div>
+        </div>
+        
