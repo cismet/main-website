@@ -13,6 +13,8 @@ en :
 
   backtocismet: Back to the main site
   backtocismetlink: ./en/index.html
+  
+  publications: cismet publications
 
  company:
   title: We develop sustainable software systems and information integration strategies.
