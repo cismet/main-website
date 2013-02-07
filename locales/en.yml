@@ -100,7 +100,7 @@ en :
        id: wunda
        modaltitle: Wuppertaler Navigations and Daten- Management System
        modalsubtitle: WuNDa
-       modalparagraph: "THe WunDa software consists of a service-orientiented infrastructure on basis of the open source toolkits cids. WuNDa serves as an information hub that provides access to geospatial information to city managers across topics and organisational units."
+       modalparagraph: "The WunDa software consists of a service-orientiented infrastructure on basis of the open source toolkits cids. WuNDa serves as an information hub that provides access to geospatial information to city managers across topics and organisational units."
        modalsecondsubtitle: More information
        modallinks:
          - title: Wuppertal
