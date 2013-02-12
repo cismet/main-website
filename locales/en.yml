@@ -53,23 +53,20 @@ en :
   - image : personal/jean.jpg
     headline : Jean-Michel Ruiz (Dipl. Inf. (FH) @ HTW des Saarlandes)
     description : Software development. 
-  - image : personal/jens.jpg
-    headline : Jens Weintraut (B.Sc. @ HTW des Saarlandes))
-    description : Research projects and software development.
   - image : personal/martin.jpg
     headline : Martin Scholl (Dipl. Inf. (FH) @ HTW des Saarlandes)
     description : Research projects and software development.
   - image : personal/thorstenherter.jpg
     headline : Thorsten Herter (M.Sc. @ HTW des Saarlandes)
     description : Software development. 
-  - image : personal/benni.jpg
-    headline : Benjamin Friedrich (B.Sc. @ HTW des Saarlandes)
-    description : Software development. 
   - image : personal/daniel.jpg
     headline : Daniel Meiers (B.Sc. @ HTW des Saarlandes)
     description : Software development. 
-  - image : personal/jimmy.jpg
-    headline : Jimmy Lauter (B.Sc. Student @ HTW des Saarlandes)
+  - image : personal/gilles.jpg
+    headline : Gilles Baatz (B.Sc. @ HTW des Saarlandes)
+    description : Software development. 
+  - image : personal/thomas.jpg
+    headline : Thomas Müsel (Intern)
     description : Software development. 
 
  projects:
@@ -305,7 +302,7 @@ en :
      - title : Research
        icon: glyphicons/glyphicons_079_podium.png
        paragraph: Our field of research in EU funded projects includes concepts for information integration and large scale architectures very often involving aspects of geospatial data infrastructures.
-     - title : Products
+     - title : cids Toolkit
        icon: glyphicons/glyphicons_163_iphone.png
        paragraph: We use and market <a href="/en/cidsReadme.html">cids/cismap</a> our geospatial integration platform as a powerful tool to build sustainable information systems for industry and public bodies.
    - row: 2
