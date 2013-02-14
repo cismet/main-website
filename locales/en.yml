@@ -71,6 +71,11 @@ en :
 
  projects:
   title: Based on our experience in numerous national and international projects we can support in your individual endavour.
+  slideshow:
+   activeslide:
+    image : projects/blurred/belis.png
+    headline : Namen, Aufgaben und Gesichter
+    description : ""
   list:
    - row: 1
      columns:

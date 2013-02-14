@@ -70,8 +70,16 @@ de :
     description : Softwareentwicklung. 
 
 
+
+
  projects:
   title: Mit unserer Erfahrung in zahlreichen nationalen und internationalen Projekten können wir Sie in Ihrem Vorhaben optimal unterstützen.
+  projectslideshow:
+   activeslide:
+    image : projects/blurred/belis.png
+    headline : Namen, Aufgaben und Gesichter
+    description : ""
+  
   list:
    - row: 1
      columns:
