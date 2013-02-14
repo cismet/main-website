@@ -4,7 +4,7 @@
                 <h1><%=I18n.t("projects.title")%></h1>
             </div>
 
-            <div style="width:1000px" class="hidden-desktop hidden-phone hidden-tablet imagegrayscaling">
+            <div style="width:1000px" class="hidden-phone hidden-tablet imagegrayscaling">
             <% I18n.t("projects.list").each do |row|%>
             <div>
                 <% row["columns"].each do |project|%>
@@ -19,8 +19,8 @@
                             </a>
                         </div>
                         <div class="mosaic-backdrop">
-                            
-                            <%= image_tag  "projects/"+project["id"]+".png" %>
+				<% if project["half_or_empty_when_full"].nil? then @xxx="l" else @xxx="p" end %>            
+				<%= image_tag  "projects/"+project["id"]+"_"+@xxx+".png" %>
                         </div>
 
                     </div>  
