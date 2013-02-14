@@ -74,11 +74,11 @@ de :
 
  projects:
   title: Mit unserer Erfahrung in zahlreichen nationalen und internationalen Projekten können wir Sie in Ihrem Vorhaben optimal unterstützen.
-  projectslideshow:
+  slideshow:
    activeslide:
-    image : projects/blurred/belis.png
-    headline : Namen, Aufgaben und Gesichter
-    description : ""
+    image : projects/wunda_l.png
+    headline : Projektreferenzen 
+    description : "" 
   
   list:
    - row: 1

@@ -1,89 +1,125 @@
 <div id="refs" class="container">
-            <br>
-            <div  class="marketing">
-                <h1><%=I18n.t("projects.title")%></h1>
-            </div>
+	<br>
+	<div  class="marketing">
+		<h1><%=I18n.t("projects.title")%></h1>
+	</div>
 
-            <div style="width:1000px" class="hidden-phone hidden-tablet imagegrayscaling">
-            <% I18n.t("projects.list").each do |row|%>
-            <div>
-                <% row["columns"].each do |project|%>
+	<div style="width:1000px" class="hidden-phone hidden-tablet imagegrayscaling">
+		<% I18n.t("projects.list").each do |row|%>
+			<div>
+				<% row["columns"].each do |project|%>
 
-                   <div class="mosaic-block<%= project["half_or_empty_when_full"] %> bar2">
-                        <div class="mosaic-overlay">
-                            <a data-toggle="modal" href="#<%= project["id"] %>Modal" target="_blank" class="mosaic-overlay" >
-                                <div class="mosaicdetails imagegrayscaling">
-                                    <h4><%= project["title"] %></h4><br/>
-                                    <p><%= project["subtitle"] %></p>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="mosaic-backdrop">
-				<% if project["half_or_empty_when_full"].nil? then @xxx="l" else @xxx="p" end %>            
-				<%= image_tag  "projects/"+project["id"]+"_"+@xxx+".png" %>
-                        </div>
+					<div class="mosaic-block<%= project["half_or_empty_when_full"] %> bar2">
+						<div class="mosaic-overlay">
+							<a data-toggle="modal" href="#<%= project["id"] %>Modal" target="_blank" class="mosaic-overlay" >
+								<div class="mosaicdetails imagegrayscaling">
+									<h4><%= project["title"] %></h4><br/>
+									<p><%= project["subtitle"] %></p>
+								</div>
+							</a>
+						</div>
+						<div class="mosaic-backdrop">
+							<% if project["half_or_empty_when_full"].nil? then @xxx="l" else @xxx="p" end %>            
+								<%= image_tag  "projects/"+project["id"]+"_"+@xxx+".png" %>
+							</div>
 
-                    </div>  
+						</div>  
 
-                <% end %>
+					<% end %>
 
-            </div>
-            <% end %>
-        </div>
-
-
+				</div>
+			<% end %>
+		</div>
 
 
 
 
+		<div class="span8 offset2 hidden-desktop">
+			<br><br>
+			<div id="projectCarousel" class="carousel slide">
+				<div class="carousel-inner">
+					<div class="item active">
+						<%= image_tag I18n.t("projects.slideshow.activeslide.image") %>                            
+						<div class="carousel-caption">
+							<h4><%= I18n.t("projects.slideshow.activeslide.headline") %></h4>
+							<p><%= I18n.t("projects.slideshow.activeslide.description") %></p>
+						</div>
+					</div>
+					<% I18n.t("projects.list").each do |row| %>
+						<% row["columns"].each do |project|%>
+							<div class="item">
+								<div style="margin: auto;"> 
+									<%= image_tag "projects/"+project["id"]+"_l.png" %>
+								</div>
+								<a data-toggle="modal" href="#<%= project["id"] %>Modal">
+
+									<div class="carousel-caption">
+										<h4><%= project["title"] %></h4>
+
+										<p><%= project["subtitle"] %></p>
+
+								</div></a>
+
+							</div>
+						<% end %>
+					<% end %>
+				</div>
+				<a class="left carousel-control" href="#projectCarousel" data-slide="prev">&lsaquo;</a>
+				<a class="right carousel-control" href="#projectCarousel" data-slide="next">&rsaquo;</a>
+			</div>
+
+		</div>
 
 
 
-             <br><br><br><br><br>
-            <br><br><br><br><br>
 
-            <div>
-<% I18n.t("projects.list").each do |row|%>        
-                <% row["columns"].each do |project|%>
-                     <div id="<%= project["id"]%>Modal" class="modal hide fade" >
-            <div class="modal-header">
-                <button class="close" data-dismiss="modal">&times;</button>
-                <h3><%= project["modaltitle"]%></h3>
-            </div>
-            <div class="modal-body" style="background-image: url(<%=image_path("projects/blurred/"+project["id"]+".png")%>)" > 
-                <%= image_tag  "projects/screener/"+project["id"]+".png" , :align => 'right', :style => 'padding: 15px;'%>
 
-                
-                <h4><%= project["modalsubtitle"]%></h4>
-                <p ><%= project["modalparagraph"]%></p>
 
-                <h4><%= project["modalsecondsubtitle"]%></h4>
-                <p >
-                    <br>
-                    <% project["modallinks"].each do |link| %>
-                        <a href="<%= link["link"] %>" target="_new" class="btn"  ><i class="<%= link["icon"] %>"></i><%= link["title"] %></a>
-                    <% end %>
+		<br><br><br><br><br>
+		<br><br><br><br><br>
 
-                </p>
+		<div>
+			<% I18n.t("projects.list").each do |row|%>        
+				<% row["columns"].each do |project|%>
+					<div id="<%= project["id"]%>Modal" class="modal hide fade" >
+						<div class="modal-header">
+							<button class="close" data-dismiss="modal">&times;</button>
+							<h3><%= project["modaltitle"]%></h3>
+						</div>
+						<div class="modal-body" style="background-image: url(<%=image_path("projects/blurred/"+project["id"]+".png")%>)" > 
+							<%= image_tag  "projects/screener/"+project["id"]+".png" , :align => 'right', :style => 'padding: 15px;'%>
 
-                <hr>
 
-                <h4><%= project["modalcustomertitle"]%></h4>
-                <p><%= project["modalcustomerparagraph"]%></p>
+							<h4><%= project["modalsubtitle"]%></h4>
+							<p ><%= project["modalparagraph"]%></p>
 
-            </div>
-            <div class="modal-footer">
-                <a href="#" class="btn" data-dismiss="modal" ><%=I18n.t("menu.close")%></a>
-            </div>
-        </div>
+							<h4><%= project["modalsecondsubtitle"]%></h4>
+							<p >
+							<br>
+							<% project["modallinks"].each do |link| %>
+								<a href="<%= link["link"] %>" target="_new" class="btn"  ><i class="<%= link["icon"] %>"></i><%= link["title"] %></a>
+							<% end %>
 
-                <% end %>
-            <% end %>
-            </div>
+							</p>
 
-           
-</div>
+							<hr>
 
- <div align='center' style="margin:50px;">
-            <a href='#services' class="animate"><%= image_tag 'down.png' %></a>
-            </div>
+							<h4><%= project["modalcustomertitle"]%></h4>
+							<p><%= project["modalcustomerparagraph"]%></p>
+
+						</div>
+						<div class="modal-footer">
+							<a href="#" class="btn" data-dismiss="modal" ><%=I18n.t("menu.close")%></a>
+						</div>
+					</div>
+
+				<% end %>
+			<% end %>
+		</div>
+
+
+	</div>
+
+	<div align='center' style="margin:50px;">
+		<a href='#services' class="animate"><%= image_tag 'down.png' %></a>
+	</div>
