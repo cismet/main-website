@@ -70,14 +70,11 @@
    <%= yield %>
 
 
-        <!-- Le javascript
-        ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
         <%= javascript_include_tag "bootstrap.js" %>
         
         <script type="text/javascript">
-    
-            // On window load. This waits until images have loaded which is essential
+	    // On window load. This waits until images have loaded which is essential
             $(window).load(function(){
                 setStyleRectPos();
                 $('#smalllogo').fadeTo(0,0.001);

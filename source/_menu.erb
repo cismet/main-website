@@ -1,38 +1,35 @@
-<div id="navbar" class="navbar navbar-fixed-top" style="margin-bottom: 0px;">
-            <div class="navbar-inner">
-                <div class="container">
-                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </a>
+<div id="navbar" class="navbar navbar-inverse navbar-fixed-top" style="margin-bottom: 0px;">
+	<div class="navbar-inner">
+		<div class="container">
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</a>
 
-                    <a class="brand animate" href="#start">
-                         <%= image_tag 'logo16.png', :id => 'smalllogo' , :style => 'vertical-align: baseline' %>
-                        cismet GmbH
-                    </a>
+			<a class="brand animate" href="#start">
+				<%= image_tag 'logo16.png', :id => 'smalllogo' , :style => 'vertical-align: baseline' %>
+				cismet GmbH
+			</a>
+			<div class="nav-collapse collapse">
+				<ul class="nav pull-right">
+					<li><a href="#company" class="animate"><%=I18n.t("menu.company")%></a></li>
+					<li><a href="#refs" class="animate"><%=I18n.t("menu.projects")%></a></li>              
+					<li><a href="#services" class="animate"><%=I18n.t("menu.services")%></a></li>
+					<li><a href="#contact" class="animate"><%=I18n.t("menu.contact")%></a></li>
 
+					<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-flag icon-white"></i><b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="<%=I18n.t("menu.link_to_english")%>"><%=I18n.t("menu.english")%></a></li>
+						<li><a href="<%=I18n.t("menu.link_to_german")%>"><%=I18n.t("menu.german")%></a></li>
+					</ul>
 
-                    <div class="nav-collapse">
-                        <ul class="nav pull-right">
-                            <li><a href="#company" class="animate"><%=I18n.t("menu.company")%></a></li>
-                            <li><a href="#refs" class="animate"><%=I18n.t("menu.projects")%></a></li>              
-                            <li><a href="#services" class="animate"><%=I18n.t("menu.services")%></a></li>
-                            <li><a href="#contact" class="animate"><%=I18n.t("menu.contact")%></a></li>
-                            
-                            <li class="dropdown">
-                               
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-flag icon-white"></i><b class="caret"></b></a>
-                                
-                                <ul class="dropdown-menu">
-                                    <li><a href="<%=I18n.t("menu.link_to_english")%>"><%=I18n.t("menu.english")%></a></li>
-                                    <li><a href="<%=I18n.t("menu.link_to_german")%>"><%=I18n.t("menu.german")%></a></li>
-                                </ul>
-                            
-                            </li>
-                        
-                        </ul>
-                    </div>
-                </div>
-            </div>  
-        </div>
+					</li>
+
+				</ul>
+			</div>
+
+		</div>
+	</div>  
+</div>
