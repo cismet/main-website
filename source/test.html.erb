@@ -1,74 +1,9 @@
-<div >
-	<br><br>
-	<div id="projectCarousel" class="carousel slide">
-		<div class="carousel-inner">
-			<div class="item active">
-				<%= image_tag I18n.t("projects.slideshow.activeslide.image") %>                            
-				<div class="carousel-caption">
-					<h4><%= I18n.t("projects.slideshow.activeslide.headline") %></h4>
-					<p><%= I18n.t("projects.slideshow.activeslide.description") %></p>
-				</div>
-			</div>
-			<% I18n.t("projects.list").each do |row| %>
-				<% row["columns"].each do |project|%>
-					<div class="item">
-						<div style="margin: auto;"> 
-							<%= image_tag "projects/"+project["id"]+"_l.png" %>
-						</div>
-						<a data-toggle="modal" href="#<%= project["id"] %>Modal">
+<br>
 
-							<div class="carousel-caption">
-								<h4><%= project["title"] %></h4>
-
-								<p><%= project["subtitle"] %></p>
-
-						</div></a>
-
-					</div>
-				<% end %>
-			<% end %>
-		</div>
-		<a class="left carousel-control" href="#projectCarousel" data-slide="prev">&lsaquo;</a>
-		<a class="right carousel-control" href="#projectCarousel" data-slide="next">&rsaquo;</a>
-	</div>
-
+<div class="text-center hidden-desktop">
+	<a href="#company" class="animate btn btn-inverse btn-large btn-block" type="button"><i class="icon-home icon-white"></i>&nbsp;<%=I18n.t("menu.company")%></a>
+	<a href="#refs" class="animate btn btn-inverse btn-large btn-block" type="button"><i class="icon-road icon-white"></i>&nbsp;<%=I18n.t("menu.projects")%></a>
+	<a href="#services" class="animate btn btn-inverse btn-large btn-block" type="button"><i class="icon-check icon-white"></i>&nbsp;<%=I18n.t("menu.services")%></a>
+	<a href="#contact" class="animate btn btn-inverse btn-large btn-block" type="button"><i class="icon-envelope icon-white"></i>&nbsp;<%=I18n.t("menu.contact")%></a>
 </div>
-
-<div>
-	<% I18n.t("projects.list").each do |row|%>        
-		<% row["columns"].each do |project|%>
-			<div id="<%= project["id"]%>Modal" class="modal hide fade" >
-				<div class="modal-header">
-					<button class="close" data-dismiss="modal">&times;</button>
-					<h3><%= project["modaltitle"]%></h3>
-				</div>
-				<div class="modal-body" style="background-image: url(<%=image_path("projects/blurred/"+project["id"]+".png")%>)" > 
-					<%= image_tag  "projects/screener/"+project["id"]+".png" , :align => 'right', :style => 'padding: 15px;'%>
-
-
-					<h4><%= project["modalsubtitle"]%></h4>
-					<p ><%= project["modalparagraph"]%></p>
-
-					<h4><%= project["modalsecondsubtitle"]%></h4>
-					<p >
-					<br>
-					<% project["modallinks"].each do |link| %>
-						<a href="<%= link["link"] %>" target="_new" class="btn"  ><i class="<%= link["icon"] %>"></i><%= link["title"] %></a>
-					<% end %>
-
-					</p>
-
-					<hr>
-
-					<h4><%= project["modalcustomertitle"]%></h4>
-					<p><%= project["modalcustomerparagraph"]%></p>
-
-				</div>
-				<div class="modal-footer">
-					<a href="#" class="btn" data-dismiss="modal" ><%=I18n.t("menu.close")%></a>
-				</div>
-			</div>
-
-		<% end %>
-	<% end %>
 

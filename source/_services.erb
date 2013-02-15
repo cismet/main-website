@@ -1,27 +1,35 @@
-<div id="services"   class="container" style=" min-height:1300px;">
-            <br>
-            <div  class="marketing">
-                <h1><%=I18n.t("services.title")%></h1>
-            </div>
-            <% I18n.t("services.facts").each do |row|%>
-           <div class="row">
-                <% row["columns"].each do |fact|%>
-            
-                <div class="span<%=      row["width"]%>">
-                    <%= image_tag fact["icon"], :class => 'bs-icon' %>
-                    <h2><%= fact["title"] %></h2>
-		    <p><%= fact["paragraph"] %>
-		    </p>
-                </div>
-                
-                                <% end %>
+<div id="services"   class="container" >
+	<br>
+	<div  class="marketing">
+		<h1><%=I18n.t("services.title")%></h1>
+	</div>
+	<% I18n.t("services.facts").each do |row|%>
+		<div class="row">
+			<% row["columns"].each do |fact|%>
 
-            </div>
-                            <% end %>
+				<div class="span<%=      row["width"]%>">
+					<%= image_tag fact["icon"], :class => 'bs-icon' %>
+					<h2><%= fact["title"] %></h2>
+					<p><%= fact["paragraph"] %>
+					</p>
+				</div>
 
-          
-  <div align='center' style="margin:50px;">
-            <a href='#contact' class="animate"><%= image_tag 'down.png' %></a>
-            </div> 
+			<% end %>
 
- </div>
+		</div>
+	<% end %>
+</div>
+<div align='center' style="margin:50px;" class="hidden-phone">
+	<a href='#contact' class="animate"><%= image_tag 'down.png' %></a>
+</div>
+
+<br>
+<div class="text-center hidden-desktop hidden-tablet">
+	<a href="#start" class="animateZOS btn btn-inverse btn-large" type="button"><i class="icon-home icon-white"></i></a>
+	<a href="#refs" class="animateZOS btn btn-inverse btn-large" type="button"><i class="icon-road icon-white"></i></a>
+	<a href="#services" class="animateZOS btn btn-inverse btn-large" type="button"><i class="icon-check icon-white"></i></a>
+	<a href="#contact" class="animateZOS btn btn-inverse btn-large" type="button"><i class="icon-envelope icon-white"></i></a>
+</div>
+
+
+

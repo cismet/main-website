@@ -12,7 +12,6 @@
         </script>
 
         <%= stylesheet_link_tag "bootstrap.css" %>
-        <%= stylesheet_link_tag "bootstrap-responsive.css" %>
          <%= stylesheet_link_tag "mosaic.css" %>
           <%= stylesheet_link_tag "docs.css" %>
 
@@ -185,9 +184,18 @@
                 $('.animate ').bind("click", function(event) {
                     event.preventDefault();
                     var ziel = $(this).attr("href");
-
                     $('html,body').animate({
                         scrollTop: $(ziel).offset().top -20
+                    }, 800 , function (){location.hash = ziel;});
+                });
+                return false;
+            });
+            $(document).ready(function() {
+                $('.animateZOS ').bind("click", function(event) {
+                    event.preventDefault();
+                    var ziel = $(this).attr("href");
+                    $('html,body').animate({
+                        scrollTop: $(ziel).offset().top +5 
                     }, 800 , function (){location.hash = ziel;});
                 });
                 return false;

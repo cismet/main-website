@@ -1,25 +1,33 @@
- <div id="company"   class="container" style=" min-height:1300px;">
-        <div>
-            <br>
-            <div  class="marketing">
-                <h1><%=I18n.t("company.title")%></h1>
-            </div>
-            <div  class="row">
-                <% I18n.t("company.points").each do |f|%>
-                <div class="span5 offset1" >
-                    <%= image_tag f["image"], :class => 'bs-icon' %>
-                    <h2><%= f["subtitle"] %></h2>
-                    <p><%= f["description"] %></p>
+<div id="company"   class="container">
+	<div>
+		<br>
+		<div  class="marketing">
+			<h1><%=I18n.t("company.title")%></h1>
+		</div>
+		<div  class="row">
+			<% I18n.t("company.points").each do |f|%>
+				<div class="span5 offset1" >
+					<%= image_tag f["image"], :class => 'bs-icon' %>
+					<h2><%= f["subtitle"] %></h2>
+					<p><%= f["description"] %></p>
 
-                </div>
-                <% end %>
-            </div>
-            <div>
-            <%= partial "slideshow" %>
-            </div>
-        </div>
-  <div align='center' style="margin:150px;">
-            <a href='#refs' class="animate"><%= image_tag 'down.png' %></a>
-            </div>
-        </div>
-      
+				</div>
+			<% end %>
+		</div>
+		<div>
+			<%= partial "slideshow" %>
+		</div>
+	</div>
+</div>
+<div align='center' style="margin:50px;" class="hidden-phone">
+	<a href='#refs' class="animate"><%= image_tag 'down.png' %></a>
+</div>
+
+<br>
+<div class="text-center hidden-desktop hidden-tablet">
+	<a href="#start" class="animateZOS btn btn-inverse btn-large" type="button"><i class="icon-home icon-white"></i></a>
+	<a href="#refs" class="animateZOS btn btn-inverse btn-large" type="button"><i class="icon-road icon-white"></i></a>
+	<a href="#services" class="animateZOS btn btn-inverse btn-large" type="button"><i class="icon-check icon-white"></i></a>
+	<a href="#contact" class="animateZOS btn btn-inverse btn-large" type="button"><i class="icon-envelope icon-white"></i></a>
+</div>
+
