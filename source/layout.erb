@@ -7,17 +7,19 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="">
         <meta name="author" content="">
-        <script type="text/javascript"
-                src="http://maps.google.com/maps/api/js?sensor=false">
-        </script>
+        
 
         <%= stylesheet_link_tag "bootstrap.css" %>
          <%= stylesheet_link_tag "mosaic.css" %>
           <%= stylesheet_link_tag "docs.css" %>
 
-        
+    </head>
+        <body  id="start" data-spy="scroll" data-target="#navbar" data-offset="50" onload="initialize()" style="background-image: url(<%= image_path('paper.png')%>);">
+   <%= yield %>
 
-        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    </body>
+
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
         <%= javascript_include_tag "mosaic.1.0.1.js" %>
 
         <script type="text/javascript">  
@@ -62,16 +64,11 @@
             
             });
             
-        </script>
-
-    </head>
-        <body  id="start" data-spy="scroll" data-target="#navbar" data-offset="50" onload="initialize()" style="background-image: url(<%= image_path('paper.png')%>);">
-   <%= yield %>
-
-
-     
+        </script> 
         <%= javascript_include_tag "bootstrap.js" %>
-        
+         <script type="text/javascript"
+                src="http://maps.google.com/maps/api/js?sensor=false">
+        </script>
         <script type="text/javascript">
 	    // On window load. This waits until images have loaded which is essential
             $(window).load(function(){
@@ -250,6 +247,6 @@
             };
             
         </script>
-    </body>
+        
   
 </html>
