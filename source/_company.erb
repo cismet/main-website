@@ -7,7 +7,7 @@
 		<div  class="row">
 			<% I18n.t("company.points").each do |f|%>
 				<div class="span5 offset1" >
-					<%= image_tag f["image"], :class => 'bs-icon' %>
+					<%= image_tag f[:image], :class => 'bs-icon' %>
 					<h2><%= f[:subtitle] %></h2>
 					<p><%= f[:description] %></p>
 
