@@ -12,11 +12,11 @@
                         <% I18n.t("slideshow.slides").each do |f| %>
 
                         <div class="item">
-                            <%= image_tag f["image"] %>
+                            <%= image_tag f[:image] %>
                             
                             <div class="carousel-caption">
-                                <h4><%= f["headline"] %></h4>
-                                <p><%= f["description"] %></p>
+                                <h4><%= f[:headline] %></h4>
+                                <p><%= f[:description] %></p>
                             </div>
                         </div>
                         <% end %>

@@ -60,7 +60,7 @@
                 <h4><%= I18n.t("contact.mailsubtitle2")%></h4>
                     <br>
                   <% I18n.t("contact.mailadresses").each do |link| %>
-                        <a href="<%= link["adress"] %>" target="new" class="btn"  ><i class="icon-envelope"></i> <%= link["name"] %></a>
+                        <a href="<%= link[:adress] %>" target="new" class="btn"  ><i class="icon-envelope"></i> <%= link[:name] %></a>
                     <% end %>
                 
 
@@ -81,7 +81,7 @@
                 <h4><%= I18n.t("contact.skypesubtitle2")%></h4>
                 <br>
                 <% I18n.t("contact.skypeaccounts").each do |link| %>
-                        <p><%= link["name"] %>: <b><%= link["adress"] %></b>
+                        <p><%= link[:name] %>: <b><%= link[:adress] %></b>
                         </p>
                     <% end %>
             </div>

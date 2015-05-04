@@ -5,12 +5,12 @@
 	</div>
 	<% I18n.t("services.facts").each do |row|%>
 		<div class="row">
-			<% row["columns"].each do |fact|%>
+			<% row[:columns].each do |fact|%>
 
-				<div class="span<%=      row["width"]%>">
-					<%= image_tag fact["icon"], :class => 'bs-icon' %>
-					<h2><%= fact["title"] %></h2>
-					<p><%= fact["paragraph"] %>
+				<div class="span<%=      row[:width]%>">
+					<%= image_tag fact[:icon], :class => 'bs-icon' %>
+					<h2><%= fact[:title] %></h2>
+					<p><%= fact[:paragraph] %>
 					</p>
 				</div>
 
