@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8">
+        <title>cismet GmbH</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+
+        <link href="../stylesheets/bootstrap.css" rel="stylesheet" />
+        <link href="../stylesheets/mosaic.css" rel="stylesheet" />
+        <link href="../stylesheets/docs.css" rel="stylesheet" />
+
+
+
+
+    </head>
+    <body  id="start" data-spy="scroll" data-target="#navbar" data-offset="50" onload="initialize()" style="background-image: url(../images/paper.png);">
+        <div id="navbar" class="navbar navbar-inverse navbar-fixed-top" style="margin-bottom: 0px;">
+            <div class="navbar-inner">
+                <div class="container">
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+
+                    <a class="brand"  href="/en/index.html">
+                         <img id="smalllogo" style="vertical-align: baseline" src="../images/logo16.png" />
+			 Back to the main site 
+	           </a>
+
+                </div>
+            </div>  
+    </div>
+
+
+    <div class="row">
+	    <div class="span10 offset2">
+		    <br><br><br>
+	    <h1 id="cids---ein-werkzeug-fr-die-entwicklung-integrierter-fachanwendungen-im-umfeld-verteilter-daten--und-service-infrastrukturen">Cids - Ein Werkzeug für die Entwicklung integrierter Fachanwendungen im Umfeld verteilter Daten- und Service-Infrastrukturen</h1>
+
+<p>Cids ist eine Plattform für die Entwicklung von Informationssystemen, bei denen die den Nutzer unterstützenden Geschäftsprozesse eine Vielzahl von heterogenen Informationsquellen, Geschäftsprozessen und Werkzeugen zusammenführen müssen, darunter auch Geo-Daten und Geo-Daten-Dienste. Diese – cids genannte – Plattform findet Anwendung in unterschiedlichsten Projekte und Lösungen. Sie integriert Prinzipien und Werkzeuge des modernen Software-Engineerings mit der verteilten Welt moderner Geodienste.</p>
+
+<h2 id="problemstellung">Problemstellung</h2>
+
+<p>Viele praktische Anwendungen in Unternehmen und Behörden erfordern die Integration von Geodaten, Faktendaten, anderen Artefakten sowie Prozessen aus unterschiedlichen Werkzeugen. Häufig werden die Ursprungsinformationen in unterschiedlichen Systemen gepflegt (GIS-Datenquellen, Datenbanken, Dokumenten-Managementsysteme, ERP-Systeme usw.). Oft werden auch Geschäftsprozesse in unterschiedlichen Werkzeugen abgewickelt (GIS-Systeme, ERP-Systeme, spezialisierte Software).
+Häufig existieren explizite oder implizite logische Beziehungen zwischen diesen verteilten Artefakten, welche für konkrete Geschäftsprozesse von Endnutzern maßgeblich sind (Abbildung 1).</p>
+
+<p><img src="http://www.cismet.de/images/cidswhitepaper/abb1.png" alt="Abbildung 1" /></p>
+
+<p>Abb. 1:	Systembarrieren</p>
+
+<p>Durch die Systembarrieren der unterschiedlichen Systeme und Werkzeuge wird die Implementierung von Anwendungen, welche auf diesen logischen Beziehungen beruhen, i.d.R. massiv behindert. Dies führt oft zu zwei unterschiedlichen Situationen: a) der Geschäftsprozeß wird mit erheblichem Aufwand mit den Mitteln eines der Werkzeuge implementiert (z.B. mit GIS-basierten APIs, alles andere wird „dazu programmiert“); b) der Benutzer wird dazu gezwungen, manuell das System zu wechseln und jeweils das Originalsystem (welches die Originaldaten pflegt) zu verwenden. Während der zweite (häufige Fall) eigentlich Nutzern nicht zuzumuten ist (aber dennoch häufig vorkommt), führt der erste Fall einerseits zu erheblichen Integrationskosten, aber auch zu einem schwer zu wartenden „Zoo“ von einzeln integrierten Lösungen im Unternehmen, welche meist noch nicht einmal miteinander kompatibel sind.</p>
+
+<h2 id="architektur">Architektur</h2>
+
+<p>Die in diesem Artikel vorgestellte Plattform cids geht ursprünglich auf ein Projekt zurück welches 1999 startete, und in welchem ein System namens WuNDa (Wuppertal Navigation and Data Management System, siehe (Güttler 2000)) entwickelt wurde. Erstes Ziel des Systems war es, eine Systemübergreifende Sicht über Datenbestände mit Bezug zu Umwelt- und Planungsfragen herzustellen, insbesondere zur einfachen Recherche auch durch Nutzer die wenig GIS-Erfahrung haben. Darüber hinaus war angestrebt eine einheitliche, generische Plattform zu schaffen, welche den erwähnten „Anwendungs-Zoo“ vermeiden hilft. WuNDa beinhaltet heute außer dieser generischen Plattform (aus der cids entstanden ist) eine Vielzahl von integrierten Fachverfahren, wird von Anwendern in unterschiedlichen Abteilungen genutzt und unterstützt die System-Manager bei der Pflege der angeschlossenen Systeme und Dienste. Abbildung 2 zeigt die Systemarchitektur der Plattform.</p>
+
+<p><img src="http://www.cismet.de/images/faq-images/cids_components.png" alt="Abbildung 2" /></p>
+
+<p>Abb. 2:	Plattform-Architektur</p>
+
+<p>Kern der Integrationsschicht ist eine Menge von Diensten, welche gemeinsam mit der sogenannten Integration Base verteilte Informationsquellen und Anwendungsprozesse in eine cids-SOA einbringt. Die logische Topologie dieser Vernetzung ist durch ein Domänenkonzept voll skalierbar, sowohl hinsichtlich der Verteilung von Lasten als auch hinsichtlich organisatorischer Aspekte. Es kann beliebig viele Domain Server geben, welche eine Integration Base publizieren. Die Intelligenz der Vernetzung steckt in der jeweiligen Integration Base, welche das Wissen über eines oder mehrere Quellsysteme abbildet. Die Integration Base beinhaltet auch umfangreiche Mechanismen für das Management von Nutzern, Gruppen, Rollen, deren Authentifizierung und Autorisierung sowie für die Personalisierung der Nutzersicht auf das Gesamtsystem. Ein Registry Server und ein Broker unterstützen die Anwendungen beim Zugriff auf die Dienste. Die angeschlossenen Quellsysteme können Systeme beliebigen Typs sein, darunter auch Geodaten-Dienste, welche über OGC-konforme Interfaces (WMS, WFS, SWE-Services und so fort) angesprochen werden.
+Für Endnutzeranwendungen gibt es in der nächst höheren Schicht drei unterschiedliche Typen: a) der Navigator, bzw. Navigatorbasierte Endanwendungen, b) rein Kartenbasierte Anwendungen (auf Basis von cismap) und c) spezialisierte Geo-Workflows (CustomApps). Sowohl der Navigator als auch die Geo-Komponente cismap sind generische Werkzeuge, welche alleine durch Konfiguration eines cids-Systems verwendbar sind. 
+Auf der nächsthöheren Schicht können diese drei Anwendungstypen durch ein Plug-In-Konzept ineinander „gesteckt“ werden. Der simpelste Fall ist die Standard-Konfiguration des Navigators, welcher selbst eine Kartenkomponente beinhaltet, und welcher der Navigation und Recherche durch die gesamte verteilte Unternehmensinformation quer über alle Systeme dient, geographisch wie faktenbasiert. Darüber hinaus ist es möglich, daß CustomApps eine Kartenkomponente für die Geo-Navigation verwenden und es können auch komplette CustomApps in eine Navigator-Anwendung gesteckt werden. Mit diesem Mechanismus kann man nutzerspezifische Arbeitsumgebungen mit einem Navigator und mehreren Fachanwendungen bereitstellen.</p>
+
+<h2 id="werkzeuge">Werkzeuge</h2>
+
+<h3 id="cids---ide">cids - IDE</h3>
+
+<p>CIDS-Systeme werden werkzeuggestützt analog zur üblichen Vorgehensweise in IDE-basierten Software-Projekten (Interactive Development Environment) entwickelt und als fertige Distributionen ausgeliefert. In einer Standard-IDE (NetBeans) werden Kunden- und Anwendungsspezifische Anpassungen des Navigators durchgeführt, oder es werden die Geo-Workflows der CustomApps auf Basis der vorhandenen cids-APIs entwickelt. Im CIDS-ABF werden komplette cids-Distributionen bearbeitet. Hier werden die Informationsmodelle entworfen, welche die Sichten auf die Quellsysteme abbilden, Zugriffe auf die Quellsysteme konfiguriert und Darstellungselemente für diese Informationsmodelle entwickelt. Hier werden auch Nutzer, Rechte, Konfigurationen für individuelle Nutzer und Gruppen sowie die gesamte Personalisierung verwaltet. Der ABF erzeugt auch die auslieferbaren Distributionen der Information Bases und der Dienste.
+Das Werkzeug JPresso ist ein mächtiges ETL-Werkzeug, mit dem die Synchronisation zwischen den Quellsystemen und der Information Base konfiguriert und gesteuert wird.</p>
+
+<h4 id="integration-der-quellsysteme">Integration der Quellsysteme</h4>
+
+<p>Ein entscheidendes Merkmal des Integrationskonzeptes ist es, daß cids im Gegensatz zu herkömmlichen Systemen keinerlei Informationsklassen vorschreibt. Es wird nicht vorab und durch das System definiert, welches Informationsmodell zu einem Grundstück, einem Abwasserkanal, einer Begrenzungsmauer, einer Altlast usw. gehört. Es gibt eine klare Vorgehensweise (deren Darstellung diesen Artikel sprengen würde), wie Informationsklassen ins System eingebracht, im ABF modelliert und konfiguriert werden. Dies kann auch die Anwendungsspezifische Programmierung bestimmter Komponenten beinhalten, allerdings nach klar vordefinierten software patterns.
+Das zentrale Element dieser Modellierung ist ein sogenanntes Thema. Ein Thema besteht aus dem Informationsmodell für einen Anwendungstyp (z.B. „Abwasser-Management“), und beinhaltet i.d.R. (aber nicht zwingenderweise) einer Menge von GUI-Klassen für die Interaktion mit dem Nutzer (sogenannte Renderer und Editoren). Ein Thema kann Informationen aus unterschiedlichen Quellsystemen zusammenführen (um die in Kapitel 1 erwähnten Verknüpfungen herzustellen), insbesondere auch Verknüpfungen der Informationen aus Geodaten-Diensten mit solchen aus Fachsystemen oder anderen Systemen (ERP, Dokumenten-Management etc.).
+Für einzelne Teilmodelle des Themas kann das Originalsystem das führende (also änderungsberechtigte) System sein, für andere Teile kann die Integration Base führend sein. Das gleiche Thema kann auch Klassen und Attribute beinhalten, die alleine in der Integration Base residieren. Das heißt konkret: ein Thema kann eine über mehrere Systeme verteilt gehaltene Datenbasis sein, inklusive Geo-Layers aus OGC-konformen Diensten sowie einzelnen lokalen oder im Netzwerk vorhandenen Geometrie-Ressourcen. Zusammen mit den GUI-Elementen bildet jedes Thema ein eigenes, manchmal einfaches, manchmal hochkomplexes Informationssystem.
+Insofern Teilmodelle (oder das gesamte Thema) in einem Quellsystem persistent residieren, werden durch JPresso Synchronisationsregeln definiert, welche einen Teil oder das ganze Informationsmodell vom Quellsystem in die Integration Base replizieren. Dies dient zwei Zwecken: a) der Beschleunigung von Recherchen (die Integration Base ist darauf hin optimiert), und b) der Entlastung der Originalsysteme, welche sonst bei jeder netzweiten Recherche-Anfrage belastet würden.</p>
+
+<h3 id="der-navigator">Der Navigator</h3>
+<p>Der Navigator ist das „Schweizermesser“ der Plattform. Er wird bei jeder Distribution mit ausgeliefert, und bietet ein mächtiges generelles Recherche-Werkzeug, mit dem man das gesamte Informationsnetz über alle Quellsysteme recherchieren kann. Der Navigator beinhaltet einen Katalog (links), welcher Nutzerspezifisch konfiguriert werden kann, also nur die Themen anbietet welche der Nutzer benötigt oder auf die der Nutzer zugreifen darf. Die Recherche kann nach Fakten, nach Geographie, nach Artefakten, gemischt und nach Themen gefiltert geschehen. Suchergebnisse können unter Wahrung des Kontexts nach Fakten oder in der Geographie dargestellt werden. Sofern der Nutzer die entsprechenden Rechte besitzt, kann er auch Geometrien und Faktendaten modifizieren, die Faktendaten bearbeitet der Nutzer in besagtem Editor. Das rechte Beispiel aus Abbildung 3 zeigt daß es sich hier im Prinzip um ein eigenständiges Informationssystem handelt (das System wird derzeit für das Land Mecklenburg Vorpommern entwickelt und dient der Unterstützung von Vorgängen rund um die EU Wasserrahmenrichtlinie). Dieser Editor erscheint in der Nutzeroberfläche alternativ zur Kartenkomponente, wenn man einem Fachdatenobjekt manipuliert, Elemente solcher Editoren können auch Bilder, Diagramme, dynamische Webcams, wiederum Geometrien usw. sein.</p>
+
+<p><img src="http://www.cismet.de/images/projects/screener/wunda.png" alt="Abbildung 4" />
+<img src="http://www.cismet.de/images/projects/screener/fiswassermv.png" alt="Abbildung 4" /></p>
+
+<p>Abb. 3:	Der Navigator bei der Stadt Wuppertal (links), Editor zu einem komplexen Thema im System WRRL für das Land Mecklenburg Vorpommern (rechts)</p>
+
+<p>Der Navigator kann als Einzelanwendung für die unternehmensweite Recherche eingesetzt werden. Er ist aber auch häufig (wie hier) der Rahmen für die gesamte Nutzeroberfläche. Durch das Plug-In-Konzept kann man Nutzern auch einen für sie konfigurierten Navigator anbieten, in dem (als weitere Tab-Fenster) eine oder mehrere CustomApps laufen. Damit gibt man Endnutzern eine für sie konfigurierte Workbench, welche den Navigator für die allgemeine Recherche sowie alle sie betreffenden Fachanwendungen beinhaltet. Selbstverständlich kann man dabei Selektionen, Suchergebnisse usw. vom Navigator in die Fachanwendungen übernehmen und umgekehrt, z.B. zum Zweck der Visualisierung.</p>
+
+<h3 id="beispiele-von-customapps">Beispiele von CustomApps</h3>
+<p>Abbildung 4 zeigt zwei Beispiele von CustomApps. In beiden Fällen sieht man, daß die Workflows aus einer Kombination aus „datenbankartiger“ und geographischer Benutzeroberfläche besteht. Das BELIS-System ist ein städtisches Beleuchtungskataster. Das VERDIS-System dient der Berechnung von Abwassergebühren, welche aufgrund einer städtischen Satzung den Grad der Versiegelung von Grundstücken in die Gebührenberechnung einbeziehen muss. In der Oberfläche interagiert der Nutzer sowohl mit den Informationen des Quellsystems als auch mit den Geometrien, welche die einzelnen Versiegelungstypen auf dem Grundstück (Rasen, Dach, Beton,…) darstellen. Bei Änderungen werden Prozesse in einem ERP-System angestoßen (z.B. Versenden eines neuen Bescheids).</p>
+
+<p><img src="http://www.cismet.de/images/projects/screener/belis.png" alt="Abbildung 4" />
+ <img src="http://www.cismet.de/images/projects/screener/verdis.png" alt="Abbildung 4" /></p>
+
+<p>Abb. 4:	CustomApps BELIS (links) und VERDIS (r)echts)
+###Einbettung externer Rechenprozesse
+Es gibt Anwendungen bei denen numerische Modelle eine Rolle spielen. Auch diese Prozesse können mit der Plattform verknüpft werden. Beim System ANAITE wird der Gewässerschutz an einem Fluß in der Nähe eines Petro-Chemischen Komplexes in Mexiko unterstützt (DENZER 2011). Hydrologische Modelle werden als Dienste eingebunden. Im Projekt SUDPLAN (GIDHAGEN 2010, SANDER 2011) entsteht ein „Urban Climate Change Scenario Management System“, in welchem Nutzer außer Datenmanagement und Visualisierung auch Modelle, deren Konfigurationen und Scharen von parametrisierten model runs in mehreren Ausführungsmodi (on-the-fly, asynchron, vorberechnet) managen kann.</p>
+
+<h2 id="literatur">Literatur</h2>
+
+<p>Literatur
+DENZER R. (2011), TORRES-BEJARANO F., HELL T., FRYSINGER S., SCHLOBINSKI S., GÜTTLER R., RAMIREZ H., An Environmental Decision Support System for Water Issues in the Oil Industry, Proceedings ISESS 2011, Springer, in press
+DENZER R. (2011), SCHLOBINSKI S., GIDHAGEN L., A Decision Support System for Urban Climate Change Adaptation, Proceedings of the 44th Hawaii International Con-ference on System Sciences (HICSS-44), CDROM, IEEE Computer Society
+GÜTTLER R. (2000), DENZER R., HOUY P., An EIS Called WuNDa, Environmental Software, in: DENZER R. et al (eds.) Systems Vol. 3 (2000) – Environmental Infor-mation and Decision Support, pp. 114-121, Kluwer Academic Publishers
+GIDHAGEN L. (2010), DENZER R., SCHLOBINSKI S., MICHEL F., KUTSCHERA P., HAVLIK D., Sustainable Urban Development Planner for Climate Change Adaptation (SUDPLAN), Proceedings of ENVIP’2010 workshop at EnviroInfo2010, ISSN 1613-0073, urn:nbn:de:0074-679-9
+SANDER S. (2011), HOPPE H. F., SCHLOBINSKI S., Integrating Climate Change in the Urban Planning Process – A Case Study, Proceedings ISESS 2011, Springer, in press</p>
+
+	</div>
+    </div>
+
+
+
+<div id="contact"   class="container" >
+            <br>
+  <br>
+                       
+        </div>
+        <div id="lp_footer" style="float:left; position:relative; width:100%; height:250px; padding:0; margin:0;">
+            <div id="map_canvas" style="float:left; width:100%; height:100%;"> </div>
+            <div class="outer_footer" style="position:absolute; top:0; left:0; right:0; bottom:0; width:100%; height:100%; z-index:100;">
+                <div class="inner_footer">
+                    <br><br><br>
+                    <div align='center'>
+                          <a href="http://cismet.github.com" target="new"><img src="../images/socialmedia/github.png" /></a>
+                         <a data-toggle="modal" href="#mailModal" target="_blank" ><img src="../images/socialmedia/mail.png" /></a>
+                          <a data-toggle="modal" href="#skypeModal" target="_blank" ><img src="../images/socialmedia/skype.png" /></a>
+                         
+                         <!--<a href="http://www.youtube.com" target="new"><img src="../images/socialmedia/youtube.png" />-->
+                         <a href="http://www.linkedin.com/company/cismet-gmbh" target="new"><img src="../images/socialmedia/linkedin-logo.png" /></a>
+                        <a href="http://www.twitter.com/cismetGmbH" target="new"><img src="../images/socialmedia/twitter.png" /></a>
+                        <br>
+                        <br>
+                                               </div>
+
+
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        <div id="mailModal" class="modal hide fade" >
+            <div class="modal-header">
+                <button class="close" data-dismiss="modal">&times;</button>
+                <h3>eMail-adresses</h3>
+            </div>
+            <div class="modal-body" style="background-image: url(../images/projects/blurred/wunda.png)" > 
+                <img align="right" style="padding: 15px;" src="../images/socialmedia/mail-icon.png" />
+                <h4>our eMail-adresses:</h4>
+                <p >You can reach our team by firstname.lastname@cismet.de.</p>
+                <br><br><br><br>
+                <h4>addtional eMail-adresses</h4>
+                    <br>
+                        <a href="mailto:info@cismet.de" target="new" class="btn"  ><i class="icon-envelope"></i> General things</a>
+                        <a href="mailto:gf@cismet.de" target="new" class="btn"  ><i class="icon-envelope"></i> Management</a>
+                        <a href="mailto:sekretariat@cismet.de" target="new" class="btn"  ><i class="icon-envelope"></i> Administrative issues</a>
+                
+
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn" data-dismiss="modal" >Close</a>
+            </div>
+        </div>
+          <div id="skypeModal" class="modal hide fade" >
+            <div class="modal-header">
+                <button class="close" data-dismiss="modal">&times;</button>
+                <h3>Skype-Accounts</h3>
+            </div>
+            <div class="modal-body" style="background-image: url(../images/projects/blurred/wunda.png)" > 
+                <img align="right" style="padding: 15px;" src="../images/socialmedia/skype-icon.png" />
+                <h4>Skype</h4>
+                <p >We use Skype in many project for easy and free teleconferences and international calls. Please find our skype contacts below.</p>
+                <h4>our Skypeaccounts:</h4>
+                <br>
+                        <p>Thorsten Hell: <b>hellAtCismet</b>
+                        </p>
+                        <p>Sascha Schlobinski: <b>schlobster</b>
+                        </p>
+                        <p>Jean Ruiz: <b>jeanAtCismet</b>
+                        </p>
+                        <p>Pascal Dihé: <b>pascalAtCismet</b>
+                        </p>
+                        <p>Martin Scholl: <b>martinAtCismet</b>
+                        </p>
+                        <p>Jens Weintraut: <b>jeweAtCismet</b>
+                        </p>
+            </div>
+            <div class="modal-footer">
+                <a href="#" class="btn" data-dismiss="modal" >Close</a>
+            </div>
+        </div>
+        
+
+
+    </body>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="../javascripts/mosaic.1.0.1.js"></script>
+
+
+
+    <script type="text/javascript"
+            src="http://maps.google.com/maps/api/js?sensor=false">
+    </script>
+    <script src="../javascripts/bootstrap.js"></script>
+
+    <script type="text/javascript">
+        // On window load. This waits until images have loaded which is essential
+        $(window).load(function() {
+
+            setStyleRectPos();
+            $('#smalllogo').fadeTo(0, 0.001);
+            //                $('#navbar').fadeTo(0,0.001);
+            //                $('#navbar').hide();               
+
+            $('#navbar').scrollspy();
+
+
+        });
+
+        jQuery(function($) {
+
+                $('.circle').mosaic({
+                    opacity: 0.8         //Opacity for overlay (0-1)
+                });
+
+                $('.fade').mosaic();
+
+                $('.bar').mosaic({
+                    animation: 'slide'     //fade or slide
+                });
+
+                $('.bar2').mosaic({
+                    animation: 'slide'     //fade or slide
+                });
+
+                $('.bar3').mosaic({
+                    animation: 'slide', //fade or slide
+                    anchor_y: 'top'       //Vertical anchor position
+                });
+
+                $('.cover').mosaic({
+                    animation: 'slide', //fade or slide
+                    hover_x: '400px'     //Horizontal position on hover
+                });
+
+                $('.cover2').mosaic({
+                    animation: 'slide', //fade or slide
+                    anchor_y: 'top', //Vertical anchor position
+                    hover_y: '80px'      //Vertical position on hover
+                });
+
+                $('.cover3').mosaic({
+                    animation: 'slide', //fade or slide
+                    hover_x: '400px', //Horizontal position on hover
+                    hover_y: '300px'     //Vertical position on hover
+                });
+
+            });
+
+        function setStyleRectPos() {
+            //                //masthead
+
+            //                console.log($(window).width());
+            console.log($('#masthead').position().top);
+            ////                
+            ////                
+            $('#sr1').css('top', 180 + $('#masthead').position().top);
+            $('#sr2').css('top', 210 + $('#masthead').position().top);
+            //                $('#sr3').css('top',60+$('#masthead').position().top);
+            //                $('#sr4').css('top',90+$('#masthead').position().top);
+            $('#sr3').css('left', $('#masthead').width() - $('#sr3').width() - 68);
+            $('#sr4').css('left', $('#masthead').width() - $('#sr4').width() - 25);
+        }
+        ;
+
+// temporarily deactivted due to problems in safari
+//               setTimeout(function(){
+//			// Fade in images so there isn't a color "pop" document load and then on window load
+//	               	 $(".imagegrayscaling img").fadeIn(100);
+//        
+//        	       	 // clone image
+//        	       	 $('.imagegrayscaling img').each(function(){
+//        	           	 var el = $(this);
+//        	           	 el.css({"position":"absolute"}).wrap("<div class='img_wrapper' style='display: inline-block'>").clone().addClass	('img_grayscale').css({"position":"absolute","z-index":"3","opacity":"0"}).insertBefore(el).queue(function(){
+//        	        	        var el = $(this);
+//        	        	        el.parent().css({"width":this.width,"height":this.height});
+//        	        	        el.dequeue();
+//        	       	     });
+//        	       	     this.src = grayscale(this.src);
+//        	       	 });
+//        	
+//        	       	 // Fade image 
+//        	       	 $('.imagegrayscaling img').mouseover(function(){
+//        	            $(this).parent().find('img:first').stop().animate({opacity:1}, 300);
+//        	       	 })
+//        	       	 $('.img_grayscale').mouseout(function(){
+//        	          	  $(this).stop().animate({opacity:0}, 300);
+//        	        	});
+//		},500);
+
+
+        // Grayscale w canvas method
+        function grayscale(src) {
+            var canvas = document.createElement('canvas');
+            var ctx = canvas.getContext('2d');
+            var imgObj = new Image();
+            imgObj.src = src;
+            canvas.width = imgObj.width;
+            canvas.height = imgObj.height;
+            ctx.drawImage(imgObj, 0, 0);
+            var imgPixels = ctx.getImageData(0, 0, canvas.width, canvas.height);
+            for (var y = 0; y < imgPixels.height; y++) {
+                for (var x = 0; x < imgPixels.width; x++) {
+                    var i = (y * 4) * imgPixels.width + x * 4;
+                    var avg = (imgPixels.data[i] + imgPixels.data[i + 1] + imgPixels.data[i + 2]) / 3.5;
+                    imgPixels.data[i] = avg + (imgPixels.data[i] / 3.5);
+                    imgPixels.data[i + 1] = avg + (imgPixels.data[i + 1] / 3.5);
+                    imgPixels.data[i + 2] = avg + (imgPixels.data[i + 2] / 3.5);
+                }
+            }
+
+            ctx.putImageData(imgPixels, 0, 0, 0, 0, imgPixels.width, imgPixels.height);
+            return canvas.toDataURL();
+        }
+        ;
+
+        function initialize() {
+            var latlng = new google.maps.LatLng(49.24536880402386, 6.93636417388916);
+            var darkener = [{featureType: "all", elementType: "all", stylers: [{saturation: -99}, {lightness: -75}]}];
+            var myOptions = {
+                zoom: 10,
+                center: latlng,
+                mapTypeControlOptions: {
+                    mapTypeIds: [google.maps.MapTypeId.ROADMAP, 'website-map-type']
+                },
+                draggable: false,
+                scrollwheel: false,
+                streetViewControl: false,
+                disableDefaultUI: true
+            };
+            var map = new google.maps.Map(document.getElementById("map_canvas"),
+                    myOptions);
+            var styledMapOptions = {name: "website-map-type"}
+            var jayzMapType = new google.maps.StyledMapType(darkener, myOptions);
+
+            map.mapTypes.set('website-map-type', jayzMapType);
+            map.setMapTypeId('website-map-type');
+            onResize();
+
+
+
+        }
+        ;
+        $(document).ready(function() {
+            $('.animate ').bind("click", function(event) {
+                event.preventDefault();
+                var ziel = $(this).attr("href");
+                $('html,body').animate({
+                    scrollTop: $(ziel).offset().top - 20
+                }, 800, function() {
+                    location.hash = ziel;
+                });
+            });
+            return false;
+        });
+        $(document).ready(function() {
+            $('.animateZOS ').bind("click", function(event) {
+                event.preventDefault();
+                var ziel = $(this).attr("href");
+                $('html,body').animate({
+                    scrollTop: $(ziel).offset().top + 5
+                }, 800, function() {
+                    location.hash = ziel;
+                });
+            });
+            return false;
+        });
+
+        logovisible = false;
+        $(window).scroll(function() {
+            //                console.log($(window).scrollTop());
+            if (!logovisible && $(window).scrollTop() > 90) {
+                $('#smalllogo').fadeTo('fast', 0.9);
+                //                    $('#navbar').fadeTo('fast',1);
+                //                    $('#navbar').show();
+
+                logovisible = true;
+
+            }
+            else if (logovisible && $(window).scrollTop() <= 90) {
+                $('#smalllogo').fadeTo('fast', 0.01);
+                //                    $('#navbar').fadeTo('fast',0.0001);
+                //                    $('#navbar').hide();
+
+                logovisible = false;
+            }
+        });
+
+
+        addonGraphicsVisible = true;
+        $(window).resize(function() {
+            onResize();
+        });
+        function onResize() {
+            //$('#contact').css({'min-height':(($(window).height())-363)+'px'});  
+            minH = 750;
+            newH = (($(window).height()) - $('#contact_title').height() - 98);
+            if (minH < newH) {
+                $('#footer').css({'height': newH + 'px'});
+            }
+            else {
+                $('#footer').css({'height': minH + 'px'});
+            }
+            if (addonGraphicsVisible && $(window).width() < 780) {
+                $('#addonGraphicsTop').fadeTo(0, 0);
+                $('#addonGraphicsBottom').fadeTo(0, 0);
+                addonGraphicsVisible = false;
+            }
+            if (!addonGraphicsVisible && $(window).width() >= 780) {
+                $('#addonGraphicsTop').fadeTo('fast', 1);
+                $('#addonGraphicsBottom').fadeTo('fast', 1);
+                addonGraphicsVisible = true;
+            }
+
+        }
+        ;
+
+    </script>
+
+</html>

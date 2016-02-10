@@ -2,6 +2,8 @@ Encoding.default_external = 'utf-8'
 
 activate :i18n
 #  localize :path => "/:locale/", :mount_at_root => :de, :langs => [:de, :en]
+set :relative_links, true
+activate :relative_assets
 set :markdown_engine, :redcarpet
 set :markdown, :fenced_code_blocks => true,
               :autolink => true,

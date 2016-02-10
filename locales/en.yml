@@ -300,7 +300,7 @@ en :
        paragraph: Our field of research in EU funded projects includes concepts for information integration and large scale architectures very often involving aspects of geospatial data infrastructures.
      - title : cids Toolkit
        icon: glyphicons/glyphicons_163_iphone.png
-       paragraph: We use and market <a href="/en/cidsReadme.html">cids/cismap</a> our geospatial integration platform as a powerful tool to build sustainable information systems for industry and public bodies.
+       paragraph: We use and market <a href="cidsReadme.html">cids/cismap</a> our geospatial integration platform as a powerful tool to build sustainable information systems for industry and public bodies.
    - row: 2
      width: 4
      columns:
@@ -312,7 +312,7 @@ en :
        paragraph: Through our activities we are well connected to international partners including renowned industry, public bodies, universities and research organisations.
      - title : Publications
        icon: glyphicons/glyphicons_266_book_open.png
-       paragraph: In frequent  <a href="/en/cismetPub.html">Publications</a> in the fields of Decision Support Systems, Spatial Data- Infrastructures und Architectures we can demonstrate that we successfully combine theory and practice.
+       paragraph: In frequent  <a href="cismetPub.html">Publications</a> in the fields of Decision Support Systems, Spatial Data- Infrastructures und Architectures we can demonstrate that we successfully combine theory and practice.
    - row: 3
      width: 4
      columns:
