@@ -305,7 +305,7 @@ de :
        paragraph: Schwerpunkt unserer Forschungsaktivitäten in zahlreichen EU-Projekten sind Integrationskonzepte & Architekturen, insbesondere im Bereich Geodatenintegration, die für den Aufbau von Geodateninfrastrukturen unerlässlich sind.
      - title : cids Toolkit
        icon: glyphicons/glyphicons_163_iphone.png
-       paragraph: Verwendung und Vermarktung der eigenen Geo- & Daten- Integrationsplattform <a href="/cidsReadme.html">cids/cismap</a> als <a href="/cidsDeveloperFAQ.html">Werkzeug</a> zum nachhaltigen <a href="/cidsWhitepaper.html">Informationsinfrastrukturaufbau in Behörden und Unternehmen</a> garantiert höchstmögliche Nachhaltigkeit.
+       paragraph: Verwendung und Vermarktung der eigenen Geo- & Daten- Integrationsplattform <a href="cidsReadme.html">cids/cismap</a> als <a href="cidsDeveloperFAQ.html">Werkzeug</a> zum nachhaltigen <a href="cidsWhitepaper.html">Informationsinfrastrukturaufbau in Behörden und Unternehmen</a> garantiert höchstmögliche Nachhaltigkeit.
    - row: 2
      width: 4
      columns:
@@ -317,7 +317,7 @@ de :
        paragraph: Durch unsere nationale und internationale, thematisch weit gestreute Projekte verfügen wir über ein weit reichendes Partner-Netzwerk mit renomierten Unternehmen, Behörden, Universitäten und Forschungseinrichtungen.
      - title : Veröffentlichungen
        icon: glyphicons/glyphicons_266_book_open.png
-       paragraph: Durch regelmäßige <a href="/cismetPub.html">Publikationen</a> in den Bereichen Entscheidungsunterstützende Systeme, Geoinfrastrukturen und Architekturen verteilter komplexer Informationssystem auf Tagungen und in Journals verbinden wir Theorie und Praxis.
+       paragraph: Durch regelmäßige <a href="cismetPub.html">Publikationen</a> in den Bereichen Entscheidungsunterstützende Systeme, Geoinfrastrukturen und Architekturen verteilter komplexer Informationssystem auf Tagungen und in Journals verbinden wir Theorie und Praxis.
    - row: 3
      width: 4
      columns:
