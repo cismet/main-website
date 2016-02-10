@@ -1,4 +1,4 @@
-en : 
+en :
  menu:
   company: Company
   projects: Projects
@@ -6,14 +6,14 @@ en :
   contact: Contact
   english: English
   link_to_english: ./index.html
-  german: Deutsch 
+  german: Deutsch
   link_to_german: ../index.html
 
   close: Close
 
   backtocismet: Back to the main site
   backtocismetlink: /en/index.html
-  
+
   publications: cismet publications
 
  company:
@@ -43,10 +43,10 @@ en :
     description : Personal secretary, administration.
   - image : personal/reiner.jpg
     headline : Prof. Dr. Reiner Güttler
-    description : Owner and Scientific Director. 
+    description : Owner and Scientific Director.
   - image : personal/ralf.jpg
     headline : Prof. Dr. Ralf Denzer
-    description : Owner and Scientific Director. 
+    description : Owner and Scientific Director.
   - image : personal/steven.jpg
     headline : Professor Steven P. Frysinger, Ph.D. (JMU Harrisonburg, Virginia, USA)
     description : Inhouse Consultant, Research Projects.
@@ -55,13 +55,10 @@ en :
     description : Research projects and software development.
   - image : personal/jean.jpg
     headline : Jean-Michel Ruiz (Dipl. Inf. (FH) @ HTW des Saarlandes)
-    description : Software development. 
-  - image : personal/martin.jpg
-    headline : Martin Scholl (Dipl. Inf. (FH) @ HTW des Saarlandes)
-    description : Research projects and software development.
+    description : Software development.
   - image : personal/thorstenherter.jpg
     headline : Thorsten Herter (M.Sc. @ HTW des Saarlandes)
-    description : Software development. 
+    description : Software development.
 
  projects:
   title: Based on our experience in numerous national and international projects we can support in your individual endavour.
@@ -73,7 +70,7 @@ en :
   list:
    - row: 1
      columns:
-     - title : EnviroPlanning 
+     - title : EnviroPlanning
        subtitle: Water body management
        half_or_empty_when_full: -half
        id: gupmv
@@ -84,7 +81,7 @@ en :
        modallinks:
          - title: LUNG MV
            link: http://www.lung.mv-regierung.de/
-           icon: 
+           icon:
          - title: WRRL MV
            link: http://www.wrrl-mv.de/start.htm
            icon:
@@ -92,7 +89,7 @@ en :
        modalcustomerparagraph: "German Federal State Agency for the Envrionment, Nature Protection and Geology Mecklenburg-Vorpommern. (Contact: Mr.  Andreas Küchler)"
      - title: Information Hub in the Municipality
        subtitle: WuNDa
-       half_or_empty_when_full: 
+       half_or_empty_when_full:
        id: wunda
        modaltitle: Wuppertaler Navigations and Daten- Management System
        modalsubtitle: WuNDa
@@ -106,7 +103,7 @@ en :
        modalcustomerparagraph: "The city of Wuppertal. Ressort 102 - Geodesy, Cadastres and Geodata. (Contact: Mr.  Stefan Sander)"
      - title: Mitigate the Effects of Climate Change
        subtitle: SUDPLAN (FP7 Research project)
-       half_or_empty_when_full: 
+       half_or_empty_when_full:
        id: sudplan
        modaltitle: Illustrate the effects of climate change
        modalsubtitle: SUDPLAN
@@ -128,7 +125,7 @@ en :
      columns:
      - title : Consultancy Services
        subtitle: DEWS (Tsunami Early Warning System, FP6 Research project)
-       half_or_empty_when_full: 
+       half_or_empty_when_full:
        id: dews
        modaltitle: "Consultancy: Distant Early Warning System."
        modalsubtitle: DEWS
@@ -145,11 +142,11 @@ en :
        modalcustomerparagraph: "Atos Research & Innovation Atos Origin Spain. (Contact: Mr.  José Lorenzo Mon)"
      - title: Crisis Management
        subtitle: CRISMA (FP7 Research project)
-       half_or_empty_when_full: 
+       half_or_empty_when_full:
        id: crisma
        modaltitle: Modelling crisis management for improved action and preparedness
        modalsubtitle: CRISMA
-       modalparagraph: "The FP7 research project CRISMA shall develop a simulation-based decision support system (Integrated Crisis Management System – ICMS), for modelling crisis management, improved action and preparedness. The ICMS shall facilitate simulation and modelling of realistic crisis scenarios, possible response actions, and the impacts of crisis depending on both the external factors driving the crisis development and the various actions of the crisis management team." 
+       modalparagraph: "The FP7 research project CRISMA shall develop a simulation-based decision support system (Integrated Crisis Management System – ICMS), for modelling crisis management, improved action and preparedness. The ICMS shall facilitate simulation and modelling of realistic crisis scenarios, possible response actions, and the impacts of crisis depending on both the external factors driving the crisis development and the various actions of the crisis management team."
        modalsecondsubtitle: More information
        modallinks:
          - title: Website
@@ -195,19 +192,19 @@ en :
        modalcustomerparagraph: "The city of Wuppertal. Ressort 102 - Geodesy, Cadastres and Geodata. (Contact: Mr. Dirk Steinbacher)"
      - title: Cross Agency Information Systems
        subtitle: FIS Wasser Mecklenburg-Vorpommern
-       half_or_empty_when_full: 
+       half_or_empty_when_full:
        id: fiswassermv
        modaltitle: Water body information system
        modalsubtitle: FIS-Wasser-MV
-       modalparagraph: The information system provides the complete WFD (Water Framework Directive) set of information for the German federal State of Mecklenburg-Vorpommern. In addtion to the actual water body information this includes statistics, information on farming and environmental protection etc to be used to evaluate the quality status of water bodies. 
+       modalparagraph: The information system provides the complete WFD (Water Framework Directive) set of information for the German federal State of Mecklenburg-Vorpommern. In addtion to the actual water body information this includes statistics, information on farming and environmental protection etc to be used to evaluate the quality status of water bodies.
        modalsecondsubtitle: More information
        modallinks:
          - title: FIS-Wasser-Manual
            link: http://www.fis-wasser-mv.de/nutzerhandbuch/index.php/Hauptseite
-           icon: 
+           icon:
          - title: LUNG MV
            link: http://www.lung.mv-regierung.de/
-           icon: 
+           icon:
          - title: WRRL MV
            link: http://www.wrrl-mv.de/start.htm
            icon:
@@ -215,11 +212,11 @@ en :
        modalcustomerparagraph: "German Federal State Agency for the Envrionment, Nature Protection and Geology Mecklenburg-Vorpommern. (Contact: Mr.  Eckard Kohlhas)"
      - title: Strategies
        subtitle: Bureau of Meteorology Australia
-       half_or_empty_when_full: 
+       half_or_empty_when_full:
        id: bom
        modaltitle: Strategies for information systems
        modalsubtitle: AWRIS
-       modalparagraph: AWRIS (Australian Water Resources Information System) is a powerful information system capable of receiving, standardising, organising and interpreting water data from across the Australia. We have been contracted as consultants to evaluate the system architecture and identify possible deficiencies. 
+       modalparagraph: AWRIS (Australian Water Resources Information System) is a powerful information system capable of receiving, standardising, organising and interpreting water data from across the Australia. We have been contracted as consultants to evaluate the system architecture and identify possible deficiencies.
        modalsecondsubtitle: More information
        modallinks:
          - title: Projektwebsite
@@ -237,7 +234,7 @@ en :
      columns:
      - title : Environmental Monitoring
        subtitle: Water stream quality assessment and mapping
-       half_or_empty_when_full: 
+       half_or_empty_when_full:
        id: fgskmv
        modaltitle: Hydromorphologice status of a water stream
        modalsubtitle: FGSK Topic application as part of FIS-Wasser
@@ -249,7 +246,7 @@ en :
            icon:
          - title: LUNG MV
            link: http://www.lung.mv-regierung.de/
-           icon: 
+           icon:
          - title: WRRL MV (WFD)
            link: http://www.wrrl-mv.de/start.htm
            icon:
@@ -257,7 +254,7 @@ en :
        modalcustomerparagraph: "German Federal State Agency for the Envrionment, Nature Protection and Geology Mecklenburg-Vorpommern. (Contact: Mr.  Eckard Kohlhas)"
      - title: Land Property Management
        subtitle: LagIS
-       half_or_empty_when_full: 
+       half_or_empty_when_full:
        id: lagis
        modaltitle: Digital stock ledger
        modalsubtitle: LagIS
@@ -280,7 +277,7 @@ en :
        modallinks:
          - title: Website
            link: http://www.tatoo-fp7.eu/tatooweb/
-           icon: 
+           icon:
          - title: Brochure
            link: http://www.tatoo-fp7.eu/tatooweb/system/files/common/Fact%20Sheet_washout.pdf
            icon:
@@ -346,9 +343,9 @@ en :
   mail: eMail-adresses
   mailimage: socialmedia/skype-globe.png
   mailsubtitle: "our eMail-adresses:"
-  mailparagraph: You can reach our team by firstname.lastname@cismet.de. 
+  mailparagraph: You can reach our team by firstname.lastname@cismet.de.
   mailsubtitle2: "addtional eMail-adresses"
-  mailadresses: 
+  mailadresses:
    - adress: "mailto:info@cismet.de"
      name: General things
    - adress: "mailto:gf@cismet.de"

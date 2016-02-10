@@ -1,4 +1,4 @@
-de : 
+de :
  menu:
   company: Unternehmen
   projects: Projekte
@@ -6,11 +6,11 @@ de :
   contact: Kontakt
   english: English
   link_to_english: ./en/index.html
-  german: Deutsch 
+  german: Deutsch
   link_to_german: ./index.html
 
   close: Schließen
-  
+
   backtocismet: Zurück zur Hauptseite
   backtocismetlink: /index.html
 
@@ -20,7 +20,7 @@ de :
   points:
   - image: glyphicons/glyphicons_040_stats.png
     subtitle: Der Start und die Wurzeln
-    description: Die cismet GmbH wurde als Spin-Off der Environmental Informatics Group an der Hochschule für Technik und Wirtschaft des Saarlandes im Jahr 2002 von den Partnern Thorsten Hell, Prof. Ralf Denzer, Prof. Reiner Güttler und Sascha Schlobinski gegründet. Der Firmensitz liegt im wichtigsten IT- und neue Medien-Standort des Saarlandes im IT-Park Saarland. 
+    description: Die cismet GmbH wurde als Spin-Off der Environmental Informatics Group an der Hochschule für Technik und Wirtschaft des Saarlandes im Jahr 2002 von den Partnern Thorsten Hell, Prof. Ralf Denzer, Prof. Reiner Güttler und Sascha Schlobinski gegründet. Der Firmensitz liegt im wichtigsten IT- und neue Medien-Standort des Saarlandes im IT-Park Saarland.
   - image: glyphicons/glyphicons_042_group.png
     subtitle: Ein kompetentes Team
     description: Als ausgebildete Informatiker mit langjähriger Berufserfahrung verfügt unser Personal ausnahmelos über das notwendige Know-How zum Entwurf und der Umsetzung von Informationssystemen. Hierzu gehören ein grundlegendes und theoretisch fundiertes Verständnis der Bereiche Datenbankentwurf, Softwareentwurf und Programmierung.
@@ -43,10 +43,10 @@ de :
     description : Assistenz der Geschäftsführung.
   - image : personal/reiner.jpg
     headline : Prof. Dr. Reiner Güttler
-    description : Gesellschafter und Wissenschaftlicher Direktor. 
+    description : Gesellschafter und Wissenschaftlicher Direktor.
   - image : personal/ralf.jpg
     headline : Prof. Dr. Ralf Denzer
-    description : Gesellschafter und Wissenschaftlicher Direktor. 
+    description : Gesellschafter und Wissenschaftlicher Direktor.
   - image : personal/steven.jpg
     headline : Professor Steven P. Frysinger, Ph.D. (JMU Harrisonburg, Virginia, USA)
     description : Inhouse Consultant, EU Projekte.
@@ -55,13 +55,10 @@ de :
     description : EU Projekte und Softwareentwicklung.
   - image : personal/jean.jpg
     headline : Jean-Michel Ruiz (Dipl. Inf. (FH) @ HTW des Saarlandes)
-    description : Softwareentwicklung. 
-  - image : personal/martin.jpg
-    headline : Martin Scholl (Dipl. Inf. (FH) @ HTW des Saarlandes)
-    description : EU Projekte und Softwareentwicklung.
+    description : Softwareentwicklung.
   - image : personal/thorstenherter.jpg
     headline : Thorsten Herter (M.Sc. @ HTW des Saarlandes)
-    description : Softwareentwicklung. 
+    description : Softwareentwicklung.
 
 
 
@@ -71,9 +68,9 @@ de :
   slideshow:
    activeslide:
     image : projects/hd/wunda.jpg
-    headline : Projektreferenzen 
-    description : "" 
-  
+    headline : Projektreferenzen
+    description : ""
+
   list:
    - row: 1
      columns:
@@ -88,7 +85,7 @@ de :
        modallinks:
          - title: LUNG MV
            link: http://www.lung.mv-regierung.de/
-           icon: 
+           icon:
          - title: WRRL MV
            link: http://www.wrrl-mv.de/start.htm
            icon:
@@ -96,7 +93,7 @@ de :
        modalcustomerparagraph: "Das Landesamt für Umwelt, Naturschutz und Geologie (LUNG) des Landes Mecklenburg-Vorpommern. (Ansprechpartner: Herr Andreas Küchler)"
      - title: Datendrehscheibe in der Kommune
        subtitle: WuNDa
-       half_or_empty_when_full: 
+       half_or_empty_when_full:
        id: wunda
        modaltitle: Wuppertaler Navigations and Daten- Management System
        modalsubtitle: WuNDa
@@ -110,7 +107,7 @@ de :
        modalcustomerparagraph: "Stadtverwaltung Wuppertal. Ressort 102 - Vermessung, Katasteramt und Geodaten. (Ansprechpartner: Herr Stefan Sander)"
      - title: Auswirkungen des Klimawandels
        subtitle: SUDPLAN (FP7 Forschungsprojekt)
-       half_or_empty_when_full: 
+       half_or_empty_when_full:
        id: sudplan
        modaltitle: Auswirkung des Klimawandels veranschaulichen
        modalsubtitle: SUDPLAN
@@ -132,7 +129,7 @@ de :
      columns:
      - title : Architekturberatung
        subtitle: DEWS (Tsunami Frühwarnsystem, FP6 Forschungsprojekt)
-       half_or_empty_when_full: 
+       half_or_empty_when_full:
        id: dews
        modaltitle: "Architekturberatung: Distant Early Warning System."
        modalsubtitle: DEWS
@@ -149,11 +146,11 @@ de :
        modalcustomerparagraph: "Atos Research & Innovation Atos Origin Spain. (Ansprechpartner: Herr José Lorenzo Mon)"
      - title: Krisenmanagement
        subtitle: CRISMA (FP7 Forschungsprojekt)
-       half_or_empty_when_full: 
+       half_or_empty_when_full:
        id: crisma
        modaltitle: Modelling crisis management for improved action and preparedness
        modalsubtitle: CRISMA
-       modalparagraph: "Das Europäische Projekt CRISMA unterstützt die Vorbereitung auf die Bewältigung von Katastrophenereignissen durch Entwicklung eines Werkzeugs zur Entscheidungsunterstützung in Krisensituationen. Das Werkzeug wird Behörden, Ersthelfern, Gemeinden und privaten Hilfsdiensten bei der Priorisierung der wichtigsten Maßnahmen zur Lebensrettung und zur Entschärfung möglicher Auswirkung von Katastrophen helfen." 
+       modalparagraph: "Das Europäische Projekt CRISMA unterstützt die Vorbereitung auf die Bewältigung von Katastrophenereignissen durch Entwicklung eines Werkzeugs zur Entscheidungsunterstützung in Krisensituationen. Das Werkzeug wird Behörden, Ersthelfern, Gemeinden und privaten Hilfsdiensten bei der Priorisierung der wichtigsten Maßnahmen zur Lebensrettung und zur Entschärfung möglicher Auswirkung von Katastrophen helfen."
        modalsecondsubtitle: Nähere Informationen
        modallinks:
          - title: Projektwebseite
@@ -173,7 +170,7 @@ de :
        id: belis
        modaltitle: Beleuchtungskatastermanagement
        modalsubtitle: BelIS
-       modalparagraph: "Belis ist eine Software für die Bewertung und das Management von Daten, die mit dem Thema Städtische Beleuchtung im Zusammenhang stehen. Potentieller Anwender sind Betreiber der städtischen Beleuchtungsinfrastruktur (Kommunalverwaltungen, Energieversorger)."  
+       modalparagraph: "Belis ist eine Software für die Bewertung und das Management von Daten, die mit dem Thema Städtische Beleuchtung im Zusammenhang stehen. Potentieller Anwender sind Betreiber der städtischen Beleuchtungsinfrastruktur (Kommunalverwaltungen, Energieversorger)."
 
        modalsecondsubtitle: Nähere Informationen
        modallinks:
@@ -200,19 +197,19 @@ de :
        modalcustomerparagraph: "Stadtverwaltung Wuppertal. Ressort 102 - Vermessung, Katasteramt und Geodaten. (Ansprechpartner: Herr Dirk Steinbacher)"
      - title: Landesweite Informationssysteme
        subtitle: FIS Wasser Mecklenburg-Vorpommern
-       half_or_empty_when_full: 
+       half_or_empty_when_full:
        id: fiswassermv
        modaltitle: Fachinformationssystem Wasser MV
        modalsubtitle: FIS-Wasser-MV
-       modalparagraph: Der komplexe Ansatz der EG Wasserrahmenrichtlinie setzt die Vorgaben für die erforderlichen Informationen. Das im Aufbau befindliche FIS Wasser M-V veranschlagt den Anspruch, eine landesweite Datenbasis dafür zu schaffen. Neben gewässerbezogenen Informationen finden sich auch solche aus Statistik, Landwirtschaft, Natur- und Artenschutz u.s.w., die unter anderem zur Beurteilung des Gewässerzustands herangezogen werden können. 
+       modalparagraph: Der komplexe Ansatz der EG Wasserrahmenrichtlinie setzt die Vorgaben für die erforderlichen Informationen. Das im Aufbau befindliche FIS Wasser M-V veranschlagt den Anspruch, eine landesweite Datenbasis dafür zu schaffen. Neben gewässerbezogenen Informationen finden sich auch solche aus Statistik, Landwirtschaft, Natur- und Artenschutz u.s.w., die unter anderem zur Beurteilung des Gewässerzustands herangezogen werden können.
        modalsecondsubtitle: Nähere Informationen
        modallinks:
          - title: FIS-Wasser-Handbuch
            link: http://www.fis-wasser-mv.de/nutzerhandbuch/index.php/Hauptseite
-           icon: 
+           icon:
          - title: LUNG MV
            link: http://www.lung.mv-regierung.de/
-           icon: 
+           icon:
          - title: WRRL MV
            link: http://www.wrrl-mv.de/start.htm
            icon:
@@ -220,11 +217,11 @@ de :
        modalcustomerparagraph: "Das Landesamt für Umwelt, Naturschutz und Geologie (LUNG) des Landes Mecklenburg-Vorpommern. (Ansprechpartner: Herr Eckard Kohlhas)"
      - title: Strategieberatung
        subtitle: Bureau of Meteorology Australien
-       half_or_empty_when_full: 
+       half_or_empty_when_full:
        id: bom
        modaltitle: Strategieberatung im AWRIS Projekt
        modalsubtitle: AWRIS
-       modalparagraph: Im AWRIS (Australian Water Resources Information System) Projekt soll ein Softwaresystem entwickelt weden, das Gewässerinformation für ganz Australien zur Verfügung stellt. Mit AWRIS sollen Gewässerinformationen verarbeitet, veröffentlicht und in einer zentralen Datenbank verwaltet werden. Projektgegenstand war die Beratung während der Architekturphase und eine abschließende Bewertung der Gesamtarchitektur. 
+       modalparagraph: Im AWRIS (Australian Water Resources Information System) Projekt soll ein Softwaresystem entwickelt weden, das Gewässerinformation für ganz Australien zur Verfügung stellt. Mit AWRIS sollen Gewässerinformationen verarbeitet, veröffentlicht und in einer zentralen Datenbank verwaltet werden. Projektgegenstand war die Beratung während der Architekturphase und eine abschließende Bewertung der Gesamtarchitektur.
        modalsecondsubtitle: Nähere Informationen
        modallinks:
          - title: Projektwebsite
@@ -242,7 +239,7 @@ de :
      columns:
      - title : Umweltmonitoring
        subtitle: Fließgewässerstrukturgütekartierung
-       half_or_empty_when_full: 
+       half_or_empty_when_full:
        id: fgskmv
        modaltitle: Hydromorphologische Zustand eines Wasserkörpers
        modalsubtitle: FGSK Fachschale im FIS Wasser MV
@@ -254,7 +251,7 @@ de :
            icon:
          - title: LUNG MV
            link: http://www.lung.mv-regierung.de/
-           icon: 
+           icon:
          - title: WRRL MV
            link: http://www.wrrl-mv.de/start.htm
            icon:
@@ -262,7 +259,7 @@ de :
        modalcustomerparagraph: "Das Landesamt für Umwelt, Naturschutz und Geologie (LUNG) des Landes Mecklenburg-Vorpommern. (Ansprechpartner: Herr Eckard Kohlhas)"
      - title: Liegenschaftsmanagement
        subtitle: LagIS
-       half_or_empty_when_full: 
+       half_or_empty_when_full:
        id: lagis
        modaltitle: Digitales Lagerbuch
        modalsubtitle: LagIS
@@ -285,7 +282,7 @@ de :
        modallinks:
          - title: Projektwebsite
            link: http://www.tatoo-fp7.eu/tatooweb/
-           icon: 
+           icon:
          - title: Broschüre
            link: http://www.tatoo-fp7.eu/tatooweb/system/files/common/Fact%20Sheet_washout.pdf
            icon:
@@ -351,9 +348,9 @@ de :
   mail: eMail-Adressen
   mailimage: socialmedia/skype-globe.png
   mailsubtitle: "unsere eMail Adressen:"
-  mailparagraph: Sie erreichen alle unsere Mitarbeiter unter der Mailadresse Vorname.Nachname@cismet.de, wobei die Groß- und Kleinschreibung keine Rolle spielt und Umlaute durch ihre üblichen Ersatzkombinationen dargestellt werden. 
+  mailparagraph: Sie erreichen alle unsere Mitarbeiter unter der Mailadresse Vorname.Nachname@cismet.de, wobei die Groß- und Kleinschreibung keine Rolle spielt und Umlaute durch ihre üblichen Ersatzkombinationen dargestellt werden.
   mailsubtitle2: "zusätzliche Mailadressen:"
-  mailadresses: 
+  mailadresses:
    - adress: "mailto:info@cismet.de"
      name: Allgemeine Fragen
    - adress: "mailto:gf@cismet.de"
@@ -377,7 +374,3 @@ de :
      name: Martin Scholl
    - adress: jeweAtCismet
      name: Jens Weintraut
-
-
-
-
