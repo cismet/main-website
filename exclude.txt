@@ -1,7 +1,0 @@
-test.html
-test2.html
-images/istock_orig/
-images/personal/*.xcf
-images/projects/screener/iMac/
-images/projects/screener/mbp/
-images/projects/screener/raw/
