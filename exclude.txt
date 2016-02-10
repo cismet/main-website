@@ -1,4 +1,5 @@
 test.html
+test2.html
 images/istock_orig/
 images/personal/*.xcf
 images/projects/screener/iMac/
