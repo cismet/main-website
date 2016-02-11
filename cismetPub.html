@@ -44,7 +44,23 @@
 		    <h1>cismet Publikationen</h1>
 	    </div>
 		    <br>
-		    <iframe src='https://cdn.knightlab.com/libs/timeline/latest/embed/?source=0AhlW1n5R4AIKdEVOMURIY2tGcmd4OVJfdElkTkFnOVE&font=Bevan-PotanoSans&maptype=toner&lang=en' width='90%' height='600' frameborder='0'></iframe>
+		    <div id="timeline-embed"></div>
+    <script type="text/javascript">
+        var timeline_config = {
+            width:              '90%',
+            height:             '600',
+            source:             'https://docs.google.com/spreadsheets/d/1wDTMKukbQncpTnUvy9-WxfmX836rxPFWu8rJPOlEslo/edit?usp=sharing',
+            embed_id:           'timeline-embed',               //OPTIONAL USE A DIFFERENT DIV ID FOR EMBED
+            start_at_end:       true,                          //OPTIONAL START AT LATEST DATE
+            hash_bookmark:      true,                           //OPTIONAL LOCATION BAR HASHES
+            font:               'Bevan-PotanoSans',             //OPTIONAL FONT
+            debug:              true,                           //OPTIONAL DEBUG TO CONSOLE
+            lang:               'en',                           //OPTIONAL LANGUAGE
+            maptype:            'toner',                   //OPTIONAL MAP STYLE
+
+        }
+    </script>
+    <script type="text/javascript" src="https://cdn.knightlab.com/libs/timeline/latest/js/storyjs-embed.js"></script>
 
 	    </div>
     </div>
