@@ -204,7 +204,7 @@ SANDER S. (2011), HOPPE H. F., SCHLOBINSKI S., Integrating Climate Change in the
 
 
     <script type="text/javascript"
-            src="http://maps.google.com/maps/api/js?sensor=false">
+            src="https://maps.google.com/maps/api/js?sensor=false">
     </script>
     <script src="../javascripts/bootstrap.js"></script>
 
@@ -215,7 +215,7 @@ SANDER S. (2011), HOPPE H. F., SCHLOBINSKI S., Integrating Climate Change in the
             setStyleRectPos();
             $('#smalllogo').fadeTo(0, 0.001);
             //                $('#navbar').fadeTo(0,0.001);
-            //                $('#navbar').hide();               
+            //                $('#navbar').hide();
 
             $('#navbar').scrollspy();
 
@@ -267,8 +267,8 @@ SANDER S. (2011), HOPPE H. F., SCHLOBINSKI S., Integrating Climate Change in the
 
             //                console.log($(window).width());
             console.log($('#masthead').position().top);
-            ////                
-            ////                
+            ////
+            ////
             $('#sr1').css('top', 180 + $('#masthead').position().top);
             $('#sr2').css('top', 210 + $('#masthead').position().top);
             //                $('#sr3').css('top',60+$('#masthead').position().top);
@@ -282,7 +282,7 @@ SANDER S. (2011), HOPPE H. F., SCHLOBINSKI S., Integrating Climate Change in the
 //               setTimeout(function(){
 //			// Fade in images so there isn't a color "pop" document load and then on window load
 //	               	 $(".imagegrayscaling img").fadeIn(100);
-//        
+//
 //        	       	 // clone image
 //        	       	 $('.imagegrayscaling img').each(function(){
 //        	           	 var el = $(this);
@@ -293,8 +293,8 @@ SANDER S. (2011), HOPPE H. F., SCHLOBINSKI S., Integrating Climate Change in the
 //        	       	     });
 //        	       	     this.src = grayscale(this.src);
 //        	       	 });
-//        	
-//        	       	 // Fade image 
+//
+//        	       	 // Fade image
 //        	       	 $('.imagegrayscaling img').mouseover(function(){
 //        	            $(this).parent().find('img:first').stop().animate({opacity:1}, 300);
 //        	       	 })
@@ -407,7 +407,7 @@ SANDER S. (2011), HOPPE H. F., SCHLOBINSKI S., Integrating Climate Change in the
             onResize();
         });
         function onResize() {
-            //$('#contact').css({'min-height':(($(window).height())-363)+'px'});  
+            //$('#contact').css({'min-height':(($(window).height())-363)+'px'});
             minH = 750;
             newH = (($(window).height()) - $('#contact_title').height() - 98);
             if (minH < newH) {
