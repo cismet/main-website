@@ -32,21 +32,21 @@ en :
    description : ""
 
   slides:
-  - image : personal/sascha.jpg
-    headline : Sascha Schlobinski (M.Sc. @ Universität des Saarlandes)
-    description : Owner and CEO, Head of research.
   - image : personal/thorsten.jpg
     headline : Thorsten Hell (M.Sc. @ Universität des Saarlandes)
-    description : Owner and CEO, Head of software development.
+    description : Owner and CEO.
   - image : personal/sabine.jpg
     headline : Sabine Trier
     description : Personal secretary, administration.
+  - image : personal/sascha.jpg
+    headline : Sascha Schlobinski (M.Sc. @ Universität des Saarlandes)
+    description : Owner, EU Research.
   - image : personal/reiner.jpg
     headline : Prof. Dr. Reiner Güttler
-    description : Owner and Scientific Director.
+    description : Owner, Scientific Director.
   - image : personal/ralf.jpg
     headline : Prof. Dr. Ralf Denzer
-    description : Owner and Scientific Director.
+    description : Owner, Scientific Director.
   - image : personal/steven.jpg
     headline : Professor Steven P. Frysinger, Ph.D. (JMU Harrisonburg, Virginia, USA)
     description : Inhouse Consultant, Research Projects.
@@ -365,7 +365,4 @@ en :
      name: Jean Ruiz
    - adress: pascalAtCismet
      name: Pascal Dihé
-   - adress: martinAtCismet
-     name: Martin Scholl
-   - adress: jeweAtCismet
-     name: Jens Weintraut
+

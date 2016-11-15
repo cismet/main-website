@@ -32,21 +32,21 @@ de :
    description : ""
 
   slides:
-  - image : personal/sascha.jpg
-    headline : Sascha Schlobinski (M.Sc. @ Universität des Saarlandes)
-    description : Geschäftsführender Gesellschafter und Leiter Forschung.
   - image : personal/thorsten.jpg
     headline : Thorsten Hell (M.Sc. @ Universität des Saarlandes)
-    description : Geschäftsführender Gesellschafter und Leiter Softwareentwicklung.
+    description : Geschäftsführender Gesellschafter.
   - image : personal/sabine.jpg
     headline : Sabine Trier
     description : Assistenz der Geschäftsführung.
+  - image : personal/sascha.jpg
+    headline : Sascha Schlobinski (M.Sc. @ Universität des Saarlandes)
+    description : Gesellschafter, EU Forschung.
   - image : personal/reiner.jpg
     headline : Prof. Dr. Reiner Güttler
-    description : Gesellschafter und Wissenschaftlicher Direktor.
+    description : Gesellschafter, Wissenschaftlicher Direktor.
   - image : personal/ralf.jpg
     headline : Prof. Dr. Ralf Denzer
-    description : Gesellschafter und Wissenschaftlicher Direktor.
+    description : Gesellschafter, Wissenschaftlicher Direktor.
   - image : personal/steven.jpg
     headline : Professor Steven P. Frysinger, Ph.D. (JMU Harrisonburg, Virginia, USA)
     description : Inhouse Consultant, EU Projekte.
@@ -370,7 +370,3 @@ de :
      name: Jean Ruiz
    - adress: pascalAtCismet
      name: Pascal Dihé
-   - adress: martinAtCismet
-     name: Martin Scholl
-   - adress: jeweAtCismet
-     name: Jens Weintraut
