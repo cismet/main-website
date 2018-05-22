@@ -27,14 +27,11 @@ de :
 
  slideshow:
   activeslide:
-   image : personal/1.jpg
-   headline : Namen, Aufgaben und Gesichter
-   description : ""
+   image : personal/thorsten.jpg
+   headline : Thorsten Hell (M.Sc. @ Universität des Saarlandes)
+   description : Geschäftsführender Gesellschafter.
 
   slides:
-  - image : personal/thorsten.jpg
-    headline : Thorsten Hell (M.Sc. @ Universität des Saarlandes)
-    description : Geschäftsführender Gesellschafter.
   - image : personal/sabine.jpg
     headline : Sabine Trier
     description : Assistenz der Geschäftsführung.
@@ -367,3 +364,6 @@ de :
      name: Jean Ruiz
    - adress: pascalAtCismet
      name: Pascal Dihé
+ dsgvo:
+  link: datenschutzerklaerung.html
+  title: Datenschutzerklärung (Privacy Policy)

@@ -27,14 +27,11 @@ en :
     description: As accomplished computer scientists with substantial IT- and research project experience our staff has the necessary know-how and capacity for the design and implementation of complex information systems. This includes, in addtion to the essential social skills a solid, sound and theoretically grounded comprehension of data base- and software design as well as long term experience in sutainable software development and programming methods.
  slideshow:
   activeslide:
-   image : personal/1.jpg
-   headline : Names, Roles and Faces
-   description : ""
+   image : personal/thorsten.jpg
+   headline : Thorsten Hell (M.Sc. @ Universität des Saarlandes)
+   description : Owner and CEO.
 
   slides:
-  - image : personal/thorsten.jpg
-    headline : Thorsten Hell (M.Sc. @ Universität des Saarlandes)
-    description : Owner and CEO.
   - image : personal/sabine.jpg
     headline : Sabine Trier
     description : Personal secretary, administration.
@@ -362,4 +359,6 @@ en :
      name: Jean Ruiz
    - adress: pascalAtCismet
      name: Pascal Dihé
-
+ dsgvo:
+  link: privacypolicy.html
+  title: Privacy Policy (Datenschutzerklärung)
