@@ -1,11 +1,11 @@
-<a href="http://cismet.github.com/"><img style="position: absolute; top: 0; right: 0; border: 0;z-index:9999;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
+<a href="https://cismet.github.com/"><img style="position: absolute; top: 0; right: 0; border: 0;z-index:9999;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
 
 #Entwickeln mit cids - Häufig gestellte Fragen
 
 ##Was ist cids?
 cids ist ein Baukastensystem, mit dem maßgeschneiderte Softwaresysteme mit starkem Geobezug gebaut werden können. Cids basiert auf einer (oder mehreren) relationalen Datenbank(en) und einer darauf abgestimmten Serviceinfrastruktur. Das System stellt eine Standardbenutzeroberfläche (cids Navigator) zur Verfügung, die an vielen Stellen an die individuellen Anforderungen des zu erstellenden Softwaresystems angepasst werden kann. Die zentralen Komponenten von cids werden in folgendem Schaubild aufgeführt.
 
-![image](http://www.cismet.de/images/faq-images/cids_components.png)
+![image](https://www.cismet.de/images/faq-images/cids_components.png)
 
 Durch die ausgeprägte Flexibilität und Erweiterbarkeit von cids kann mit geringem Entwicklungsaufwand auf die Bedürfnisse der Nutzer eingangen werden. Dadurch wird, ähnlich wie bei einer individuellen "from scratch" entwickelten Anwendung, eine optimale Unterstützung der jeweiligen Arbeitsprozesse erreicht. Der Aufwand und die damit verbundenen Kosten sind jedoch wesentlich geringer, da der Baukasten schon viele Standardaufgaben (Authentifizierung, Rechte, Kartendarstellung, …) löst und sich der Entwickler auf die Unterstützung der eigentlichen Arbeitsprozesse konzentrieren kann.
 
@@ -23,11 +23,11 @@ Die einzelnen Projekte stehen entweder LGPL/GPL und sind dadurch für jeden frei
 Die einzigen Kosten, die entstehen, sind die Kosten für eventuelle Schulungen, Zertifikate oder Support.
 
 ##Welche Technologien stecken hinter cids/cismap?
-Unsere Services und Komponenten sind in der Programmiersprache [Java](http://www.oracle.com/technetwork/java/index.html) entwickelt. Die graphischen Benutzeroberflächen cids Navigator und cismap sind [Java Swing](http://docs.oracle.com/javase/tutorial/uiswing/) Komponenten. Die Anwendungen werden als Web-Applikationen mit [Java-Webstart](http://www.java.com/de/download/faq/java_webstart.xml) verteilt und vereinen so zentrales Deployment mit den Vorteilen einer lokalen Applikation. Als Datenbankbackend setzen wir bei unseren Installationen auf die Kombination [PostgreSQL](http://www.postgresql.org)/[PostGIS](http://postgis.refractions.net), wobei auch andere Datenbankmanagementsysteme, die mit einer sogenannten Spatial Extension ausgestattet werden können, möglich sind. Die Kommunikation der Client-Komponenten mit der Serviceinfrastruktur wird über RESTful-Webservices abgewickelt, was sowohl hinsichtlich Sicherheit (volle Verschlüsselung über SSL) als auch hinsichtlich Portstabilität und Anbindung von Drittsystemen (in Entwicklung) eine gute Wahl darstellt. 
+Unsere Services und Komponenten sind in der Programmiersprache [Java](https://www.oracle.com/technetwork/java/index.html) entwickelt. Die graphischen Benutzeroberflächen cids Navigator und cismap sind [Java Swing](https://docs.oracle.com/javase/tutorial/uiswing/) Komponenten. Die Anwendungen werden als Web-Applikationen mit [Java-Webstart](https://www.java.com/de/download/faq/java_webstart.xml) verteilt und vereinen so zentrales Deployment mit den Vorteilen einer lokalen Applikation. Als Datenbankbackend setzen wir bei unseren Installationen auf die Kombination [PostgreSQL](https://www.postgresql.org)/[PostGIS](https://postgis.refractions.net), wobei auch andere Datenbankmanagementsysteme, die mit einer sogenannten Spatial Extension ausgestattet werden können, möglich sind. Die Kommunikation der Client-Komponenten mit der Serviceinfrastruktur wird über RESTful-Webservices abgewickelt, was sowohl hinsichtlich Sicherheit (volle Verschlüsselung über SSL) als auch hinsichtlich Portstabilität und Anbindung von Drittsystemen (in Entwicklung) eine gute Wahl darstellt. 
 
-Als Entwicklungsumgebung sowie bei unseren Tools ABF und JPresso setzen wir auf die Netbeans Rich Client Plattform. Durch aktive Beiträge zur Netbeans-Community sind wir [Netbeans Strategic Partner](http://netbeans.org/community/partners/list-strategic.html) geworden.
+Als Entwicklungsumgebung sowie bei unseren Tools ABF und JPresso setzen wir auf die Netbeans Rich Client Plattform. Durch aktive Beiträge zur Netbeans-Community sind wir [Netbeans Strategic Partner](https://netbeans.org/community/partners/list-strategic.html) geworden.
 
-![image](http://www.cismet.de/images/faq-images/nb_sp_250px.png)
+![image](https://www.cismet.de/images/faq-images/nb_sp_250px.png)
 ##Welche Art von System kann man mit cids/cismap bauen?
 Wie man das von Baukästen kennt, sind hier die Grenzen nur von der Phantasie des Entwicklers (und natürlich den Anforderungen der Nutzer) beschränkt ;-).
 
@@ -35,24 +35,24 @@ Trotzdem folgen hier die 4 häufigsten Klassen der Verwendung des cids Baukasten
 ####SG: Geodatenviewer 
 Eine Applikation basierend auf dem cismap Framework, die als Geodatenviewer dient. Diese Art von Applikation wird oft parallel zu einem bestehenden Komplettsystem mit Navigator betrieben und kann von Nutzern ohne Anmeldung zur Visualisierung von Ergebnissen OGC-konformer Dienste oder lokaler Daten (SHP,GML,…) genutzt werden.
 
-![image](http://www.cismet.de/images/faq-images/cismap_standalone.png)
+![image](https://www.cismet.de/images/faq-images/cismap_standalone.png)
 
 Auch hier ist es möglich, nutzerspezifische Erweiterungen einfach in die Anwendung zu integrieren. So können zum Beispiel Ortsinformationen über angepasste Gazetteer-GUI's, deren Daten von OGC-kompatiblen WFS-Diensten kommen, genutzt werden. Es können sogar vollständig angepasste Datenformulare hinzugefügt werden, die dann zum Beispiel über einen OGC konformen WFS-T Dienst ihre Daten erhalten und speichern.
 ####SN: Komplettsystem mit Navigator 
 Ein Informationssystem, bei dem der sogenannte cids Navigator als Benutzeroberfläche genutzt wird und mindestens eine Integration Base (Datenbank) betrieben wird. 
 
-![image](http://www.cismet.de/images/faq-images/fis_wasser1.png)
+![image](https://www.cismet.de/images/faq-images/fis_wasser1.png)
 
 In einem Katalog können die Daten im System auf beliebige Art und Weise geordnet und strukturiert werden. Ein System mit diesem Aufbau besteht aus einem oder (meistens) mehreren sogenannten Fachthemen (Thematisch wird auch in ähnlichem Zusammenhang von Fachschalen gesprochen). Diese Fachthemen bilden einen Arbeitsprozess durch geeignete Erweiterungen und Datendefinitionen ab und können von bereits bestehenden Funktionalitäten des Systems profitieren. So können zum Beispiel alle Objekte eines Themas (sofern sinnvoll und zulässig) über eine räumliche Suche gefunden werden. Die Darstellung von Objekten mit einem räumlichen Kontext in der Karte ist eine weitere Funktionalität, die für jedes Fachthema einfach zu Verfügung steht. Des weiteren können Entwickler selbstverständlich alle Erweiterungsmöglichkeiten des Geodatenviewers nutzen.
 
 Um die Objektdaten optimal auswerten und bearbeiten zu können, werden sie dem Nutzer in der Regel nicht in einer Standard-Ansicht, sondern in einer auf den individuellen Arbeisprozess angepassten Form  präsentiert. Ein Rechte- und Sichtenkonzept sorgt hier für eine fein einstellbare Abstufung der Zugriffskontrollmechanismen, um komfortabel kontrollieren zu können, welcher Benutzer welche Daten einsehen oder verändern darf. Auswertungen und Reports sind einfach zu integrieren und können direkt in der Applikation angezeigt werden (z.B.: interaktive Auswertung von Zeitreihen) oder über Standardwerkzeuge (z.B.: PDF-Ausgabe )weiterverabeitet werden.
  
-![image](http://www.cismet.de/images/faq-images/fis_wasser2.png)
+![image](https://www.cismet.de/images/faq-images/fis_wasser2.png)
 
 ####SF: Fachanwendung 
 In Fällen, in denen ein besonders schlankes User Interface, das speziell für einen Anwednungsfall optimiert ist, benötigt wird oder in denen sehr spezielle Interaktionen, zum Beispiel mit der Kartenkomponente, notwendig sind, entscheiden wir uns in der Regel für eine sogenannte Fachanwendung. Die Benutzeroberfläche wird hier unter Verwendung bestehender Komponenten (Karte, Dokumentenbereich, …) ohne Nutzung der Baukastenbenutzeroberflächen Navigator oder cismap entwickelt. Da aber die Kommunikations- und Serviceschicht unverändert von cids genutzt werden können, ist diese Art der Entwicklung immer noch wesentlich effizienter als eine "from scratch" Neuentwicklung. So sind zum Beispiel die Berechtigungskonzepte die gleichen wie bei einem Komplettsystem mit Navigator. Unterschiedliche Klassen von Anwendungen können sich sogar eine Datenbasis teilen.
 
-![image](http://www.cismet.de/images/faq-images/lagis.png)
+![image](https://www.cismet.de/images/faq-images/lagis.png)
 
 Beispiele für Applikationen dieser Kategorie sind LagIS, eine Applikation zum Management städtischer Liegenschaften ,oder VerDIS/GrundIS, eine Applikation zum Management der versiegelten Flächen aller Haushalte einer Kommune zur Berechnung der Abwassergebühr.
 
@@ -155,19 +155,19 @@ public FeatureAnnotationSymbol getPointSymbol() {
 </pre>
 Würde man mit dieser gemachten Anpassung eine Reihe von Adress-Objekten in der Karte darstellen, würde das Ergebniss in etwa so aussehen:
 
-![image](http://www.cismet.de/images/faq-images/customFeatureRenderer.png)
+![image](https://www.cismet.de/images/faq-images/customFeatureRenderer.png)
 
 ##Muss ich alle Erweiterungen einsetzen/implementieren?
 Nein, natürlich bieten wir an fast allen Stellen eine sinnvolle Standardimplementierung oder Konfiguirationsmöglichkeit ohne Programmierung an.
 
 ##Wo gibt es den cids-Quellcode?
-Der Quellcode von cids ist unter der Adresse [http://cismet.github.com](http://cismet.github.com) erhältlich. Dort finden sich eine Vielzahl von Projekten, die den Quellcode der Kernkomponenten erhalten, alle Tools die wir zur Administration des Systems entwickelt haben, sowie alle Erweiterungen die bei laufenden Installationen verwendet werden.
+Der Quellcode von cids ist unter der Adresse [https://cismet.github.com](https://cismet.github.com) erhältlich. Dort finden sich eine Vielzahl von Projekten, die den Quellcode der Kernkomponenten erhalten, alle Tools die wir zur Administration des Systems entwickelt haben, sowie alle Erweiterungen die bei laufenden Installationen verwendet werden.
 
-Bis auf lokale (nur beim Kunden liegende) Konfigurationsdateien, die z.T. vertrauliche Informationen erhalten, befinden sich alle Quelldateien auf [Github](http://cismet.github.com). Es gibt weder private Repositories, die zum Build benötigt werden, noch andere Geheimnisse.
+Bis auf lokale (nur beim Kunden liegende) Konfigurationsdateien, die z.T. vertrauliche Informationen erhalten, befinden sich alle Quelldateien auf [Github](https://cismet.github.com). Es gibt weder private Repositories, die zum Build benötigt werden, noch andere Geheimnisse.
 
 
 ##In welchen Projekten wird cids verwendet?
-Eine Übersicht unserer Referenzen finden Sie auf unserer [Webseite](http://www.cismet.de/#refs).
+Eine Übersicht unserer Referenzen finden Sie auf unserer [Webseite](https://www.cismet.de/#refs).
 
 ###Kann ich ein cids System selbst bauen und starten?
 Alle Projekte werden von uns so benutzt und gebaut wie sie auf Github sind. Zu einem lauffähigen System sind viele gebaute Projekte inklusive einer passenden Datenbank notwendig. Wir arbeiten an einer Entwickler-Demo mit der man ein minimales System selbst bauen und starten kann. 
