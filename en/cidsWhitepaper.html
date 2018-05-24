@@ -28,7 +28,7 @@
                     </a>
 
                     <a class="brand"  href="/en/index.html">
-                         <img id="smalllogo" style="vertical-align: baseline" src="../images/logo16.png" />
+                         <img src="../images/logo16.png" id="smalllogo" style="vertical-align: baseline" alt="Logo16" />
 			 Back to the main site 
 	           </a>
 
@@ -49,7 +49,7 @@
 <p>Viele praktische Anwendungen in Unternehmen und Behörden erfordern die Integration von Geodaten, Faktendaten, anderen Artefakten sowie Prozessen aus unterschiedlichen Werkzeugen. Häufig werden die Ursprungsinformationen in unterschiedlichen Systemen gepflegt (GIS-Datenquellen, Datenbanken, Dokumenten-Managementsysteme, ERP-Systeme usw.). Oft werden auch Geschäftsprozesse in unterschiedlichen Werkzeugen abgewickelt (GIS-Systeme, ERP-Systeme, spezialisierte Software).
 Häufig existieren explizite oder implizite logische Beziehungen zwischen diesen verteilten Artefakten, welche für konkrete Geschäftsprozesse von Endnutzern maßgeblich sind (Abbildung 1).</p>
 
-<p><img src="http://www.cismet.de/images/cidswhitepaper/abb1.png" alt="Abbildung 1" /></p>
+<p><img src="https://www.cismet.de/images/cidswhitepaper/abb1.png" alt="Abbildung 1" /></p>
 
 <p>Abb. 1:	Systembarrieren</p>
 
@@ -59,7 +59,7 @@ Häufig existieren explizite oder implizite logische Beziehungen zwischen diesen
 
 <p>Die in diesem Artikel vorgestellte Plattform cids geht ursprünglich auf ein Projekt zurück welches 1999 startete, und in welchem ein System namens WuNDa (Wuppertal Navigation and Data Management System, siehe (Güttler 2000)) entwickelt wurde. Erstes Ziel des Systems war es, eine Systemübergreifende Sicht über Datenbestände mit Bezug zu Umwelt- und Planungsfragen herzustellen, insbesondere zur einfachen Recherche auch durch Nutzer die wenig GIS-Erfahrung haben. Darüber hinaus war angestrebt eine einheitliche, generische Plattform zu schaffen, welche den erwähnten „Anwendungs-Zoo“ vermeiden hilft. WuNDa beinhaltet heute außer dieser generischen Plattform (aus der cids entstanden ist) eine Vielzahl von integrierten Fachverfahren, wird von Anwendern in unterschiedlichen Abteilungen genutzt und unterstützt die System-Manager bei der Pflege der angeschlossenen Systeme und Dienste. Abbildung 2 zeigt die Systemarchitektur der Plattform.</p>
 
-<p><img src="http://www.cismet.de/images/faq-images/cids_components.png" alt="Abbildung 2" /></p>
+<p><img src="https://www.cismet.de/images/faq-images/cids_components.png" alt="Abbildung 2" /></p>
 
 <p>Abb. 2:	Plattform-Architektur</p>
 
@@ -84,8 +84,8 @@ Insofern Teilmodelle (oder das gesamte Thema) in einem Quellsystem persistent re
 <h3 id="der-navigator">Der Navigator</h3>
 <p>Der Navigator ist das „Schweizermesser“ der Plattform. Er wird bei jeder Distribution mit ausgeliefert, und bietet ein mächtiges generelles Recherche-Werkzeug, mit dem man das gesamte Informationsnetz über alle Quellsysteme recherchieren kann. Der Navigator beinhaltet einen Katalog (links), welcher Nutzerspezifisch konfiguriert werden kann, also nur die Themen anbietet welche der Nutzer benötigt oder auf die der Nutzer zugreifen darf. Die Recherche kann nach Fakten, nach Geographie, nach Artefakten, gemischt und nach Themen gefiltert geschehen. Suchergebnisse können unter Wahrung des Kontexts nach Fakten oder in der Geographie dargestellt werden. Sofern der Nutzer die entsprechenden Rechte besitzt, kann er auch Geometrien und Faktendaten modifizieren, die Faktendaten bearbeitet der Nutzer in besagtem Editor. Das rechte Beispiel aus Abbildung 3 zeigt daß es sich hier im Prinzip um ein eigenständiges Informationssystem handelt (das System wird derzeit für das Land Mecklenburg Vorpommern entwickelt und dient der Unterstützung von Vorgängen rund um die EU Wasserrahmenrichtlinie). Dieser Editor erscheint in der Nutzeroberfläche alternativ zur Kartenkomponente, wenn man einem Fachdatenobjekt manipuliert, Elemente solcher Editoren können auch Bilder, Diagramme, dynamische Webcams, wiederum Geometrien usw. sein.</p>
 
-<p><img src="http://www.cismet.de/images/projects/screener/wunda.png" alt="Abbildung 4" />
-<img src="http://www.cismet.de/images/projects/screener/fiswassermv.png" alt="Abbildung 4" /></p>
+<p><img src="https://www.cismet.de/images/projects/screener/wunda.png" alt="Abbildung 4" />
+<img src="https://www.cismet.de/images/projects/screener/fiswassermv.png" alt="Abbildung 4" /></p>
 
 <p>Abb. 3:	Der Navigator bei der Stadt Wuppertal (links), Editor zu einem komplexen Thema im System WRRL für das Land Mecklenburg Vorpommern (rechts)</p>
 
@@ -94,8 +94,8 @@ Insofern Teilmodelle (oder das gesamte Thema) in einem Quellsystem persistent re
 <h3 id="beispiele-von-customapps">Beispiele von CustomApps</h3>
 <p>Abbildung 4 zeigt zwei Beispiele von CustomApps. In beiden Fällen sieht man, daß die Workflows aus einer Kombination aus „datenbankartiger“ und geographischer Benutzeroberfläche besteht. Das BELIS-System ist ein städtisches Beleuchtungskataster. Das VERDIS-System dient der Berechnung von Abwassergebühren, welche aufgrund einer städtischen Satzung den Grad der Versiegelung von Grundstücken in die Gebührenberechnung einbeziehen muss. In der Oberfläche interagiert der Nutzer sowohl mit den Informationen des Quellsystems als auch mit den Geometrien, welche die einzelnen Versiegelungstypen auf dem Grundstück (Rasen, Dach, Beton,…) darstellen. Bei Änderungen werden Prozesse in einem ERP-System angestoßen (z.B. Versenden eines neuen Bescheids).</p>
 
-<p><img src="http://www.cismet.de/images/projects/screener/belis.png" alt="Abbildung 4" />
- <img src="http://www.cismet.de/images/projects/screener/verdis.png" alt="Abbildung 4" /></p>
+<p><img src="https://www.cismet.de/images/projects/screener/belis.png" alt="Abbildung 4" />
+ <img src="https://www.cismet.de/images/projects/screener/verdis.png" alt="Abbildung 4" /></p>
 
 <p>Abb. 4:	CustomApps BELIS (links) und VERDIS (r)echts)
 ###Einbettung externer Rechenprozesse
@@ -117,6 +117,9 @@ SANDER S. (2011), HOPPE H. F., SCHLOBINSKI S., Integrating Climate Change in the
 
 <div id="contact"   class="container" >
             <br>
+            <div align="center" width="100%">
+            <a href="impressum.html">Impressum</a>, <a href='privacypolicy.html'>Privacy Policy (Datenschutzerklärung)</a>
+            </div>
   <br>
                        
         </div>
@@ -126,13 +129,13 @@ SANDER S. (2011), HOPPE H. F., SCHLOBINSKI S., Integrating Climate Change in the
                 <div class="inner_footer">
                     <br><br><br>
                     <div align='center'>
-                          <a href="http://cismet.github.com" target="new"><img src="../images/socialmedia/github.png" /></a>
-                         <a data-toggle="modal" href="#mailModal" target="_blank" ><img src="../images/socialmedia/mail.png" /></a>
-                          <a data-toggle="modal" href="#skypeModal" target="_blank" ><img src="../images/socialmedia/skype.png" /></a>
+                          <a href="https://cismet.github.com" target="new"><img src="../images/socialmedia/github.png" alt="Github" /></a>
+                         <a data-toggle="modal" href="#mailModal" target="_blank" ><img src="../images/socialmedia/mail.png" alt="Mail" /></a>
+                          <a data-toggle="modal" href="#skypeModal" target="_blank" ><img src="../images/socialmedia/skype.png" alt="Skype" /></a>
                          
-                         <!--<a href="http://www.youtube.com" target="new"><img src="../images/socialmedia/youtube.png" />-->
-                         <a href="http://www.linkedin.com/company/cismet-gmbh" target="new"><img src="../images/socialmedia/linkedin-logo.png" /></a>
-                        <a href="http://www.twitter.com/cismetGmbH" target="new"><img src="../images/socialmedia/twitter.png" /></a>
+                         <!--<a href="https://www.youtube.com" target="new"><img src="../images/socialmedia/youtube.png" alt="Youtube" />-->
+                         <a href="https://www.linkedin.com/company/cismet-gmbh" target="new"><img src="../images/socialmedia/linkedin-logo.png" alt="Linkedin logo" /></a>
+                        <a href="https://www.twitter.com/cismetGmbH" target="new"><img src="../images/socialmedia/twitter.png" alt="Twitter" /></a>
                         <br>
                         <br>
                                                </div>
@@ -149,7 +152,7 @@ SANDER S. (2011), HOPPE H. F., SCHLOBINSKI S., Integrating Climate Change in the
                 <h3>eMail-adresses</h3>
             </div>
             <div class="modal-body" style="background-image: url(../images/projects/blurred/wunda.png)" > 
-                <img align="right" style="padding: 15px;" src="../images/socialmedia/mail-icon.png" />
+                <img src="../images/socialmedia/mail-icon.png" align="right" style="padding: 15px;" alt="Mail icon" />
                 <h4>our eMail-adresses:</h4>
                 <p >You can reach our team by firstname.lastname@cismet.de.</p>
                 <br><br><br><br>
@@ -171,7 +174,7 @@ SANDER S. (2011), HOPPE H. F., SCHLOBINSKI S., Integrating Climate Change in the
                 <h3>Skype-Accounts</h3>
             </div>
             <div class="modal-body" style="background-image: url(../images/projects/blurred/wunda.png)" > 
-                <img align="right" style="padding: 15px;" src="../images/socialmedia/skype-icon.png" />
+                <img src="../images/socialmedia/skype-icon.png" align="right" style="padding: 15px;" alt="Skype icon" />
                 <h4>Skype</h4>
                 <p >We use Skype in many project for easy and free teleconferences and international calls. Please find our skype contacts below.</p>
                 <h4>our Skypeaccounts:</h4>
