@@ -1,0 +1,14 @@
+version: '2'
+
+services:
+
+  nginx:
+    container_name: dev-www.cismet.de
+    image: cismet/main-website:latest
+    restart: always
+    network_mode: bridge
+    volumes:
+        - ./:/src
+    ports:
+        - "4567:4567"
+        - "88:80"
