@@ -66,6 +66,61 @@ de :
     description : ""
 
   list:
+   - row: 0
+     columns:
+     - title : Architekturberatung
+       subtitle: DEWS (Tsunami Frühwarnsystem, FP6 Forschungsprojekt)
+       half_or_empty_when_full:
+       id: dews
+       modaltitle: "Architekturberatung: Distant Early Warning System."
+       modalsubtitle: DEWS
+       modalparagraph: Das Projekt DEWS zielt auf die Stärkung der Frühwarn-Kapazität durch den Bau einer innovativen Generation von interoperablen Tsunami-Frühwarnsystemen. Die Tsunami-Erkennung basiert auf einer offenen Sensor-Plattform, welche verschiedene Sensorsysteme zur Detektion und Überwachung von Erdbeben, Pegelständen und Landverschiebungen integriert. Die Aufgabe bestand in erster Linie aus Architekturberatung und Wissenstransfer.
+       modalsecondsubtitle: Nähere Informationen
+       modallinks:
+         - title: Projektwebseite
+           link: http://www.dews-online.org/
+           icon:
+         - title: Broschüre
+           link: http://www.dews-online.org/home/-/document_library_display/Pgm2/view/10920/102?_110_INSTANCE_Pgm2_redirect=http%3A%2F%2Fwww.dews-online.org%2Fhome%3Fp_p_id%3D110_INSTANCE_Pgm2%26p_p_lifecycle%3D0%26p_p_state%3Dnormal%26p_p_mode%3Dview%26p_p_col_id%3Dcolumn-2%26p_p_col_pos%3D1%26p_p_col_count%3D2
+           icon:
+       modalcustomertitle: Auftraggeber
+       modalcustomerparagraph: "Atos Research & Innovation Atos Origin Spain. (Ansprechpartner: Herr José Lorenzo Mon)"
+     - title: Krisenmanagement
+       subtitle: CRISMA (FP7 Forschungsprojekt)
+       half_or_empty_when_full:
+       id: crisma
+       modaltitle: Modelling crisis management for improved action and preparedness
+       modalsubtitle: CRISMA
+       modalparagraph: "Das Europäische Projekt CRISMA unterstützt die Vorbereitung auf die Bewältigung von Katastrophenereignissen durch Entwicklung eines Werkzeugs zur Entscheidungsunterstützung in Krisensituationen. Das Werkzeug wird Behörden, Ersthelfern, Gemeinden und privaten Hilfsdiensten bei der Priorisierung der wichtigsten Maßnahmen zur Lebensrettung und zur Entschärfung möglicher Auswirkung von Katastrophen helfen."
+       modalsecondsubtitle: Nähere Informationen
+       modallinks:
+         - title: Projektwebseite
+           link: http://www.crismaproject.eu/
+           icon:
+         - title: Kurzbeschreibung
+           link: http://www.crismaproject.eu/project.htm
+           icon:
+         - title: Partner
+           link: http://www.crismaproject.eu/partners.htm
+           icon:
+       modalcustomertitle: CRISMA ist ein EU FP7 Forschungsprojekt (IP)
+       modalcustomerparagraph: "Projektnummer: 284552. Das Projekt läuft von 2012 bis 2015. (Ansprechpartner: Frau Dr. Anna-Mari Heikkilä / VTT Finnland)"
+     - title: Asset-Management
+       subtitle: BelIS
+       half_or_empty_when_full: -half
+       id: belis
+       modaltitle: Beleuchtungskatastermanagement
+       modalsubtitle: BelIS
+       modalparagraph: "Belis ist eine Software für die Bewertung und das Management von Daten, die mit dem Thema Städtische Beleuchtung im Zusammenhang stehen. Potentieller Anwender sind Betreiber der städtischen Beleuchtungsinfrastruktur (Kommunalverwaltungen, Energieversorger)."
+
+       modalsecondsubtitle: Nähere Informationen
+       modallinks:
+         - title: Wuppertal
+           link: http://www.wuppertal.de
+           icon:
+       modalcustomertitle: Auftraggeber
+       modalcustomerparagraph: "Stadtverwaltung Wuppertal. Ressort 104 - Straßen und Verkehr. (Ansprechpartner: Herr Michael Wendling)"
+
    - row: 1
      columns:
      - title : Planungssoftware
@@ -320,7 +375,7 @@ de :
        paragraph: Wir verwenden und entwickeln Open Source Software. Für unsere Kunden fallen dadurch keinerlei lizenzbedingte Kosten an.
      - title : Individuelle Kundenbetreuung
        icon: glyphicons/glyphicons_024_parents.png
-       paragraph: Durch unsere Firmengröße bedingt, sind in der Lage eine optimale und persönliche Unterstützung unserer Kunden zu gewährleisten.
+       paragraph: Durch unsere Firmengröße bedingt, sind wir in der Lage eine optimale und persönliche Unterstützung unserer Kunden zu gewährleisten.
      - title : Wir verstehen Sie
        icon: glyphicons/glyphicons_029_notes_2.png
        paragraph: Durch unserer langjährige Erfahrung in kommunalen und Industrie-Projekten sind wir in der Lage die Fachzusammenhänge in Ihrem Umfeld schnell zu erkennen und eine softwaremäßige Unterstützung umzusetzen.

@@ -20,6 +20,8 @@ WORKDIR /src
 ADD . /src
 
 RUN bundle install
+RUN bundle update
+
 
 
 

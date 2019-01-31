@@ -3,6 +3,9 @@ version: '2'
 services:
 
   nginx:
+    build: 
+      context: .
+      dockerfile: Dockerfile4Development
     container_name: dev-www.cismet.de
     image: cismet/main-website:latest
     restart: always
@@ -11,4 +14,4 @@ services:
         - ./:/src
     ports:
         - "4567:4567"
-        - "88:80"
+        - "8888:80"
