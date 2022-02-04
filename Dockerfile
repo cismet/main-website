@@ -1,37 +1,23 @@
 # builder container
 #   - builds the frontend app
 
-FROM nginx:1.13.5 AS builder
+FROM zeroplusx/middleman:latest AS builder
 
-RUN apt-get update -y 
-RUN apt-get install -y curl gnupg
-RUN curl -sL https://deb.nodesource.com/setup_6.x | bash -
-RUN apt-get install -y nodejs build-essential
-RUN apt-get install -y ruby ruby-dev zlib1g-dev
-
-RUN gem install bundler 
-
-#RUN gem install middleman
-
-RUN mkdir /src
+#RUN mkdir /src
 
 WORKDIR /src
 
 ADD . /src
 
 RUN bundle install
-RUN bundle update
 
-
-
-
-RUN middleman build . 
+RUN /usr/local/bundle/bin/middleman build . 
 
 
 
 # RUN gem install minitest
-RUN rm -rf /usr/share/nginx/html
-RUN ln -s /src/build /usr/share/nginx/html
+# RUN rm -rf /usr/share/nginx/html
+# RUN ln -s /src/build /usr/share/nginx/html
 
 ##CMD ["middleman", "server"]
 
@@ -51,4 +37,4 @@ COPY --from=builder /src/build /usr/share/nginx/html
 
 EXPOSE 80
 
-# No need for CMD. It'll fallback to nginx image's one
+# # No need for CMD. It'll fallback to nginx image's one

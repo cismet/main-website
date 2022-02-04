@@ -1,17 +1,14 @@
-version: '2'
+version: "2"
 
 services:
-
   nginx:
-    build: 
-      context: .
-      dockerfile: Dockerfile4Development
+    image: zeroplusx/middleman
     container_name: dev-www.cismet.de
-    image: cismet/main-website:latest
     restart: always
     network_mode: bridge
     volumes:
-        - ./:/src
+      - ./:/src
+
     ports:
-        - "4567:4567"
-        - "8888:80"
+      - "4567:4567"
+      - "8888:80"
