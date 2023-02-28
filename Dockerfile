@@ -1,7 +1,7 @@
 # builder container
 #   - builds the frontend app
 
-FROM zeroplusx/middleman:latest AS builder
+FROM --platform=$BUILDPLATFORM zeroplusx/middleman:latest AS builder
 
 #RUN mkdir /src
 
