@@ -1,9 +1,9 @@
-<div id="services"   class="container" >
+<div id="jobs"   class="container" >
 	<br>
 	<div  class="marketing">
-		<h1><%=I18n.t("services.title")%></h1>
+		<h1><%=I18n.t("jobs.title")%></h1>
 	</div>
-	<% I18n.t("services.facts").each do |row|%>
+	<% I18n.t("jobs.facts").each do |row|%>
 		<div class="row">
 			<% row[:columns].each do |fact|%>
 
@@ -18,9 +18,16 @@
 
 		</div>
 	<% end %>
+	<div  class="marketing">
+	<h1><%=I18n.t("jobs.title2")%></h1>
+	<!-- align center -->
+		
+
+	<h2 style="text-align: center;" ><%=I18n.t("jobs.action")%></h2>
+</div>
 </div>
 <div align='center' style="margin:50px;" class="hidden-phone">
-	<a href='#jobs' class="animate"><%= image_tag 'down.png' %></a>
+	<a href='#contact' class="animate"><%= image_tag 'down.png' %></a>
 </div>
 
 <br>

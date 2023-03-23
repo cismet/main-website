@@ -3,6 +3,7 @@ en:
     company: Company
     projects: Projects
     services: Services
+    jobs: Jobs
     contact: Contact
     english: English
     link_to_english: ./index.html
@@ -331,6 +332,49 @@ en:
           - title: Postgres/PostGIS
             icon: glyphicons/glyphicons_141_database_plus.png
             paragraph: The most advanced object relational database management system with the powerful GIS extension postGIS is used as the backend of many of our solutions.
+      - row: 5
+        width: 4
+        columns:
+          - title: Graphql
+            icon: glyphicons/glyphicons_232_cloud.png
+            paragraph: GraphQL revolutionizes the way APIs are designed and consumed, enabling clients to easily request only the data they need while reducing network overhead and improving performance.
+          - title: Javascript/React
+            icon: fontawesome/react.png
+            paragraph: Our experts in Javascript and React can help you develop cutting-edge web applications that are optimized for speed and performance, providing your users with an exceptional experience.
+          - title: Docker
+            icon: fontawesome/docker.png
+            paragraph: Our team utilizes Docker to simplify the deployment and management of complex software systems, increasing efficiency and reducing downtime.
+  jobs:
+    title: Innovative together - shape the future with us
+    title2: Passionate about IT - join our team
+    action: An application is easy. Just send us a short email to jobs@cismet.de and we will get back to you.
+
+    facts:
+      - row: 1
+        width: 4
+        columns:
+          - title: You
+            icon: fontawesome/id-badge-regular.png
+            paragraph: You are open-minded, curious, and passionate about technology. Whether you identify as a hacker, geek, nerd, or simply someone with a love for innovation, we want you to join our team.
+          - title: We
+            icon: logo24.png
+            paragraph: We offer a diverse and exciting job in an innovative environment. Your ideas are important to us and you will be part of a growing team with friendly colleagues.
+          - title: Remote
+            icon: fontawesome/globe-solid.png
+            paragraph: We are a 100% remote company, even before the pandemic hit. However, this does not mean that you will be alone. We use regular video calls and screen sharing as our constant companions to ensure that we stay connected and in touch with each other.
+      - row: 2
+        width: 4
+        columns:
+          - title: Team up
+            icon: fontawesome/user-group-solid.png
+            paragraph: You and your buddy are unbeatable together? No problem. We are happy to welcome you as a team. If possible we will use you in joint projects. Because we know... sometimes 1+1 is more than 2.
+          - title: Profession
+            icon: fontawesome/book-solid.png
+            paragraph: Seeking students, bachelors, masters, or autodidacts in the field of computer science, Geoinformatics, or Geospatial Information Systems to join our team and work on exciting projects.
+          - title: Offerings
+            icon: fontawesome/handshake-solid.png
+            paragraph: We're committed to flexibility and accessibility, offering HiWi and working student positions for students (10-20h/week) and full-time roles (part-time available) for graduates and autodidacts.
+
   contact:
     title: Questions, Requests, Business? Please, contact us!
     or: or ...
