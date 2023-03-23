@@ -38,9 +38,3 @@ COPY --from=builder /src/build /usr/share/nginx/html
 EXPOSE 80
 
 # # No need for CMD. It'll fallback to nginx image's one
-
-
-
-
-We're committed to flexibility and accessibility, offering HiWi and working student positions for students (10-20h/week) and full-time roles (part-time available) for graduates (FH/University) and autodidacts.
-
