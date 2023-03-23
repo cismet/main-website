@@ -369,13 +369,13 @@ de:
         columns:
           - title: Team up
             icon: fontawesome/user-group-solid.png
-            paragraph: Du und dein Buddy sind zusammen unschlagbar? Kein Problem. Wir freuen uns, euch als Team zu begrüßen. Wenn möglich setzen wir euch in gemeinsamen Projekten ein. Denn wir wissen ... manchmal ist 1+1 mehr als 2.
+            paragraph: Du und dein Buddy (m/w/d) sind zusammen unschlagbar? Kein Problem. Wir freuen uns, euch als Team zu begrüßen. Wenn möglich setzen wir euch in gemeinsamen Projekten ein. Denn wir wissen ... manchmal ist 1+1 mehr als 2.
           - title: Ausbildung
             icon: fontawesome/book-solid.png
             paragraph: Wir suchen nach Studierenden, Bachelor- oder Master-Absolventen sowie Autodidakten im Bereich Informatik, Geoinformatik oder Geographische Informationssysteme, um Teil unseres Teams zu werden und an spannenden Projekten zu arbeiten.
           - title: Stellen
             icon: fontawesome/handshake-solid.png
-            paragraph: Wir bieten HiWi- und Werkstudentenstellen für Studenten (10-20h/Woche) sowie Vollzeitstellen (Teilzeit möglich) für Fachinformatiker, Hochschulabsolventen und Autodidakten.
+            paragraph: Wir bieten HiWi- und Werkstudentenstellen für Studierende (10-20h/Woche) sowie Vollzeitstellen (Teilzeit möglich) für Fachinformatiker, Hochschulabsolventen (FH/Uni) und Autodidakten (unabhängig vom Geschlecht).
 
   contact:
     title: Fragen, Wünsche, Geschäft? Wir helfen gerne.
@@ -399,12 +399,6 @@ de:
     skypeaccounts:
       - adress: hellAtCismet
         name: Thorsten Hell
-      - adress: schlobster
-        name: Sascha Schlobinski
-      - adress: jeanAtCismet
-        name: Jean Ruiz
-      - adress: pascalAtCismet
-        name: Pascal Dihé
   dsgvo:
     link: datenschutzerklaerung.html
     title: Datenschutzerklärung (Privacy Policy)

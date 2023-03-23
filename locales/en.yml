@@ -367,13 +367,13 @@ en:
         columns:
           - title: Team up
             icon: fontawesome/user-group-solid.png
-            paragraph: You and your buddy are unbeatable together? No problem. We are happy to welcome you as a team. If possible we will use you in joint projects. Because we know... sometimes 1+1 is more than 2.
+            paragraph: You and your buddy (m/f/d) are unbeatable together? No problem. We are happy to welcome you as a team. If possible we will use you in joint projects. Because we know... sometimes 1+1 is more than 2.
           - title: Profession
             icon: fontawesome/book-solid.png
-            paragraph: Seeking students, bachelors, masters, or autodidacts in the field of computer science, Geoinformatics, or Geospatial Information Systems to join our team and work on exciting projects.
+            paragraph: Seeking students, bachelors, masters, or autodidacts in the field of computer science, Geoinformatics, or Geospatial Information Systems to join our team and work on exciting projects
           - title: Offerings
             icon: fontawesome/handshake-solid.png
-            paragraph: We're committed to flexibility and accessibility, offering HiWi and working student positions for students (10-20h/week) and full-time roles (part-time available) for graduates and autodidacts.
+            paragraph: We're committed to flexibility and accessibility, offering HiWi and working student positions for students (10-20h/week) and full-time roles (part-time available) for graduates (FH/University) and autodidacts (regardless of gender).
 
   contact:
     title: Questions, Requests, Business? Please, contact us!
@@ -397,12 +397,7 @@ en:
     skypeaccounts:
       - adress: hellAtCismet
         name: Thorsten Hell
-      - adress: schlobster
-        name: Sascha Schlobinski
-      - adress: jeanAtCismet
-        name: Jean Ruiz
-      - adress: pascalAtCismet
-        name: Pascal Dihé
+
   dsgvo:
     link: privacypolicy.html
     title: Privacy Policy (Datenschutzerklärung)
