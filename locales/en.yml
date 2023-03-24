@@ -347,7 +347,7 @@ en:
   jobs:
     title: Innovative together - shape the future with us
     title2: Passionate about IT - join our team
-    action: An application is easy. Just send us a short email to jobs@cismet.de and we will get back to you.
+    action: An application is easy. Just send us a short email to <a href="mailto:jobs@cismet.de">jobs@cismet.de</a> and we will get back to you.
 
     facts:
       - row: 1
