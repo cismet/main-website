@@ -349,7 +349,8 @@ en:
             paragraph: Our team utilizes Docker to simplify the deployment and management of complex software systems, increasing efficiency and reducing downtime.
   jobs:
     title: Innovative together - shape the future with us
-    title2: Passionate about IT - join our team
+    title2: Passionate about IT
+    title3: Join our team - be part of exciting projects
     action: An application is easy. Just send us a short email to <a href="mailto:jobs@cismet.de">jobs@cismet.de</a> and we will get back to you.
 
     facts:

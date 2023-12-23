@@ -352,7 +352,8 @@ de:
             paragraph: Unser Team nutzt Docker, um die Bereitstellung und Verwaltung komplexer Softwaresysteme zu vereinfachen, die Effizienz zu steigern und die Ausfallzeiten zu reduzieren.
   jobs:
     title: Gemeinsam innovativ - gestalte die Zukunft mit uns
-    title2: Leidenschaftlich digital - werde Teil unseres Teams
+    title2: Leidenschaftlich digital
+    title3: Werde Teil unseres Teams - erlebe spannende Projekte
     action: Eine Bewerbung ist völlig unkompliziert. Schicke uns einfach eine kurze eMail an <a href="mailto:jobs@cismet.de">jobs@cismet.de</a> und wir melden uns bei dir.
     facts:
       - row: 1
