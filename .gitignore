@@ -3,3 +3,6 @@ build/
 
 /nbproject/private/
 **/.DS_Store
+.version
+.package.json.without.version
+.githash

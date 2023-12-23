@@ -1,0 +1,17 @@
+{
+  "name": "main-website",
+  "version": "v23.12.1",
+  "main": "index.js",
+  "repository": "git@github.com:cismet/main-website.git",
+  "author": "Thorsten Hell <thorsten.hell@cismet.de>",
+  "license": "MIT",
+  "scripts": {
+    "start": "dc up",
+    "postversion": "sed '/^.*\"version\":.*$/d' package.json > .package.json.without.version && echo $npm_package_version > .version && git rev-parse HEAD > .githash",
+    "newSnapshot": "npm version preminor --preid=SNAPSHOT",
+    "bumpSnapshot": "npm version prerelease --preid=SNAPSHOT",
+    "init:docker:multiplatform": "docker buildx create --use",
+    "build:docker": "npm run postversion && VERSION=`echo $npm_package_version| sed 's/\\.[0-9]*-SNAPSHOT.*$/-SNAPSHOT/'`; docker buildx build --platform=linux/amd64,linux/arm64 -t cismet/$npm_package_name -t cismet/$npm_package_name:$VERSION .",
+    "publish:docker": "npm run postversion && VERSION=`echo $npm_package_version| sed 's/\\.[0-9]*-SNAPSHOT.*$/-SNAPSHOT/'`; docker buildx build --push --platform=linux/amd64,linux/arm64 -t cismet/$npm_package_name -t cismet/$npm_package_name:$VERSION ."
+  }
+}
