@@ -45,14 +45,17 @@ en:
       - image: personal/steven.jpg
         headline: Professor Steven P. Frysinger, Ph.D. (JMU Harrisonburg, Virginia, USA)
         description: Inhouse Consultant, Research Projects.
-      - image: personal/pascal.jpg
-        headline: Pascal Dihé (Dipl. Inf. (FH) @ HTW des Saarlandes)
-        description: Research projects and software development.
       - image: personal/jean.jpg
         headline: Jean-Michel Ruiz (Dipl. Inf. (FH) @ HTW des Saarlandes)
         description: Software development.
       - image: personal/thorstenherter.jpg
         headline: Thorsten Herter (M.Sc. @ HTW des Saarlandes)
+        description: Software development.
+      - image: personal/david.jpg
+        headline: David Glogaza
+        description: Software development.
+      - image: personal/pavel.jpg
+        headline: Pavel Olkhovoi
         description: Software development.
 
   projects:
