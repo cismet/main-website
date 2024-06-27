@@ -45,9 +45,6 @@ de:
       - image: personal/steven.jpg
         headline: Professor Steven P. Frysinger, Ph.D. (JMU Harrisonburg, Virginia, USA)
         description: Inhouse Consultant, EU Projekte.
-      - image: personal/jean.jpg
-        headline: Jean-Michel Ruiz (Dipl. Inf. (FH) @ HTW des Saarlandes)
-        description: Softwareentwicklung.
       - image: personal/thorstenherter.jpg
         headline: Thorsten Herter (M.Sc. @ HTW des Saarlandes)
         description: Softwareentwicklung.
@@ -56,6 +53,9 @@ de:
         description: Softwareentwicklung.
       - image: personal/pavel.jpg
         headline: Pavel Olkhovoi
+        description: Softwareentwicklung.
+      - image: personal/friedrich.jpg
+        headline: Friedrich Hartmann (B.Eng. @ BHT Berlin)
         description: Softwareentwicklung.
 
   projects:

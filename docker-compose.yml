@@ -1,5 +1,3 @@
-version: "2"
-
 services:
   nginx:
     image: zeroplusx/middleman
@@ -11,4 +9,4 @@ services:
     command: server --watcher-force-polling --watcher-latency=1
     ports:
       - "4567:4567"
-      - "8888:80"
+      - "8889:80"
