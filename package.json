@@ -1,6 +1,6 @@
 {
   "name": "main-website",
-  "version": "23.12.3",
+  "version": "2024.6.0",
   "main": "index.js",
   "repository": "git@github.com:cismet/main-website.git",
   "author": "Thorsten Hell <thorsten.hell@cismet.de>",
